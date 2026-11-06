@@ -75,6 +75,7 @@ Jeder Gegenstand, der gehalten wird oder eine Rolle spielt → `OBJ_xx`-Modelshe
 
 ### 6. Storyboard-Video mit Bildprüfung (PFLICHT)
 - Manifest → `build_episode_video.py`: jede Szene exakt so lange wie geplant; oben links SH-ID + Zeit, **oben rechts „Bild NN“**, unten Sprecher + Text (nur im Sprechfenster); `_Bildliste.md` entsteht automatisch.
+- **Bilder im Vorschau-/Storyboard-Video IMMER nummerieren** (User-Vorgabe 2026-11-06): oben rechts „Bild NN“, laufend in Spielreihenfolge, dasselbe Bild = dieselbe Nummer (`number_images` im Manifest, Standard an – nie abschalten). Auch im Hör-Storyboard und in jeder Korrekturfassung; `_Bildliste.md` ordnet Nr. → SH-ID → Datei. Der User kritisiert per „Bild NN: …“.
 - **Mit Stimmen:** Liegen TTS-Stimmen vor (1b), das Storyboard mit `hoerstoryboard_bauen.py … --bilder 03_Szenen_Flow_Bilder` bauen – gleiche Manifest-Logik, Bilder statt Karten, Stimmen im Sprechfenster.
 - **Titelkarte gibt es NUR im Storyboard-Video** (`title`/`subtitle` im Manifest), nach dem Intro (`"intro"` im Manifest).
 - **Jedes Bild selbst prüfen, bevor das Video an den User geht** – Bild für Bild ansehen und gegen Szenenplan, Modelsheets, OBJ-Sheets und Raumszene abgleichen:

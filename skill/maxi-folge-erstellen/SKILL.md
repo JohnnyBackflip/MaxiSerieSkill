@@ -64,19 +64,24 @@ Jeder Gegenstand, der gehalten wird oder eine Rolle spielt → `OBJ_xx`-Modelshe
 - Prüfen: Figuren groß genug (Erwachsene ≈ halbe Bildhöhe – kleine Figuren → verzerrte Gesichter), Gesichter zur Kamera, kein Rücken, Gesten treffen ihr Ziel (`point_down`), Fahrzeuge exakt seitlich/frontal.
 - Für Dialog-Einstellungen eigene Sprecher-Startbilder (Sprecher halbnah frontal), z. B. `SH090S`.
 
-### 5. Szenenbilder in Flow
+### 4b. Mockup-Vorschau-Video (Freigabe vor Flow)
+- Aus den **unstilisierten** Blender-Mockup-PNGs (`SHxxx_blender.png`) + den TTS-Stimmen (1b) das Video bauen: `python3 hoerstoryboard_bauen.py <szenenplan.json> <stimmen> <04_Video/…_Mockup-Vorschau-v00N.mp4> --titel "<Titel>" --bilder 02_Szenen_Blender_Mockups` (nimmt `SHxxx_blender.png`) (Bilder werden nummeriert: „Bild NN“ oben rechts, siehe Schritt 6).
+- Dem User zeigen, Kritik als „Bild NN: …“ einarbeiten (Mockups/Szenenplan/Zeilen ändern, Stimmen neu), neue Version `-v00N`. **Erst nach ausdrücklicher Freigabe weiter zu Schritt 5.**
+
+### 5. Szenenbilder in Flow (nur nach Freigabe von 4b)
 - Prompt = Stil-Präambel (`scene`) + LAYOUT-Satz (Mockup nur als Layout, Puppen durch Figuren ersetzen) + Motiv + Tageszeit/Licht + **Architektur-Block des Ortes** (was steht wo, was es NICHT gibt) + Gesichts-Satz + Verbote.
 - Referenzen in fester Reihenfolge: **1 Mockup, 2 (bei B-Bildern) fertiges A-Bild / freigegebenes Szenenbild, dann CHAR-Modelsheets, OBJ-Sheets, Raumszene des Ortes** (+ Raumszene des sichtbaren Nachbarraums, + Szene mit korrekter Architektur).
 - A/B nacheinander: erst alle Startbilder, dann Endbilder mit Startbild als Referenz 2.
 - Batch `--parallel 2–3`, nicht parallel zu zwei Blender-Instanzen (Speicher). Flow braucht 1,5–7 min/Bild.
 - Jobs immer per Skript `make_jobs_NN_*.py` (Datenblock je SH: Raum, Figuren, Objekte, Licht, Motiv, Sprecher → Prompt-Bausteine), Log `jobs_NN_*.log`. Höchstens 5 Referenzen je Bild.
-- **IMMER erst Blender-Mockups mit Farbpuppen (Schritt 4), dann daraus die Flow-Bilder – auch für das allererste Storyboard-Video** (User-Vorgabe 2026-11-06). Kein Bild nur mit Raumszene als Layout. Referenz 1 ist immer das Mockup.
+- **IMMER erst Blender-Mockups mit Farbpuppen (Schritt 4), dann daraus die Flow-Bilder.** Kein Bild nur mit Raumszene als Layout; Referenz 1 ist immer das Mockup.
+- **FREIGABE-SCHRANKE (User 2026-11-06): Flow-Szenenbilder erst malen, wenn der User das Mockup-Vorschau-Video (Schritt 4b) freigegeben hat.** Vorher keine Flow-Welle starten – auch nicht „zur Beschleunigung“.
 - Neue Figuren/Objekte als **Welle 1** (`make_jobs_01_sheets.py`), Szenen als **Welle 2** erst danach starten (Szenen brauchen die Sheets als Referenz).
 
 ### 6. Storyboard-Video mit Bildprüfung (PFLICHT)
 - Manifest → `build_episode_video.py`: jede Szene exakt so lange wie geplant; oben links SH-ID + Zeit, **oben rechts „Bild NN“**, unten Sprecher + Text (nur im Sprechfenster); `_Bildliste.md` entsteht automatisch.
 - **Bilder im Vorschau-/Storyboard-Video IMMER nummerieren** (User-Vorgabe 2026-11-06): oben rechts „Bild NN“, laufend in Spielreihenfolge, dasselbe Bild = dieselbe Nummer (`number_images` im Manifest, Standard an – nie abschalten). Auch im Hör-Storyboard und in jeder Korrekturfassung; `_Bildliste.md` ordnet Nr. → SH-ID → Datei. Der User kritisiert per „Bild NN: …“.
-- **Mit Stimmen:** Liegen TTS-Stimmen vor (1b), das Storyboard mit `hoerstoryboard_bauen.py … --bilder 03_Szenen_Flow_Bilder` bauen – gleiche Manifest-Logik, Bilder statt Karten, Stimmen im Sprechfenster.
+- **Mit Stimmen:** Liegen TTS-Stimmen vor (1b), das Storyboard mit `hoerstoryboard_bauen.py … --bilder 03_Szenen_Flow_Bilder` bauen (die Mockup-Fassung davor ist Schritt 4b) – gleiche Manifest-Logik, Bilder statt Karten, Stimmen im Sprechfenster.
 - **Titelkarte gibt es NUR im Storyboard-Video** (`title`/`subtitle` im Manifest), nach dem Intro (`"intro"` im Manifest).
 - **Jedes Bild selbst prüfen, bevor das Video an den User geht** – Bild für Bild ansehen und gegen Szenenplan, Modelsheets, OBJ-Sheets und Raumszene abgleichen:
   - Figuren: richtige Person, Kleidung/Haare/Farben wie Modelsheet, keine verzerrten Gesichter, richtige Anzahl Figuren, Sprecher groß/frontal.

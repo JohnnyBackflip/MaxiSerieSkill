@@ -46,5 +46,41 @@
  "fenster": {
   "prompt": "an old wooden window being pushed open with a soft creak",
   "dauer": 2
+ },
+ "schritte": {
+  "prompt": "slow footsteps of one person walking on a wooden floor getting closer, indoor, quiet room",
+  "dauer": 4
+ },
+ "tuer_zu": {
+  "prompt": "a wooden interior door being closed with a click, indoors",
+  "dauer": 1.5
+ },
+ "vogel_garten": {
+  "prompt": "birds chirping and singing in a garden on an autumn afternoon, calm ambient background, no voices",
+  "dauer": 20
+ },
+ "schrank_auf": {
+  "prompt": "wooden wardrobe doors opening with a creak",
+  "dauer": 2
+ },
+ "schrank_zu": {
+  "prompt": "wooden wardrobe doors closing with a soft thud",
+  "dauer": 1.5
+ },
+ "keuch": {
+  "prompt": "an elderly woman gasping sharply in shock, short",
+  "dauer": 1.5
+ },
+ "kichern": {
+  "prompt": "a small child stifling a giggle through his hand, short suppressed laughter",
+  "dauer": 3
+ },
+ "lachen": {
+  "prompt": "a small group of adults and a child laughing together happily in a living room",
+  "dauer": 7
+ },
+ "rennen": {
+  "prompt": "a small child running quickly on a wooden floor and jumping onto a bed",
+  "dauer": 2.5
  }
 }

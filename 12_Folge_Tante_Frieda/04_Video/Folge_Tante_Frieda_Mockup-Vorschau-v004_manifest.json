@@ -1,0 +1,1078 @@
+{
+ "title": "Maxi Cartoons – Tante Frieda und Lorchen",
+ "subtitle": "Mockup-Vorschau v004 (texturiertes Haus, Blender-Farbpuppen, Stimmen: Gemini-TTS, Effekte: ElevenLabs, Musik: Gemini Lyria)",
+ "width": 1920,
+ "height": 1080,
+ "fps": 24,
+ "title_card_seconds": 3.0,
+ "end_card_seconds": 2.0,
+ "end_card_text": "ENDE",
+ "intro": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/00_Intro_Maxi_Cartoons/Maxi_Cartoons_Intro.mp4",
+ "scenes": [
+  {
+   "id": "SH001",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH001_blender.jpg",
+     "seconds": 6.0
+    }
+   ]
+  },
+  {
+   "id": "SH002",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH002_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH002_blender.jpg",
+     "seconds": 3.58,
+     "speaker": "MAMA",
+     "text": "Frieda! Wie schön, dass du da bist!"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH002_blender.jpg",
+     "seconds": 1.42
+    }
+   ]
+  },
+  {
+   "id": "SH003",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH003_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH003_blender.jpg",
+     "seconds": 2.62,
+     "speaker": "FRIEDA",
+     "text": "Ich freue mich auch, hier zu sein!"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH003_blender.jpg",
+     "seconds": 2.38
+    }
+   ]
+  },
+  {
+   "id": "SH010",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH010_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH010_blender.jpg",
+     "seconds": 2.78,
+     "speaker": "FRIEDA",
+     "text": "Und ich nehme das Kinderzimmer!"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH010_blender.jpg",
+     "seconds": 2.22
+    }
+   ]
+  },
+  {
+   "id": "SH020",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH020_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH020_blender.jpg",
+     "seconds": 4.78,
+     "speaker": "MAXI",
+     "text": "Mein Zimmer?! Bis heute Abend ist die weg."
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH020_blender.jpg",
+     "seconds": 0.22
+    }
+   ]
+  },
+  {
+   "id": "SH030",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH030_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH030_blender.jpg",
+     "seconds": 3.3,
+     "speaker": "FRIEDA",
+     "text": "Thomas, trag mal. Du bist doch jung."
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH030_blender.jpg",
+     "seconds": 1.7
+    }
+   ]
+  },
+  {
+   "id": "SH032",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH032_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH032_blender.jpg",
+     "seconds": 4.05,
+     "speaker": "PAPA",
+     "text": "Uff! Was ist da bloß drin? Steine?"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH032_blender.jpg",
+     "seconds": 0.95
+    }
+   ]
+  },
+  {
+   "id": "SH040",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH040_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH040_blender.jpg",
+     "seconds": 3.41,
+     "speaker": "FRIEDA",
+     "text": "Oh, ihr habt einen neuen Teppich!"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH040_blender.jpg",
+     "seconds": 1.59
+    }
+   ]
+  },
+  {
+   "id": "SH042",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH042_blender.jpg",
+     "seconds": 0.5
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH042_blender.jpg",
+     "seconds": 2.79,
+     "speaker": "FRIEDA",
+     "text": "So etwas ist doch viel zu teuer."
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH042_blender.jpg",
+     "seconds": 0.71
+    }
+   ]
+  },
+  {
+   "id": "SH041",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH041_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH041_blender.jpg",
+     "seconds": 4.13,
+     "speaker": "MAMA",
+     "text": "Ähm, nein. Der war im Angebot. Hehe."
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH041_blender.jpg",
+     "seconds": 0.87
+    }
+   ]
+  },
+  {
+   "id": "SH047",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH047_blender.jpg",
+     "seconds": 4.0
+    }
+   ]
+  },
+  {
+   "id": "SH048",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH048_blender.jpg",
+     "seconds": 4.0
+    }
+   ]
+  },
+  {
+   "id": "SH050",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH050_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH050_blender.jpg",
+     "seconds": 2.88,
+     "speaker": "FRIEDA",
+     "text": "Und das Kuscheltier kommt raus."
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH050_blender.jpg",
+     "seconds": 2.12
+    }
+   ]
+  },
+  {
+   "id": "SH051",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH051_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH051_blender.jpg",
+     "seconds": 3.0,
+     "speaker": "MAXI",
+     "text": "Das ist kein Kuscheltier. Das ist Hasi!"
+    }
+   ]
+  },
+  {
+   "id": "SH052",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH052_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH052_blender.jpg",
+     "seconds": 1.09,
+     "speaker": "MAXI",
+     "text": "Gib ihn mir!"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH052_blender.jpg",
+     "seconds": 3.91
+    }
+   ]
+  },
+  {
+   "id": "SH058",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH058_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH058_blender.jpg",
+     "seconds": 4.71,
+     "speaker": "FRIEDA",
+     "text": "Naja, Lorchen kommt hier hin, sei bitte nett zu ihm."
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH058_blender.jpg",
+     "seconds": 0.29
+    }
+   ]
+  },
+  {
+   "id": "SH060",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH060_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH060_blender.jpg",
+     "seconds": 3.16,
+     "speaker": "FRIEDA",
+     "text": "Lorchen, mein Schatz. Küsschen!"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH060_blender.jpg",
+     "seconds": 1.84
+    }
+   ]
+  },
+  {
+   "id": "SH065",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH065_blender.jpg",
+     "seconds": 4.0
+    }
+   ]
+  },
+  {
+   "id": "SH070",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH070_blender.jpg",
+     "seconds": 2.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH070_blender.jpg",
+     "seconds": 3.14,
+     "speaker": "ANNA",
+     "text": "Wer ist die Meckertante mit dem Vogel?"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH070_blender.jpg",
+     "seconds": 0.86
+    }
+   ]
+  },
+  {
+   "id": "SH075",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH075_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH075_blender.jpg",
+     "seconds": 4.13,
+     "speaker": "MAXI",
+     "text": "Das ist meine Tante. Sie will in meinem Zimmer schlafen."
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH075_blender.jpg",
+     "seconds": 0.87
+    }
+   ]
+  },
+  {
+   "id": "SH071",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH071_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH071_blender.jpg",
+     "seconds": 2.81,
+     "speaker": "ANNA",
+     "text": "Dann spielen wir ihr einen Streich!"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH071_blender.jpg",
+     "seconds": 2.19
+    }
+   ]
+  },
+  {
+   "id": "SH072",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH072_blender.jpg",
+     "seconds": 0.5
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH072_blender.jpg",
+     "seconds": 3.29,
+     "speaker": "MAXI",
+     "text": "Gute Idee! Achtung Crew, Mission!"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH072_blender.jpg",
+     "seconds": 0.21
+    }
+   ]
+  },
+  {
+   "id": "SH080",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH080_blender.jpg",
+     "seconds": 6.0
+    }
+   ]
+  },
+  {
+   "id": "SH081",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH081_blender.jpg",
+     "seconds": 6.0
+    }
+   ]
+  },
+  {
+   "id": "SH082",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH082_blender.jpg",
+     "seconds": 4.0
+    }
+   ]
+  },
+  {
+   "id": "SH089",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH089_blender.jpg",
+     "seconds": 4.0
+    }
+   ]
+  },
+  {
+   "id": "SH083",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH083_blender.jpg",
+     "seconds": 4.0
+    }
+   ]
+  },
+  {
+   "id": "SH084",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH084_blender.jpg",
+     "seconds": 4.0
+    }
+   ]
+  },
+  {
+   "id": "SH085",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH085_blender.jpg",
+     "seconds": 4.0
+    }
+   ]
+  },
+  {
+   "id": "SH086",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH086_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH086_blender.jpg",
+     "seconds": 2.66,
+     "speaker": "FRIEDA",
+     "text": "Oje, wo ist Lorchen?"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH086_blender.jpg",
+     "seconds": 2.34
+    }
+   ]
+  },
+  {
+   "id": "SH087",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH087_blender.jpg",
+     "seconds": 0.5
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH087_blender.jpg",
+     "seconds": 3.5,
+     "speaker": "LORCHEN",
+     "text": "Hilfe! Ich bin im Schrank!"
+    }
+   ]
+  },
+  {
+   "id": "SH090",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH090_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH090_blender.jpg",
+     "seconds": 1.48,
+     "speaker": "FRIEDA",
+     "text": "Da ist er ja!"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH090_blender.jpg",
+     "seconds": 3.52
+    }
+   ]
+  },
+  {
+   "id": "SH091",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH091_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH091_blender.jpg",
+     "seconds": 3.29,
+     "speaker": "FRIEDA",
+     "text": "Wer könnte das wohl gewesen sein?"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH091_blender.jpg",
+     "seconds": 1.71
+    }
+   ]
+  },
+  {
+   "id": "SH093",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH093_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH093_blender.jpg",
+     "seconds": 2.93,
+     "speaker": "LORCHEN",
+     "text": "Maxi hat mich versteckt!"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH093_blender.jpg",
+     "seconds": 2.07
+    }
+   ]
+  },
+  {
+   "id": "SH095",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH095_blender.jpg",
+     "seconds": 0.5
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH095_blender.jpg",
+     "seconds": 5.46,
+     "speaker": "MAXI",
+     "text": "Das stimmt nicht! Das war bestimmt der Hund oder so. Ätschi Bätschi!"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH095_blender.jpg",
+     "seconds": 2.04
+    }
+   ]
+  },
+  {
+   "id": "SH094",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH094_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH094_blender.jpg",
+     "seconds": 3.41,
+     "speaker": "FRIEDA",
+     "text": "Ich glaube, du bleibst jetzt lieber erstmal bei mir."
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH094_blender.jpg",
+     "seconds": 1.59
+    }
+   ]
+  },
+  {
+   "id": "SH100",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH100_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH100_blender.jpg",
+     "seconds": 3.58,
+     "speaker": "MAMA",
+     "text": "Opa kommt gleich. Bitte sei nett, Frieda."
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH100_blender.jpg",
+     "seconds": 1.42
+    }
+   ]
+  },
+  {
+   "id": "SH101",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH101_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH101_blender.jpg",
+     "seconds": 3.2,
+     "speaker": "FRIEDA",
+     "text": "Ich bin nett. Ich sag nur die Wahrheit."
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH101_blender.jpg",
+     "seconds": 1.8
+    }
+   ]
+  },
+  {
+   "id": "SH110",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH110_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH110_blender.jpg",
+     "seconds": 3.51,
+     "speaker": "OPA",
+     "text": "Frieda! Lange nicht gesehen!"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH110_blender.jpg",
+     "seconds": 1.49
+    }
+   ]
+  },
+  {
+   "id": "SH111",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH111_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH111_blender.jpg",
+     "seconds": 4.06,
+     "speaker": "FRIEDA",
+     "text": "Heinrich! Du hast ja gar keine Haare mehr!"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH111_blender.jpg",
+     "seconds": 0.94
+    }
+   ]
+  },
+  {
+   "id": "SH112",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH112_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH112_blender.jpg",
+     "seconds": 3.0,
+     "speaker": "OPA",
+     "text": "Die sind beim Denken ausgefallen."
+    }
+   ]
+  },
+  {
+   "id": "SH120",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH120_blender.jpg",
+     "seconds": 3.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH120_blender.jpg",
+     "seconds": 3.53,
+     "speaker": "FRIEDA",
+     "text": "Viel zu trocken. Und viel zu süß."
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH120_blender.jpg",
+     "seconds": 1.47
+    }
+   ]
+  },
+  {
+   "id": "SH122",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH122_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH122_blender.jpg",
+     "seconds": 3.18,
+     "speaker": "FRIEDA",
+     "text": "Thomas war als Kind schon so ungeschickt."
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH122_blender.jpg",
+     "seconds": 1.82
+    }
+   ]
+  },
+  {
+   "id": "SH123",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH123_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH123_blender.jpg",
+     "seconds": 2.09,
+     "speaker": "PAPA",
+     "text": "Danke, Tante Frieda."
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH123_blender.jpg",
+     "seconds": 0.91
+    }
+   ]
+  },
+  {
+   "id": "SH124",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH124_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH124_blender.jpg",
+     "seconds": 3.29,
+     "speaker": "MAXI",
+     "text": "Hasi, jetzt reicht's. Plan B."
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH124_blender.jpg",
+     "seconds": 1.71
+    }
+   ]
+  },
+  {
+   "id": "SH130",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH130_blender.jpg",
+     "seconds": 2.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH130_blender.jpg",
+     "seconds": 4.12,
+     "speaker": "MAXI",
+     "text": "Sag mal: Tante Frieda, fahr heim!"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH130_blender.jpg",
+     "seconds": 1.88
+    }
+   ]
+  },
+  {
+   "id": "SH140",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH140_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH140_blender.jpg",
+     "seconds": 3.05,
+     "speaker": "FRIEDA",
+     "text": "Und der Kaffee? Viel zu teuer!"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH140_blender.jpg",
+     "seconds": 1.95
+    }
+   ]
+  },
+  {
+   "id": "SH141",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH141_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH141_blender.jpg",
+     "seconds": 5.49,
+     "speaker": "LORCHEN",
+     "text": "Viel zu teuer! Viel zu trocken! Viel zu laut!"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH141_blender.jpg",
+     "seconds": 1.51
+    }
+   ]
+  },
+  {
+   "id": "SH143",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH143_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH143_blender.jpg",
+     "seconds": 5.0,
+     "speaker": "OPA",
+     "text": "Frieda, der klingt genau wie du!"
+    }
+   ]
+  },
+  {
+   "id": "SH145",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH145_blender.jpg",
+     "seconds": 4.0
+    }
+   ]
+  },
+  {
+   "id": "SH144",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH144_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH144_blender.jpg",
+     "seconds": 3.37,
+     "speaker": "LORCHEN",
+     "text": "Tante Frieda, fahr heim!"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH144_blender.jpg",
+     "seconds": 1.63
+    }
+   ]
+  },
+  {
+   "id": "SH150",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH150_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH150_blender.jpg",
+     "seconds": 2.26,
+     "speaker": "FRIEDA",
+     "text": "Wer hat ihm DAS beigebracht?"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH150_blender.jpg",
+     "seconds": 2.74
+    }
+   ]
+  },
+  {
+   "id": "SH151",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH151_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH151_blender.jpg",
+     "seconds": 3.39,
+     "speaker": "MAXI",
+     "text": "Hasi sagt: Das war Maxi."
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH151_blender.jpg",
+     "seconds": 1.61
+    }
+   ]
+  },
+  {
+   "id": "SH152",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH152_blender.jpg",
+     "seconds": 0.8
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH152_blender.jpg",
+     "seconds": 3.39,
+     "speaker": "MAXI",
+     "text": "Das war ich! Und ich hab auch den Vogel versteckt."
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH152_blender.jpg",
+     "seconds": 1.81
+    }
+   ]
+  },
+  {
+   "id": "SH160",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH160_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH160_blender.jpg",
+     "seconds": 3.06,
+     "speaker": "FRIEDA",
+     "text": "Ich fahre heute noch. Jawohl!"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH160_blender.jpg",
+     "seconds": 1.94
+    }
+   ]
+  },
+  {
+   "id": "SH170",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH170_blender.jpg",
+     "seconds": 8.0
+    }
+   ]
+  },
+  {
+   "id": "SH171",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH171_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH171_blender.jpg",
+     "seconds": 4.02,
+     "speaker": "MAXI",
+     "text": "Ich wollte das doch. Warum ist es doof?"
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH171_blender.jpg",
+     "seconds": 0.98
+    }
+   ]
+  },
+  {
+   "id": "SH173",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH173_blender.jpg",
+     "seconds": 4.0
+    }
+   ]
+  },
+  {
+   "id": "SH174",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH174_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH174_blender.jpg",
+     "seconds": 3.16,
+     "speaker": "PAPA",
+     "text": "Wenn du dich schlecht fühlst, entschuldige dich bei ihr."
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH174_blender.jpg",
+     "seconds": 1.84
+    }
+   ]
+  },
+  {
+   "id": "SH175",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH175_blender.jpg",
+     "seconds": 0.3
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH175_blender.jpg",
+     "seconds": 1.82,
+     "speaker": "PAPA",
+     "text": "Vielleicht bleibt sie dann doch."
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH175_blender.jpg",
+     "seconds": 1.88
+    }
+   ]
+  },
+  {
+   "id": "SH177",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH177_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH177_blender.jpg",
+     "seconds": 3.65,
+     "speaker": "MAXI",
+     "text": "Entschuldigung, dass ich deinen Vogel versteckt habe."
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH177_blender.jpg",
+     "seconds": 1.35
+    }
+   ]
+  },
+  {
+   "id": "SH178",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH178_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH178_blender.jpg",
+     "seconds": 2.5,
+     "speaker": "MAXI",
+     "text": "Ich wollte mein Zimmer lieber für mich haben."
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH178_blender.jpg",
+     "seconds": 2.5
+    }
+   ]
+  },
+  {
+   "id": "SH179",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH179_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH179_blender.jpg",
+     "seconds": 4.8,
+     "speaker": "FRIEDA",
+     "text": "Ach, kein Problem. Ich kann auch auf der Couch schlafen."
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH179_blender.jpg",
+     "seconds": 0.2
+    }
+   ]
+  },
+  {
+   "id": "SH184",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH184_blender.jpg",
+     "seconds": 1.0
+    },
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH184_blender.jpg",
+     "seconds": 3.0,
+     "speaker": "LORCHEN",
+     "text": "Ohne Meckern! Ohne Meckern!"
+    }
+   ]
+  },
+  {
+   "id": "SH186",
+   "frames": [
+    {
+     "image": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH186_blender.jpg",
+     "seconds": 8.0
+    }
+   ]
+  }
+ ]
+}

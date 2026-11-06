@@ -157,7 +157,7 @@ FIGURES = {
 }
 
 
-def build_figure(key, origin, facing_deg, pose, col, seat_z=0.45, floor_z=0.0, suffix="", head_turn_deg=0.0, arms=None):
+def build_figure(key, origin, facing_deg, pose, col, seat_z=0.45, floor_z=0.0, suffix="", head_turn_deg=0.0, arms=None, mood=None):
     """
     Baut eine Standardfigur aus Primitiven.
       origin      : Bodenpunkt (x, y) – stehend: zwischen den Füßen; sitzend: Hüfte-Projektion; Hüfthöhe = seat_z
@@ -232,6 +232,15 @@ def build_figure(key, origin, facing_deg, pose, col, seat_z=0.45, floor_z=0.0, s
             foot = Vector((knee.x, knee.y, floor_z + r_leg)) - f * 0.1
             leg(nm, hp, knee, foot)
             shoe(nm, foot, f)
+    elif pose == "lie":      # liegend auf dem Rücken, Kopf in Blickrichtung f, Beine entgegen
+        thigh, shin = leg_len * 0.52, leg_len * 0.48
+        hip = Vector((O.x, O.y, floor_z + r_leg * 1.3))
+        for sign, nm in ((1, "L"), (-1, "R")):
+            hp = hip + s * (sign * sh_w * 0.22)
+            knee = hp - f * thigh
+            foot = knee - f * shin
+            leg(nm, hp, knee, foot)
+            shoe(nm, foot, -f)
     else:  # stand / walk / wave / point / hold_front / lift / hands_hip / stir
         hip = O + up * leg_len
         for sign, nm in ((1, "L"), (-1, "R")):
@@ -246,6 +255,8 @@ def build_figure(key, origin, facing_deg, pose, col, seat_z=0.45, floor_z=0.0, s
     shoulder_c = hip + up * torso_len
     if pose in ("crouch", "kneel") or pose == "bike":
         shoulder_c = hip + up * (torso_len * 0.92) + f * (torso_len * 0.3)
+    if pose == "lie":
+        shoulder_c = hip + f * torso_len + up * 0.10
     cyl_between(f"FIG_{tag}_Rumpf", hip, shoulder_c, r_torso, m_top, col)
     sphere(f"FIG_{tag}_Schulterkugel", shoulder_c, r_torso, m_top, col, scale=(1, 1, 0.6))
     sphere(f"FIG_{tag}_Hueftkugel", hip, r_torso * 0.95, m_pants, col, scale=(1, 1, 0.6))
@@ -259,6 +270,15 @@ def build_figure(key, origin, facing_deg, pose, col, seat_z=0.45, floor_z=0.0, s
         if pose == "wave" and nm == "R":
             elbow = sp + up * (arm_len * 0.45) + s * (sign * arm_len * 0.25)
             hand = elbow + up * (arm_len * 0.5) + s * (sign * arm_len * 0.1)
+        elif pose == "open":       # Arme weit auseinander (Begrüßung)
+            elbow = sp + s * (sign * arm_len * 0.50) + f * (arm_len * 0.18) - up * (arm_len * 0.12)
+            hand = elbow + s * (sign * arm_len * 0.46) + f * (arm_len * 0.28) - up * (arm_len * 0.03)
+        elif pose == "sip" and nm == "R":   # Ellbogen auf dem Tisch, Tasse am Mund
+            elbow = sp + f * (arm_len * 0.30) - up * (arm_len * 0.30)
+            hand = elbow + up * (arm_len * 0.50) - f * (arm_len * 0.10)
+        elif pose == "face":       # Hände vors Gesicht
+            elbow = sp - up * (arm_len * 0.05) + f * (arm_len * 0.30) + s * (sign * arm_len * 0.22)
+            hand = elbow + up * (arm_len * 0.42) - f * (arm_len * 0.02) - s * (sign * arm_len * 0.20)
         elif pose == "point_down" and nm == "R":
             elbow = sp + f * (arm_len * 0.4) - up * (arm_len * 0.35)
             hand = elbow + f * (arm_len * 0.45) - up * (arm_len * 0.4)
@@ -299,20 +319,31 @@ def build_figure(key, origin, facing_deg, pose, col, seat_z=0.45, floor_z=0.0, s
 
     pose = leg_pose
     # ---- Hals & Kopf
-    neck_top = shoulder_c + up * (neck + r_torso * 0.3)
+    lie = (leg_pose == "lie")
+    neck_top = shoulder_c + (f if lie else up) * (neck + r_torso * 0.3)
     cyl_between(f"FIG_{tag}_Hals", shoulder_c, neck_top, r_arm, m_skin, col)
-    head_c = neck_top + up * (head * 0.5)
+    head_c = neck_top + (f if lie else up) * (head * 0.5)
     hf = f
     if head_turn_deg:
         a = math.radians(facing_deg + head_turn_deg)
         hf = Vector((math.cos(a), math.sin(a), 0))
     hs = Vector((-hf.y, hf.x, 0))
+    if lie:                          # liegend: Gesicht zur Decke
+        hf = up; hs = s
     sphere(f"FIG_{tag}_Kopf", head_c, head * 0.5, m_skin, col, scale=(0.9, 0.9, 1.0))
     sphere(f"FIG_{tag}_Haare", head_c + up * (head * 0.1) - hf * (head * 0.08), head * 0.5 * 1.02, m_hair, col, scale=(0.9, 0.9, 0.8))
     if p.get("long_hair"):
         cyl_between(f"FIG_{tag}_Haare_Lang", head_c - hf * (head * 0.3), head_c - hf * (head * 0.3) - up * (head * 1.0), head * 0.3, m_hair, col)
     for sign, nm in ((1, "L"), (-1, "R")):
         sphere(f"FIG_{tag}_Auge_{nm}", head_c + hf * (head * 0.42) + hs * (sign * head * 0.17) + up * (head * 0.05), head * 0.05, m_eye, col)
+    if mood and not lie:             # Augenbrauen: angry | startled | suspicious | sad
+        for sign, nm in ((1, "L"), (-1, "R")):
+            def P(side, dy):
+                return head_c + hf * (head * 0.43) + hs * (sign * head * side) + up * (head * (0.15 + dy))
+            do, di = {"angry": (0.03, -0.04), "startled": (0.09, 0.09), "sad": (-0.02, 0.06)}.get(mood, (0.0, 0.0))
+            if mood == "suspicious":
+                do = di = (0.08 if sign > 0 else -0.03)
+            cyl_between(f"FIG_{tag}_Braue_{nm}", P(0.32, do), P(0.06, di), head * 0.020, m_hair, col)
     return dict(hand_L=hands["L"], hand_R=hands["R"], head=head_c, head_top=head_c + up * (head * 0.5), hip=hip, shoulder=shoulder_c)
 
 
@@ -699,4 +730,26 @@ def prop_chair(name, loc, facing_deg, col):
     for x in (0.2, -0.2):
         for y in (0.2, -0.2):
             box(f"{name}_Bein_{x}_{y}", (x, y, 0.21), (0.04, 0.04, 0.42), m, col, parent=e)
+    return e
+
+
+def prop_wardrobe(name, loc, col, open_deg=100.0, cage=False, facing_deg=0.0):
+    """Offener Kleiderschrank (2,0 × 0,9 × 2,1 m), Front nach +Y. loc = Bodenmitte. open_deg 0 = zu. Rückgabe: Empty."""
+    m = mat("MAT_Schrank_Holz2", (0.72, 0.52, 0.30, 1)); m_in = mat("MAT_Schrank_Innen", (0.85, 0.72, 0.55, 1))
+    e = empty(name, loc, facing_deg, col)
+    W, D, H, t = 2.0, 0.9, 2.1, 0.03
+    box(f"{name}_Rueck", (0, -D / 2 + t / 2, H / 2), (W, t, H), m_in, col, parent=e)
+    box(f"{name}_SeiteL", (-W / 2 + t / 2, 0, H / 2), (t, D, H), m, col, parent=e)
+    box(f"{name}_SeiteR", (W / 2 - t / 2, 0, H / 2), (t, D, H), m, col, parent=e)
+    box(f"{name}_Dach", (0, 0, H - t / 2), (W, D, t), m, col, parent=e)
+    box(f"{name}_Boden", (0, 0, 0.05), (W, D, 0.1), m, col, parent=e)
+    box(f"{name}_Regal", (0, 0, 1.55), (W - 2 * t, D - 0.1, t), m_in, col, parent=e)
+    th = math.radians(open_deg)
+    for sg in (-1, 1):                       # zwei Türen, Scharnier außen
+        hx, hy = sg * (W / 2), D / 2
+        ang = th if sg < 0 else math.pi - th
+        c = (hx + math.cos(ang) * 0.5, hy + math.sin(ang) * 0.5, H / 2)
+        box(f"{name}_Tuer_{sg}", c, (W / 2, t, H - 0.1), m, col, rot_z=ang, parent=e)
+    if cage:
+        prop_cage(f"{name}_Kaefig", (0.35, -0.05, 0.1), col, facing_deg=0).parent = e
     return e

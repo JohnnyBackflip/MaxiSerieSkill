@@ -114,10 +114,13 @@ def main():
             fl.append(f"[{n}:a]aresample=48000,aformat=channel_layouts=stereo,volume={c.get('db', -6)}dB,adelay={ms}|{ms}[v{n}]"); labels.append(f"[v{n}]")
         for c in ton.get("musik", []):
             n += 1; inputs += ["-i", pf(c["datei"])]
-            t0 = off + starts[c["von"]][0]; t1 = off + starts[c["bis"]][0] + starts[c["bis"]][1]; ln = t1 - t0
+            o = float(c.get("off", 0))                       # Einsatz innerhalb der ersten Szene (s)
+            t0 = off + starts[c["von"]][0] + o; t1 = off + starts[c["bis"]][0] + starts[c["bis"]][1]
+            ln = float(c["dauer"]) if "dauer" in c else t1 - t0
             ms = int(t0 * 1000); ab = float(c.get("ab", 0))
+            fi, fo = float(c.get("fade_in", 0.8)), float(c.get("fade_out", 1.2))
             fl.append(f"[{n}:a]atrim=start={ab}:duration={ln:.2f},asetpts=PTS-STARTPTS,aresample=48000,aformat=channel_layouts=stereo,"
-                      f"volume={c.get('db', -14)}dB,afade=t=in:d=0.8,afade=t=out:st={max(ln-1.2,0):.2f}:d=1.2,adelay={ms}|{ms}[v{n}]"); labels.append(f"[v{n}]")
+                      f"volume={c.get('db', -14)}dB,afade=t=in:d={max(fi,0.005)},afade=t=out:st={max(ln-fo,0):.2f}:d={max(fo,0.005)},adelay={ms}|{ms}[v{n}]"); labels.append(f"[v{n}]")
     fl.append(f"[0:a]aresample=48000[a0]")
     fl.append("[a0]" + "".join(labels) + f"amix=inputs={len(labels)+1}:normalize=0:duration=first[a]")
     subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(fl), "-map", "0:v", "-map", "[a]",

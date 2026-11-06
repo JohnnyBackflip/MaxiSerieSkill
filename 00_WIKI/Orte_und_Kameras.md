@@ -5,6 +5,7 @@ Pläne: `../01_Hausplan_und_Zimmer_Bilder/` (Nachbarschaftsplan, Grundrisse von 
 
 ## 1. Maxis Haus, Ahornweg 4 (mit Garten, Garage und Straße)
 - **Texturiertes Haus (seit 2026-11-06, ab jetzt für Mockups verwenden):** `../03_Blender_3D_Haus_Blockout/Maxis_Haus_Komplett_Texturiert.blend` mit 43 Flow-Texturen (`../03_Blender_3D_Haus_Blockout/Texturen/`), UV-Maps, individuellem Boden je Raum, Fußleisten, Sockel, Treppenverkleidung, Küchenfronten, Fensterscheiben. Vermerk und Ablauf: `../03_Blender_3D_Haus_Blockout/00_VERMERK_Texturierung.md`.
+- **Licht (seit 2026-11-06):** `../03_Blender_3D_Haus_Blockout/licht_haus.py` (Cycles, warme Sonne durch die Fenster, Schatten, Dunst, Lampen aus) und `Maxis_Haus_Komplett_Texturiert_Licht.blend`; Raumbilder je Raum in `../03_Blender_3D_Haus_Blockout/Raumbilder_Licht/`.
 - **Blockout:** `../03_Blender_3D_Haus_Blockout/Maxis_Haus_Komplett_Blockout.blend` (Bauskript `build_house_blockout.py`, Nachbarhäuser `neighbor_anna_ahornweg2.py` / `neighbor_ben_ahornweg6.py`, Straße und Natur `street_and_nature.py`). Sicherungen: `…_vor_Treppenfix_2026-11-05.blend` und `…_vor_Oberschrankfix_2026-11-05.blend`.
 - **Ordner** (alle in `../04_Komitee_Kameraplan_und_Flow_Raumszenen/`): Blender-Screenshots in `03_Blender_Kamera_Screenshots/`, Flow-Raumszenen in `04_Flow_Gemalte_Raumszenen/`, Raumreferenzen `REF_xx` in `01_Master_Referenzbilder_Raeume/`.
 

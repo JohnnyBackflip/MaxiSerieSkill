@@ -59,6 +59,11 @@ Jeder Gegenstand, der gehalten wird oder eine Rolle spielt → `OBJ_xx`-Modelshe
 - `texturiere_haus.py` ersetzt Materialien nach Namen, baut **UV-Maps im Weltmaß** (Box-Projektion, Meter je Textur; Türen: ein Bild je Fläche) und ergänzt Details: Fußleisten, Sockel außen, Treppenverkleidung (EG-Treppe, Dachbodentreppe), Küchenfronten mit Griffen, Fensterscheiben.
 - Texturregeln: mattes Albedo, keine Schatten/Glanzlichter/Perspektive, nahtlos, keine Schrift. Mockups ab jetzt mit der **texturierten** Blend rendern (`blender -b Maxis_Haus_Komplett_Texturiert.blend --python build_…`). Texturen, Blend und Mockup-PNGs dauerhaft ins Repo (nicht `.gitignore`n).
 
+### 3b. Licht (Cycles): warme Sonne durch die Fenster, Schatten, Dunst
+- `03_Blender_3D_Haus_Blockout/licht_haus.py` entfernt alle Lampen und die Pseudo-Aufhellung (Emission 0,14 in den Blockout-Materialien), setzt eine warme tiefe Sonne (Azimut je Raum so, dass sie durch dessen Fenster fällt), Himmel (Multiple-Scattering-Sky) und ein **begrenztes Dunst-Volumen** (Box um das Viertel; ein Welt-Volumen ist unendlich und löscht auch die Sonne → schwarzes Bild!). Konturlinien aus, AgX, GPU (CUDA).
+- `blender -b Maxis_Haus_Komplett_Texturiert.blend --python licht_haus.py -- [--raeume EG_Kueche,… | --aussen] [--samples 64] [--save]` → Raumbilder in `Raumbilder_Licht/`. 64 Samples + OIDN ≈ 1,5 min je Bild (GTX 1080). Dunkle Räume (Flur OG, Dachboden) brauchen mehr Belichtung/anderen Azimut (Tabelle `ROOMS`).
+- Mockups können mit dem Licht gerendert werden, indem `build_…_szenen.py` mit `Maxis_Haus_Komplett_Texturiert_Licht.blend` gestartet wird (Cycles statt Eevee, deutlich langsamer).
+
 ### 3. Neue Orte in Blender (wiederverwendbar)
 - Eigene `.blend` je Ort, Standardkameras definieren, Screenshots rendern → leere Flow-Raumszene (Referenzen: Screenshot als Layout + bestehende Flow-Szene für den Stil + Objekt-Sheets).
 - Jeder Story-Beat bekommt eigenen Ort/eigene Kamera.
@@ -67,7 +72,7 @@ Jeder Gegenstand, der gehalten wird oder eine Rolle spielt → `OBJ_xx`-Modelshe
 
 ### 4. Szenen-Mockups in Blender (PFLICHT vor jedem Flow-Szenenbild)
 - **DIALOGE (User 2026-11-06, Skill `dialog-szenen-inszenieren`):** Szene EINMAL aufbauen (feste Positionen/Blickrichtungen im Skript als gemeinsamer Block), dann je Sprecher nur die **Kamera** wechseln (frontal, Over-the-Shoulder, Übersicht). Nie die Figuren pro Einstellung an dieselbe Stelle setzen und austauschen. Mindestens 3 Einstellungen pro Aufstellung aus verschiedenen Perspektiven.
-- Farbpuppen: blau Maxi, gelb Mama, grün Papa, orange Karl, türkis Anna, braun Opa, violett Frieda (weitere Farben im Wiki `Figuren.md` festlegen); Props; Kamera; PNG + `.blend` je Szene (`02_Szenen_Blender_Mockups/`, Skript `build_folgeNN_szenen*.py`).
+- Mimik der Puppen: Posen `open`, `sip`, `face`, `lie`, `mood=angry|startled|suspicious|sad` (Augenbrauen), `prop_wardrobe` (öffnender Schrank), großer Käfig `prop_cage`. Farbpuppen: blau Maxi, gelb Mama, grün Papa, orange Karl, türkis Anna, braun Opa, violett Frieda (weitere Farben im Wiki `Figuren.md` festlegen); Props; Kamera; PNG + `.blend` je Szene (`02_Szenen_Blender_Mockups/`, Skript `build_folgeNN_szenen*.py`).
 - Prüfen: Figuren groß genug (Erwachsene ≈ halbe Bildhöhe – kleine Figuren → verzerrte Gesichter), Gesichter zur Kamera, kein Rücken, Gesten treffen ihr Ziel (`point_down`), Fahrzeuge exakt seitlich/frontal.
 - Für Dialog-Einstellungen eigene Sprecher-Startbilder (Sprecher halbnah frontal), z. B. `SH090S`.
 

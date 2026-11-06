@@ -27,6 +27,7 @@ Die Tracks entstehen auf gemini.google.com → Plus → „Musik erstellen“ (L
 | `Musik_01_Herbstwald_Leaves_and_Tiny_Treasures.mp3` | 179 s | fröhlich, Wald, Spaziergang, Pilzsuche (Glockenspiel, Ukulele, Pizzicato, Flöte, Holzblock) | ca. 1,2 s Stille am Anfang → `ab=1.0` | F02 v005/v006: Folgenanfang (4,54–13,5 s, `ab=1.0`) + SH060–SH150 (32,4–78,1 s) |
 | `Musik_02_Kueche_Abend_Shared_Plates_and_Smiles.mp3` | ca. 3 min | gemütlich, Abend, Kochen, Essen (Akustikgitarre, Klavier, Glockenspiel, Streicher) | – | F02 v005/v006: SH190–SH220 (89,9–108,1 s) |
 | `Musik_03_Heimlich_Before_the_Floorboards_Creak.mp3` | 172,8 s | heimlich/schleichend, Pizzicato, Holzbläser-Staccato, leiser Bass, spitzbübisch (2026-11-06, Gemini Lyria) | beginnt ohne Stille, `ab=0` | FTF Mockup-Vorschau v002: SH080–SH081 (ab 0 s) und SH124–SH130 (ab 40 s), −11 dB |
+| `Musik_04_Schock_The_Tiptoe_Retreat.mp3` | 64 s | Schock-Akzent mit Streichern und gedämpfter Trompete (2026-11-06, Gemini Lyria) | beginnt nach 0,5 s Stille, nur die ersten 4,2 s genutzt (`ab=0.5`) | FTF v004: SH020 (Maxi belauscht Frieda) |
 | `../Saturday_Morning_Adventure.mp3` | – | Intro-Song | – | Intro |
 
 Unterlegen mit `../musik_unterlegen.py`: je Szenenblock ein Cue, ca. −9 dB, `--ducking`, `--fade 1.5`.

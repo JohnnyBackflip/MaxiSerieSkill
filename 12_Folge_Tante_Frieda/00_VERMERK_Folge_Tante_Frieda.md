@@ -71,3 +71,31 @@ Die Bild-Nummern der Kritik beziehen sich auf v002; in v003 haben sie sich erneu
 - **Video:** `04_Video/Folge_Tante_Frieda_Mockup-Vorschau-v003.mp4` (5:58 min mit Intro/Titel, Spitzenpegel −0,3 dB).
 - **Bekannte Schwächen:** SH020 (Maxi im Fenster) ist klein und sein Gesicht nur ein Punktpaar; SH001 zeigt die Autotür nur als Platte; Flur-Dialog „in Richtung Flur“ nach eigener Lesart; Papa-Stöhnen ist ein gesprochenes „Uff!“ (TTS), noch kein Stöhn-Effekt.
 - **Flow-Szenenbilder:** weiter nicht gemalt, warten auf Freigabe von v003.
+
+## Runde 6 – 2026-11-06: Kritik am Video v003 → neue Geschichte ab dem Streich, neues Ende, Video v004
+Bild-Nummern der Kritik = v003. Szenenplan `szenenplan_r4.json` (65 Einstellungen, 6:06 min); v004 hat wieder neue Nummern (`…v004_arbeit/bild_Bildliste.md`).
+
+| Bild (v003) | Kritik | Änderung |
+|---|---|---|
+| 2 | Mama breitet die Arme auseinander statt hoch | neue Pose `open` (SH002) |
+| 3/4 | Frieda kühl, blickt zum Kofferraum und holt etwas heraus; Bild 4 = Bild 3 mit geschlossenem Kofferraum und Käfig in der Hand | SH003 (kühle Stimme, Blick zum Kofferraum, Käfig), SH010 gleiche Kamera, Kofferraum zu, Käfig in der Hand |
+| 5 | Schock-Effekt, Geigen/gedämpfte Trompete | Gemini-Lyria-Track `Musik_04_Schock_The_Tiptoe_Retreat.mp3`, die ersten 4,2 s als Akzent bei SH020 (ob der Anfang wirklich wie ein Schock klingt, habe ich nicht gehört) |
+| 8, 9, 10 | Frieda hält den Käfig auch im Flur | SH040/042/041 mit Käfig im Arm |
+| 11/12 | Closeup, Tür hinter sich schließen; Hasi deutlich auf dem Bett, Schritte | SH047 Closeup (Tür-Effekt), SH048 großes Hasi auf dem Bett, Schritte-Effekt |
+| 14 | Closeup Maxi, böser Blick | SH051 Closeup mit Augenbrauen `angry` (neu in der Lib) |
+| 15/16 | Maxi: „Gib ihn mir!“; Frieda: „Naja, Lorchen kommt hier hin, sei bitte nett zu ihm.“ | SH052 (Maxi spricht, nimmt Hasi), SH058 neue Zeile |
+| 18 | Vogelgeräusche | Effekt `vogel_garten` (ElevenLabs) unter SH065–SH072 |
+| 20/21 | Maxi von vorn: „Das ist meine Tante …“; Anna schlägt einen Streich vor | SH075 (Maxi frontal, enttäuscht), SH071 („Dann spielen wir ihr einen Streich!“), SH072 („Gute Idee! Achtung Crew, Mission!“) |
+| 23–29 | Streich: Maxi versteckt den Vogel im Schrank, springt aufs Bett; Frieda kommt neugierig herein, sieht den leeren Nachttisch, erschrickt, „Oje, wo ist Lorchen?“; Lorchen ruft aus dem Schrank; „Da ist er ja!“ (Kamera im Schrank); „Wer könnte das wohl gewesen sein?“; Lorchen: „Maxi hat mich versteckt!“; Maxi rennt raus; „Ich glaube, du bleibst jetzt lieber erstmal bei mir.“ | neu SH080–SH087, SH089–SH095, SH094; eigener Kleiderschrank `prop_wardrobe` zum Öffnen; Lorchens Ruf aus dem Schrank (Tiefpass, SH087: „Hilfe! Ich bin im Schrank!“, der Wortlaut ist von mir) |
+| 31 | Frieda Ellbogen auf dem Tisch, Kaffee trinken | neue Pose `sip` (SH101) |
+| 42/43 | Maxi verkneift sich das Lachen | neu SH145 (Closeup, Kichern-Effekt) |
+| 46 | „Und ich hab auch den Vogel versteckt“ | SH152 neue Zeile |
+| 48 | Papa mit Koffer besser sehen | SH170 neue Kamera |
+| ab 50 | Neues Ende | SH174/175 Papa auf der Treppe neben Maxi, SH177/178 Entschuldigung, SH179 Frieda lenkt ein, SH184 Lorchen, SH186 alle lachen im Wohnzimmer (Lachen-Effekt, Musik_02) |
+
+- **Neue Lib-Funktionen** (`maxi_blender_lib.py`): Posen `open`, `sip`, `face`, `lie`; `mood` (angry, startled, suspicious, sad) als Augenbrauen; `prop_wardrobe`.
+- **Neuer Ton:** Effekte (ElevenLabs) Schritte, Tür zu, Vogelgezwitscher, Schrank auf/zu, Keuchen, Kichern, Lachen, Rennen; Schleichmusik (Musik_03) jetzt für SH080–SH087; Musik_02 im Finale; Cues `04_Video/01_Ton/ton_r4.json`.
+- **Stimmen neu:** SH003 (kühl), SH052, SH058, SH071, SH072, SH075, SH086, SH087, SH090, SH091 (jetzt Frieda), SH093, SH095, SH094, SH152, SH174, SH175, SH177, SH178, SH179; Whisper-geprüft.
+- **Video:** `04_Video/Folge_Tante_Frieda_Mockup-Vorschau-v004.mp4` (6:16 min mit Intro/Titel).
+- **Licht (separat, auf Wunsch):** `03_Blender_3D_Haus_Blockout/licht_haus.py`, Raumbilder in `Raumbilder_Licht/`. Die Mockups von v004 sind noch mit dem alten (hellen, schattenlosen) Eevee-Look gerendert.
+- **Offen/Schwach:** SH075 Maxi klein im Bild; Mockup-Gesichter bleiben Punkte; Stöhnen und Lachen sind Effekte aus ElevenLabs und TTS, kein Schauspiel; Flow-Szenenbilder weiter nicht gemalt.

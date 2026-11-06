@@ -62,12 +62,13 @@ def main():
     ap.add_argument("plan"); ap.add_argument("stimmen"); ap.add_argument("out")
     ap.add_argument("--titel", default=""); ap.add_argument("--untertitel", default="Hör-Storyboard (Stimmen: Gemini-TTS)")
     ap.add_argument("--intro", default=os.path.join(ROOT, "00_Intro_Maxi_Cartoons/Maxi_Cartoons_Intro.mp4"))
-    ap.add_argument("--bilder", default=""); ap.add_argument("--titel_sek", type=float, default=3.0)
+    ap.add_argument("--ton", default="", help="ton.json mit sfx[] und musik[] (Soundeffekte/Musik je SH)"); ap.add_argument("--bilder", default=""); ap.add_argument("--titel_sek", type=float, default=3.0)
     a = ap.parse_args()
     plan = json.load(open(a.plan))
     work = os.path.splitext(os.path.abspath(a.out))[0] + "_arbeit"
     os.makedirs(work + "/karten", exist_ok=True)
     scenes, voices, t = [], [], 0.0
+    starts = {}
     for s in plan:
         img = None
         if a.bilder:
@@ -75,6 +76,7 @@ def main():
             img = c[0] if c else None
         if not img:
             img = os.path.join(work, "karten", s["id"] + ".png"); karte(s, img)
+        starts[s["id"]] = (t, float(s["sek"]))
         sek = float(s["sek"]); frames = []
         wav = os.path.join(a.stimmen, f"{s['id']}_{s['sprecher']}.wav")
         if s["sprecher"] not in ("–", "-", "") and os.path.exists(wav):
@@ -102,6 +104,20 @@ def main():
         inputs += ["-i", wav]
         ms = int((off + ts) * 1000)
         fl.append(f"[{i}:a]aresample=48000,aformat=channel_layouts=stereo,adelay={ms}|{ms}[v{i}]"); labels.append(f"[v{i}]")
+    n = len(labels)
+    if a.ton:  # Soundeffekte und Musik (Pfade relativ zur ton.json)
+        ton = json.load(open(a.ton)); base = os.path.dirname(os.path.abspath(a.ton))
+        pf = lambda p: p if os.path.isabs(p) else os.path.join(base, p)
+        for c in ton.get("sfx", []):
+            n += 1; inputs += ["-i", pf(c["datei"])]
+            ms = int((off + starts[c["sh"]][0] + float(c.get("off", 0))) * 1000)
+            fl.append(f"[{n}:a]aresample=48000,aformat=channel_layouts=stereo,volume={c.get('db', -6)}dB,adelay={ms}|{ms}[v{n}]"); labels.append(f"[v{n}]")
+        for c in ton.get("musik", []):
+            n += 1; inputs += ["-i", pf(c["datei"])]
+            t0 = off + starts[c["von"]][0]; t1 = off + starts[c["bis"]][0] + starts[c["bis"]][1]; ln = t1 - t0
+            ms = int(t0 * 1000); ab = float(c.get("ab", 0))
+            fl.append(f"[{n}:a]atrim=start={ab}:duration={ln:.2f},asetpts=PTS-STARTPTS,aresample=48000,aformat=channel_layouts=stereo,"
+                      f"volume={c.get('db', -14)}dB,afade=t=in:d=0.8,afade=t=out:st={max(ln-1.2,0):.2f}:d=1.2,adelay={ms}|{ms}[v{n}]"); labels.append(f"[v{n}]")
     fl.append(f"[0:a]aresample=48000[a0]")
     fl.append("[a0]" + "".join(labels) + f"amix=inputs={len(labels)+1}:normalize=0:duration=first[a]")
     subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(fl), "-map", "0:v", "-map", "[a]",

@@ -8,3 +8,5 @@ Erzeugt auf gemini.google.com → Plus → „Musik erstellen“, Dauer „Stand
 | `Musik_02_Kueche_Abend_Shared_Plates_and_Smiles.mp3` | ~3 min | Abend, Kochen, Essen | gemütlich, Akustikgitarre, Klavier, Glockenspiel, weiche Streicher |
 
 Unterlegen mit `../musik_unterlegen.py` (Original bleibt unverändert, Musik wird beim Sprechen automatisch abgesenkt: `--ducking`).
+
+| `Musik_03_Heimlich_Before_the_Floorboards_Creak.mp3` (2026-11-06) | 172,8 s | Heimliches Anstellen (Tante Frieda: Maxi sprüht, Plan B) | „Instrumentale Zeichentrick-Filmmusik … auf Zehenspitzen: Pizzicato, Holzbläser-Staccatos, leiser federnder Bass, spitzbübisch, ~100 BPM, dezent unter Dialog, ohne Gesang“; Gesang: Instrumental |

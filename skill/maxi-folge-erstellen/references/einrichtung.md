@@ -45,3 +45,6 @@ agy --version && blender --version | head -1
 
 ## Google-API-Keys für Stimmen (Gemini-TTS)
 `mkdir -p ~/.config/maxi && nano ~/.config/maxi/google_api_keys.txt && chmod 600 ~/.config/maxi/google_api_keys.txt` – eine Key-Zeile (`AIza…`) je Zeile; Free-Tier-Keys reichen (werden reihum genutzt). Die Datei liegt bewusst außerhalb des Repos. Test: `python3 stimmen_tts.py` mit `--nur` auf eine Zeile.
+
+## ElevenLabs-Key für Soundeffekte
+`~/.elevenlabs_key` (eine Zeile, chmod 600, nie ins Repo). Nur für `sfx_elevenlabs.py` (Sound-Generation). Die Music-API ist im Free-Plan gesperrt und wird nicht benutzt (Musik = Gemini Lyria im Chrome-Plugin).

@@ -27,3 +27,24 @@
 - **Video:** `04_Video/Folge_Tante_Frieda_Mockup-Vorschau-v001.mp4` (1920×1080, 5:08 min, 45 Stimmen, Bilder nummeriert, Bildliste in `…_arbeit/bild_Bildliste.md`). Hör-Storyboard `…Hoerstoryboard-v001.mp4` (Karten statt Bildern) bleibt als Vorgänger.
 - **Offene Schwächen der Mockups:** In SH190 steht die Familie am Bildrand. Mimik und Gesten sind nur grob (z. B. „Hände an den Wangen“ fehlt), Lorchen ist ein kleiner grüner Klecks. Das wird in Flow über den Prompt erledigt.
 - **Nächster Schritt:** Der User schaut das Mockup-Video an, Kritik als „Bild NN: …“, neue Version v002. **Erst nach Freigabe** werden die Flow-Szenenbilder gemalt.
+
+## Runde 4 – 2026-11-06: Überarbeitung nach Kritik am Mockup-Video v001 → v002
+Ursachen-Tabelle (Bild-Nummern aus v001 → Änderung; **die Nummern in v002 haben sich verschoben**, siehe `…v002_arbeit/bild_Bildliste.md`):
+
+| Bild (v001) | Kritik | Änderung |
+|---|---|---|
+| vor 1 | Ankunft fehlt: Auto parkt, Mama begrüßt, Frieda nimmt das Kinderzimmer | neu SH001 (Auto parkt, Frieda winkt im Beifahrersitz), SH002 (Mama: „Frieda! Wie schön, dass du da bist!“), danach SH010 (Frieda: „Ich nehm das Kinderzimmer!“) |
+| 3 | Papa steht im Auto, muss links daneben stehen; Kamera Richtung Straße, Papa im Vordergrund | SH030 neue Kamera vom Haus Richtung Straße: Papa links im Vordergrund, Koffer, Frieda frontal dahinter |
+| 4/5 | Dialog flach | SH040 Frieda „Oh, ihr habt einen neuen Teppich!“, neu SH042 „So etwas ist doch viel zu teuer.“, SH041 Mama verlegen: „Ähm, nein. Der war im Angebot. Hehe.“ (eine Lüge) |
+| 6/7 | Ablauf anders: Frieda kommt rein, Hasi liegt auf dem Bett, Blick vom Bett, Maxi hinter ihr | neu SH047 (Frieda kommt rein), SH048 (Hasi auf dem Bett), SH050 (Blick vom Bett: „Und das Kuscheltier kommt raus.“), SH051 (Maxi hinter Friedas Rücken: „Das ist kein Kuscheltier. Das ist Hasi!“) |
+| 8 | „Du kommst hier hin“ zum Papagei fehlt | neu SH058 (Frieda stellt den Käfig auf den Nachttisch) |
+| vor 9/10 | Maxi spielt draußen mit Ball, Anna ruft von weitem, Maxi geht hin | neu SH065 (Ball), SH070 (Anna ruft, jetzt „von weitem“), neu SH075 (Maxi geht zum Tor), danach SH071 (Glitzerstein) |
+| 12 | Schleichmusik, Sprüh-Effekt | Musik_03 (Gemini Lyria) in SH080–SH081 und SH124–SH130; Sprüh- und Papagei-Effekt (ElevenLabs) in SH081 |
+| vor 14 | Frieda muss erst ins Zimmer kommen | neu SH089 (Tür, Schritte) |
+| – | „Keiner ruft an“ weg | SH172 gestrichen (Mockup nach `rejected/`); SH173 bleibt als Blick auf den traurigen Maxi; SH183 „Und ich ruf an“ bleibt als freundliche Geste |
+
+- **Stimmen:** neu erzeugt SH002, SH040, SH041, SH042, SH058, SH070 (Whisper OK, SH041 0,92); die alten Fassungen liegen in `04_Video/00_Stimmen_TTS/rejected/`.
+- **Mockups:** 57 Einstellungen (`build_frieda_szenen.py`), Blockout-Hasi wird in Szenen ohne Hasi auf dem Bett ausgeblendet.
+- **Ton (User-Vorgabe):** Soundeffekte **nur** mit ElevenLabs (`../sfx_elevenlabs.py`, Key `~/.elevenlabs_key`), Musik **nur** mit Gemini Lyria über das Chrome-Plugin. Die ElevenLabs-Music-API ist für Free-Konten gesperrt und war ohnehin nicht gewünscht. Effekte: Auto parkt (SH001), Koffer (SH030), Tür und Schritte (SH047, SH089), Ball (SH065), Sprüher und Papagei (SH081), Papagei (SH093), Auto fährt weg (SH190), Bett (SH200), Dose klackt (SH201).
+- **Video:** `04_Video/Folge_Tante_Frieda_Mockup-Vorschau-v002.mp4` (5:41 min, 57 Einstellungen, 47 Stimmen, Bilder nummeriert). Tonprüfung: Musik liegt hörbar unter SH080–SH081, Spitzenpegel −0,3 dB.
+- **Flow-Szenenbilder:** weiter **nicht** gemalt, sie warten auf die Freigabe von v002.

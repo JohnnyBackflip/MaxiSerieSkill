@@ -37,6 +37,13 @@ besetzung.json: `{"Maxi": {"voice": "Puck", "halbtoene": 4, "tempo": 1.0, "stil"
 Gemini-Stimmen (Auswahl): weiblich Aoede, Leda, Kore, Zephyr, Gacrux (reif), Sulafat (warm), Laomedeia; männlich Puck, Charon, Algenib (rau), Iapetus, Orus, Achird.
 Sync prüfen: `ffmpeg -ss <t> -t 30 -i v.mp4 -vn -af silencedetect=n=-40dB:d=0.4 -f null -` → Sprech-Einsätze = Intro + Titel + Szenenstart + Fensterstart.
 
+## Soundeffekte (ElevenLabs – nur Effekte, keine Musik)
+```
+python3 sfx_elevenlabs.py <NN_Folge>/04_Video/01_Ton/sfx_katalog.json <NN_Folge>/04_Video/01_Ton/sfx [--nur id1,id2] [--force]
+```
+Katalog: `{"auto_parkt": {"prompt": "small family car slowly driving into a driveway …", "dauer": 5}}` (englische Prompts, 0,5–22 s). Key in `~/.elevenlabs_key`. Musik erzeugt man mit Gemini Lyria im Browser (siehe „Musik – Gemini Lyria“), nicht hier.
+Ton in das Vorschau-Video mischen: `python3 hoerstoryboard_bauen.py … --ton <NN_Folge>/04_Video/01_Ton/ton_rN.json`.
+
 ## Sprachwerkzeug (venv `.venv_sprache`, faster-whisper large-v3-turbo + VAD)
 Prüfen:
 ```

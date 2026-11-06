@@ -1,0 +1,41 @@
+{
+ "jobs": [
+  {
+   "id": "SH001A",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH001A.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH001_blender.png",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_05_Blaues_Familienauto_Kombi.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_03_Mama_Katrin_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH001, STARTBILD der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Aufbau, Kamera und Position/Haltung jeder Figur EXAKT wie auf dem Blender-Mockup (Referenz 1 – nur Layout; Klötzchen-/Gliederpuppen-Look NICHT übernehmen, Puppenfarben: blau = Maxi, gelb = Mama Katrin, grün = Papa Thomas, türkis = Anna, braun = Opa Heinrich, violett = Tante Frieda, kleines hellgraues Stofftier = Hasi, grüner Klecks im Messingkäfig = der Papagei Lorchen, braun-weißer Klotz = Hund Bello; die Puppen durch die echten Figuren ersetzen). (Referenz 1 = SH001_blender; Referenz 2 = OBJ_05_Blaues_Familienauto_Kombi; Referenz 3 = CHAR_13_Tante_Frieda_Modelsheet; Referenz 4 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 5 = CHAR_03_Mama_Katrin_Modelsheet). MOTIV: Das Familienauto parkt in der Einfahrt. Frieda steht neben dem Auto an der geöffneten Beifahrertür und winkt; Mama und Bello warten an der Hauswand (Maxi ist oben im Haus, Papa nicht im Bild). LICHT: warmes, tiefes goldenes Nachmittagssonnenlicht von außen (Novembersonne) fällt durch die Fenster, weiche Schatten, Lampen sind aus, in der Ferne leichter Dunst. STUMME EINSTELLUNG: niemand spricht, alle Münder geschlossen. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets; Ort, Möbel, Böden, Türen und Wandfarben exakt wie im Blender-Mockup (Texturen sind schon im Mockup). VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines, keine Gliederpuppen-Optik; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH002A",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH002A.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH002_blender.png",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_03_Mama_Katrin_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH002, STARTBILD der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Aufbau, Kamera und Position/Haltung jeder Figur EXAKT wie auf dem Blender-Mockup (Referenz 1 – nur Layout; Klötzchen-/Gliederpuppen-Look NICHT übernehmen, Puppenfarben: blau = Maxi, gelb = Mama Katrin, grün = Papa Thomas, türkis = Anna, braun = Opa Heinrich, violett = Tante Frieda, kleines hellgraues Stofftier = Hasi, grüner Klecks im Messingkäfig = der Papagei Lorchen, braun-weißer Klotz = Hund Bello; die Puppen durch die echten Figuren ersetzen). (Referenz 1 = SH002_blender; Referenz 2 = CHAR_03_Mama_Katrin_Modelsheet; Referenz 3 = CHAR_13_Tante_Frieda_Modelsheet). MOTIV: Mama Katrin geht strahlend auf Frieda zu und breitet die Arme weit auseinander (statt sie hochzureißen). Frieda im Vordergrund, Rücken. LICHT: warmes, tiefes goldenes Nachmittagssonnenlicht von außen (Novembersonne) fällt durch die Fenster, weiche Schatten, Lampen sind aus, in der Ferne leichter Dunst. SPRECHER-EINSTELLUNG: Mama ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets; Ort, Möbel, Böden, Türen und Wandfarben exakt wie im Blender-Mockup (Texturen sind schon im Mockup). VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines, keine Gliederpuppen-Optik; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH003A",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH003A.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH003_blender.png",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF01_Lorchens_Messing_Kaefig.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF02_Friedas_Riesen_Rollkoffer.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_14_Lorchen_Papagei_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH003, STARTBILD der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Aufbau, Kamera und Position/Haltung jeder Figur EXAKT wie auf dem Blender-Mockup (Referenz 1 – nur Layout; Klötzchen-/Gliederpuppen-Look NICHT übernehmen, Puppenfarben: blau = Maxi, gelb = Mama Katrin, grün = Papa Thomas, türkis = Anna, braun = Opa Heinrich, violett = Tante Frieda, kleines hellgraues Stofftier = Hasi, grüner Klecks im Messingkäfig = der Papagei Lorchen, braun-weißer Klotz = Hund Bello; die Puppen durch die echten Figuren ersetzen). (Referenz 1 = SH003_blender; Referenz 2 = OBJ_TF01_Lorchens_Messing_Kaefig; Referenz 3 = OBJ_TF02_Friedas_Riesen_Rollkoffer; Referenz 4 = CHAR_13_Tante_Frieda_Modelsheet; Referenz 5 = CHAR_14_Lorchen_Papagei_Modelsheet). MOTIV: Frieda blickt zum Auto/Kofferraum, statt zu Mama, während sie kühl spricht, und holt etwas aus dem Kofferraum (den Käfig mit Lorchen). LICHT: warmes, tiefes goldenes Nachmittagssonnenlicht von außen (Novembersonne) fällt durch die Fenster, weiche Schatten, Lampen sind aus, in der Ferne leichter Dunst. SPRECHER-EINSTELLUNG: Frieda ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets; Ort, Möbel, Böden, Türen und Wandfarben exakt wie im Blender-Mockup (Texturen sind schon im Mockup). VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines, keine Gliederpuppen-Optik; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  }
+ ]
+}

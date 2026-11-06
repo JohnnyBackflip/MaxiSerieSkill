@@ -82,5 +82,9 @@
  "rennen": {
   "prompt": "a small child running quickly on a wooden floor and jumping onto a bed",
   "dauer": 2.5
+ },
+ "klingel": {
+  "prompt": "a classic two-tone doorbell ding-dong ringing at a house front door, outdoors, quiet street",
+  "dauer": 2.5
  }
 }

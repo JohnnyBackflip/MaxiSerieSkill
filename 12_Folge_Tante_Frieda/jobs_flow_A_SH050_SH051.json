@@ -1,0 +1,26 @@
+{
+ "jobs": [
+  {
+   "id": "SH050A",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH050A.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH050_blender.png",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF01_Lorchens_Messing_Kaefig.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_02_Hasi_Kuschelhase_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH050, STARTBILD der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Aufbau, Kamera und Position/Haltung jeder Figur EXAKT wie auf dem Blender-Mockup (Referenz 1 – nur Layout; Klötzchen-/Gliederpuppen-Look NICHT übernehmen, Puppenfarben: blau = Maxi, gelb = Mama Katrin, grün = Papa Thomas, türkis = Anna, braun = Opa Heinrich, violett = Tante Frieda, kleines hellgraues Stofftier = Hasi, grüner Klecks im Messingkäfig = der Papagei Lorchen, braun-weißer Klotz = Hund Bello; die Puppen durch die echten Figuren ersetzen). (Referenz 1 = SH050_blender; Referenz 2 = OBJ_TF01_Lorchens_Messing_Kaefig; Referenz 3 = CHAR_13_Tante_Frieda_Modelsheet; Referenz 4 = CHAR_02_Hasi_Kuschelhase_Modelsheet). MOTIV: Kamera tief vom Bett: Frieda hält Hasi auf Hüfthöhe und spricht; der Käfig steht neben ihr auf dem Boden. LICHT: warmes, tiefes goldenes Nachmittagssonnenlicht von außen (Novembersonne) fällt durch die Fenster, weiche Schatten, Lampen sind aus, in der Ferne leichter Dunst. SPRECHER-EINSTELLUNG: Frieda ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets; Ort, Möbel, Böden, Türen und Wandfarben exakt wie im Blender-Mockup (Texturen sind schon im Mockup). VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines, keine Gliederpuppen-Optik; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH051A",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH051A.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH051_blender.png",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH051, STARTBILD der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Aufbau, Kamera und Position/Haltung jeder Figur EXAKT wie auf dem Blender-Mockup (Referenz 1 – nur Layout; Klötzchen-/Gliederpuppen-Look NICHT übernehmen, Puppenfarben: blau = Maxi, gelb = Mama Katrin, grün = Papa Thomas, türkis = Anna, braun = Opa Heinrich, violett = Tante Frieda, kleines hellgraues Stofftier = Hasi, grüner Klecks im Messingkäfig = der Papagei Lorchen, braun-weißer Klotz = Hund Bello; die Puppen durch die echten Figuren ersetzen). (Referenz 1 = SH051_blender; Referenz 2 = CHAR_01_Maxi_Turnaround_Modelsheet). MOTIV: Closeup auf Maxi in der Zimmertür: Er schaut böse und spricht dann. LICHT: warmes, tiefes goldenes Nachmittagssonnenlicht von außen (Novembersonne) fällt durch die Fenster, weiche Schatten, Lampen sind aus, in der Ferne leichter Dunst. SPRECHER-EINSTELLUNG: Maxi ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets; Ort, Möbel, Böden, Türen und Wandfarben exakt wie im Blender-Mockup (Texturen sind schon im Mockup). VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines, keine Gliederpuppen-Optik; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  }
+ ]
+}

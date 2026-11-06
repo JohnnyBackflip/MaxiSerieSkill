@@ -99,3 +99,27 @@ Bild-Nummern der Kritik = v003. Szenenplan `szenenplan_r4.json` (65 Einstellunge
 - **Video:** `04_Video/Folge_Tante_Frieda_Mockup-Vorschau-v004.mp4` (6:16 min mit Intro/Titel).
 - **Licht (separat, auf Wunsch):** `03_Blender_3D_Haus_Blockout/licht_haus.py`, Raumbilder in `Raumbilder_Licht/`. Die Mockups von v004 sind noch mit dem alten (hellen, schattenlosen) Eevee-Look gerendert.
 - **Offen/Schwach:** SH075 Maxi klein im Bild; Mockup-Gesichter bleiben Punkte; Stöhnen und Lachen sind Effekte aus ElevenLabs und TTS, kein Schauspiel; Flow-Szenenbilder weiter nicht gemalt.
+
+## Runde 7 – 2026-11-06: Kritik am Video v004 → Plan r5, Mockups mit Licht, Flow-Bilder (unterbrochen durch Kontingent)
+Bild-Nummern der Kritik = v004. Szenenplan `szenenplan_r5.json` (70 Einstellungen).
+
+| Bild (v004) | Kritik | Änderung |
+|---|---|---|
+| 10 | Zoom auf Mama beim Sprechen | SH041: Startbild weit, **Endbild = Zoom** auf Mama (`SH041_B`-Mockup) |
+| 11 | Türrahmen sichtbar | Die Kinderzimmertür liegt an der Ostwand (x −1,25, y 0,4–1,6); ich hatte Frieda im Raum statt an der Tür platziert. SH047 jetzt im Türrahmen, Closeup |
+| 21 | „Dann spiel ihr doch einen Streich“ + 2 Bilder | SH071 neue Zeile, neu SH073 (Maxi), SH074 (Anna: „Versteck doch ihren Vogel!“) |
+| 23 | Maxi steht im Käfig | SH080: Käfig neben Maxi auf dem Boden |
+| 25 | Maxi rennt Richtung Bett; Tür, Rahmen, Texturen, Licht | SH082 rennt (Endbild springt aufs Bett); SH089 mit Tür und Rahmen; Mockups jetzt mit warmem Licht (Licht-Blend) |
+| überall | lange Pausen ohne Ton abschneiden | `hoerstoryboard_bauen.py --kuerzen` (Szene = Sprache + 0,55 s bzw. Effekt; stumme Szenen ≥ 2,5 s): Szenenzeit 6:06 → ca. 4:08 min |
+| vor 39 | Opa klingelt von draußen | neu SH109 + Klingel-Effekt |
+| 48, 51 | Vogel nicht richtig im Bild | SH141/SH144 Kamera auf den ganzen Käfig. „Bild 51 auch nicht vom Vater“ habe ich nicht eindeutig verstanden: Ich habe SH170 (Papa mit Koffer) zusätzlich näher gerückt |
+| 54 | komplett weg | SH152 gestrichen |
+| 56/58 | Abschieddialog; Tante verabschiedet sich | neu SH165 (Mama), SH166 (Frieda), SH167 (Papa); SH173 Frieda: „Tschüss, Maxi. Sei schön brav.“ |
+| – | Google-TTS-Spuren | neu: SH071, SH073, SH074, SH165, SH166, SH167, SH173 (Whisper-geprüft; SH074 klingt als „Versteckt“) |
+
+- **Mockups:** 72 (70 + `SH041_B`, `SH082_B`). Die ersten 17 mit Cycles und Licht, der Rest mit Eevee (Cycles brauchte ~100 s je Bild).
+- **Flow-Bilder:** `make_jobs_flow.py` (A = Startbild, B = Endbild, je halbe Szenenzeit) und `flow_treiber.py`. **Fertig: 18 Bilder** (Start+Ende für SH001, SH002, SH003, SH010, dazu Startbilder SH020, SH030, SH032, SH040, SH041, SH042, SH047, SH048, SH050, SH051). Danach **brach die Bildgenerierung mit „Individual quota reached“ (HTTP 429, Reset in ca. 151 h) ab.** Treiber und Läufe sind gestoppt, nichts läuft mehr.
+- **Ton:** Klingel-Effekt neu, Cues müssen für r5 noch in `ton_r5.json` (Rest übernehmbar aus `ton_r4.json`).
+- **Offen:** Flow-Bilder für die übrigen Szenen (Kontingent), Flow-Video, Hochkant-Version (wartet auf den Abschluss dieses Auftrags).
+- **Videos (Stand Ende Runde 7):** `04_Video/Folge_Tante_Frieda_Mockup-Vorschau-v005.mp4` (alle 70 Szenen als Blender-Mockup mit Licht, gekürzte Pausen, 4:37 min) und `04_Video/Folge_Tante_Frieda_Flow-Vorschau-v001_teilweise.mp4` (A/B-Bildpaare je halbe Szenenzeit; nur SH001–SH010 mit Flow-Bildern, sonst Mockup als Ersatz; 184 nummerierte Bilder).
+- **Mockup-Fehler gefunden und behoben:** SH041_B war leer, weil die Kamera in Friedas Körper stand (jetzt zwischen Frieda und Mama).

@@ -1,0 +1,25 @@
+{
+ "jobs": [
+  {
+   "id": "SH047A",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH047A.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH047_blender.png",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF01_Lorchens_Messing_Kaefig.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH047, STARTBILD der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Aufbau, Kamera und Position/Haltung jeder Figur EXAKT wie auf dem Blender-Mockup (Referenz 1 – nur Layout; Klötzchen-/Gliederpuppen-Look NICHT übernehmen, Puppenfarben: blau = Maxi, gelb = Mama Katrin, grün = Papa Thomas, türkis = Anna, braun = Opa Heinrich, violett = Tante Frieda, kleines hellgraues Stofftier = Hasi, grüner Klecks im Messingkäfig = der Papagei Lorchen, braun-weißer Klotz = Hund Bello; die Puppen durch die echten Figuren ersetzen). (Referenz 1 = SH047_blender; Referenz 2 = OBJ_TF01_Lorchens_Messing_Kaefig; Referenz 3 = CHAR_13_Tante_Frieda_Modelsheet). MOTIV: Closeup auf Frieda im Türrahmen des Kinderzimmers: Sie schließt die Tür hinter sich, den Käfig in der Hand; Türrahmen und Tür deutlich sichtbar. LICHT: warmes, tiefes goldenes Nachmittagssonnenlicht von außen (Novembersonne) fällt durch die Fenster, weiche Schatten, Lampen sind aus, in der Ferne leichter Dunst. STUMME EINSTELLUNG: niemand spricht, alle Münder geschlossen. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets; Ort, Möbel, Böden, Türen und Wandfarben exakt wie im Blender-Mockup (Texturen sind schon im Mockup). VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines, keine Gliederpuppen-Optik; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH048A",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH048A.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/SH048_blender.png",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_02_Hasi_Kuschelhase_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH048, STARTBILD der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Aufbau, Kamera und Position/Haltung jeder Figur EXAKT wie auf dem Blender-Mockup (Referenz 1 – nur Layout; Klötzchen-/Gliederpuppen-Look NICHT übernehmen, Puppenfarben: blau = Maxi, gelb = Mama Katrin, grün = Papa Thomas, türkis = Anna, braun = Opa Heinrich, violett = Tante Frieda, kleines hellgraues Stofftier = Hasi, grüner Klecks im Messingkäfig = der Papagei Lorchen, braun-weißer Klotz = Hund Bello; die Puppen durch die echten Figuren ersetzen). (Referenz 1 = SH048_blender; Referenz 2 = CHAR_02_Hasi_Kuschelhase_Modelsheet). MOTIV: Hasi liegt deutlich sichtbar auf dem Bett; man hört Schritte, die auf ihn zukommen. LICHT: warmes, tiefes goldenes Nachmittagssonnenlicht von außen (Novembersonne) fällt durch die Fenster, weiche Schatten, Lampen sind aus, in der Ferne leichter Dunst. STUMME EINSTELLUNG: niemand spricht, alle Münder geschlossen. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets; Ort, Möbel, Böden, Türen und Wandfarben exakt wie im Blender-Mockup (Texturen sind schon im Mockup). VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines, keine Gliederpuppen-Optik; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  }
+ ]
+}

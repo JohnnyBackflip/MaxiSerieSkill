@@ -1,0 +1,176 @@
+{
+ "sfx": [
+  {
+   "datei": "sfx/auto_parkt.mp3",
+   "sh": "SH001",
+   "off": 0.0,
+   "db": -2
+  },
+  {
+   "datei": "sfx/auto_tuer.mp3",
+   "sh": "SH001",
+   "off": 3.6,
+   "db": -5
+  },
+  {
+   "datei": "sfx/kofferraum.mp3",
+   "sh": "SH003",
+   "off": 0.6,
+   "db": -4
+  },
+  {
+   "datei": "sfx/fenster.mp3",
+   "sh": "SH020",
+   "off": 0.0,
+   "db": -8
+  },
+  {
+   "datei": "sfx/koffer.mp3",
+   "sh": "SH030",
+   "off": 0.5,
+   "db": -6
+  },
+  {
+   "datei": "sfx/koffer.mp3",
+   "sh": "SH032",
+   "off": 0.1,
+   "db": -9
+  },
+  {
+   "datei": "sfx/tuer_zu.mp3",
+   "sh": "SH047",
+   "off": 0.6,
+   "db": -5
+  },
+  {
+   "datei": "sfx/schritte.mp3",
+   "sh": "SH048",
+   "off": 0.0,
+   "db": -4
+  },
+  {
+   "datei": "sfx/ball.mp3",
+   "sh": "SH065",
+   "off": 0.3,
+   "db": -4
+  },
+  {
+   "datei": "sfx/vogel_garten.mp3",
+   "sh": "SH065",
+   "off": 0.0,
+   "db": -16
+  },
+  {
+   "datei": "sfx/vogel_garten.mp3",
+   "sh": "SH072",
+   "off": 0.0,
+   "db": -16
+  },
+  {
+   "datei": "sfx/schrank_auf.mp3",
+   "sh": "SH081",
+   "off": 0.4,
+   "db": -5
+  },
+  {
+   "datei": "sfx/schrank_zu.mp3",
+   "sh": "SH081",
+   "off": 4.2,
+   "db": -5
+  },
+  {
+   "datei": "sfx/rennen.mp3",
+   "sh": "SH082",
+   "off": 0.0,
+   "db": -4
+  },
+  {
+   "datei": "sfx/bett.mp3",
+   "sh": "SH082",
+   "off": 1.6,
+   "db": -4
+  },
+  {
+   "datei": "sfx/tuer_schritte.mp3",
+   "sh": "SH089",
+   "off": 0.0,
+   "db": -6
+  },
+  {
+   "datei": "sfx/keuch.mp3",
+   "sh": "SH085",
+   "off": 0.3,
+   "db": -4
+  },
+  {
+   "datei": "sfx/schrank_auf.mp3",
+   "sh": "SH090",
+   "off": 0.0,
+   "db": -5
+  },
+  {
+   "datei": "sfx/tuer_zu.mp3",
+   "sh": "SH095",
+   "off": 6.6,
+   "db": -3
+  },
+  {
+   "datei": "sfx/kichern.mp3",
+   "sh": "SH145",
+   "off": 0.2,
+   "db": -6
+  },
+  {
+   "datei": "sfx/lachen.mp3",
+   "sh": "SH186",
+   "off": 0.0,
+   "db": -6
+  },
+  {
+   "datei": "sfx/klingel.mp3",
+   "sh": "SH109",
+   "off": 0.5,
+   "db": -3
+  },
+  {
+   "datei": "sfx/tuer_schritte.mp3",
+   "sh": "SH110",
+   "off": 0.0,
+   "db": -8
+  }
+ ],
+ "musik": [
+  {
+   "datei": "../../../00_Musik_Serie/Musik_04_Schock_The_Tiptoe_Retreat.mp3",
+   "von": "SH020",
+   "bis": "SH020",
+   "off": 0.2,
+   "ab": 0.5,
+   "dauer": 4.2,
+   "fade_in": 0.02,
+   "fade_out": 1.0,
+   "db": -3
+  },
+  {
+   "datei": "../../../00_Musik_Serie/Musik_03_Heimlich_Before_the_Floorboards_Creak.mp3",
+   "von": "SH080",
+   "bis": "SH087",
+   "ab": 0,
+   "db": -12
+  },
+  {
+   "datei": "../../../00_Musik_Serie/Musik_03_Heimlich_Before_the_Floorboards_Creak.mp3",
+   "von": "SH124",
+   "bis": "SH130",
+   "ab": 40,
+   "db": -11
+  },
+  {
+   "datei": "../../../00_Musik_Serie/Musik_02_Kueche_Abend_Shared_Plates_and_Smiles.mp3",
+   "von": "SH179",
+   "bis": "SH186",
+   "ab": 60,
+   "db": -14
+  }
+ ]
+}

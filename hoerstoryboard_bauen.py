@@ -63,33 +63,89 @@ def main():
     ap.add_argument("--titel", default=""); ap.add_argument("--untertitel", default="Hör-Storyboard (Stimmen: Gemini-TTS)")
     ap.add_argument("--intro", default=os.path.join(ROOT, "00_Intro_Maxi_Cartoons/Maxi_Cartoons_Intro.mp4"))
     ap.add_argument("--ton", default="", help="ton.json mit sfx[] und musik[] (Soundeffekte/Musik je SH)"); ap.add_argument("--bilder", default=""); ap.add_argument("--titel_sek", type=float, default=3.0)
+    ap.add_argument("--paare", action="store_true", help="je Szene Startbild <SH>A und Endbild <SH>B, jedes die halbe Szenenzeit")
+    ap.add_argument("--kuerzen", action="store_true", help="lange Pausen ohne Ton kürzen (Szenenlänge = Sprache/Effekt + kurzer Auslauf)")
+    ap.add_argument("--format", choices=["quer", "hochkant"], default="quer")
+    ap.add_argument("--fallback", default="", help="Ordner mit Ersatzbildern (z. B. Mockups), wenn ein Flow-Bild fehlt")
     a = ap.parse_args()
+    global W, H
+    if a.format == "hochkant":
+        W, H = 1080, 1920
+        if a.intro.endswith("Maxi_Cartoons_Intro.mp4"):
+            a.intro = a.intro.replace("Maxi_Cartoons_Intro.mp4", "Maxi_Cartoons_Intro_Hochkant.mp4")
     plan = json.load(open(a.plan))
+    ton = json.load(open(a.ton)) if a.ton else {"sfx": [], "musik": []}
+    ids = [p["id"] for p in plan]
+    musik_szenen = set()
+    for c in ton.get("musik", []):
+        musik_szenen.update(ids[ids.index(c["von"]): ids.index(c["bis"]) + 1])
+    tbase = os.path.dirname(os.path.abspath(a.ton)) if a.ton else ""
+    _dc = {}
+    def sfx_laenge(c):
+        p = c["datei"] if os.path.isabs(c["datei"]) else os.path.join(tbase, c["datei"])
+        if p not in _dc: _dc[p] = dauer(p)
+        return _dc[p]
     work = os.path.splitext(os.path.abspath(a.out))[0] + "_arbeit"
     os.makedirs(work + "/karten", exist_ok=True)
     scenes, voices, t = [], [], 0.0
     starts = {}
+
+    def bild(sid, suffix):
+        if not a.bilder: return None
+        d = os.path.abspath(a.bilder)
+        for pat in ([f"{sid}{suffix}.jpg", f"{sid}{suffix}.png", f"{sid}{suffix}_blender.jpg", f"{sid}{suffix}_blender.png"] if suffix
+                    else [f"{sid}_blender.jpg", f"{sid}_blender.png", f"{sid}.jpg", f"{sid}.png"]):
+            p = os.path.join(d, pat)
+            if os.path.exists(p): return p
+        return None
+
     for s in plan:
-        img = None
-        if a.bilder:
-            c = sorted(glob.glob(os.path.join(os.path.abspath(a.bilder), s["id"] + "*.jpg")) + glob.glob(os.path.join(os.path.abspath(a.bilder), s["id"] + "*.png")))
-            img = c[0] if c else None
-        if not img:
-            img = os.path.join(work, "karten", s["id"] + ".png"); karte(s, img)
-        starts[s["id"]] = (t, float(s["sek"]))
-        sek = float(s["sek"]); frames = []
-        wav = os.path.join(a.stimmen, f"{s['id']}_{s['sprecher']}.wav")
-        if s["sprecher"] not in ("–", "-", "") and os.path.exists(wav):
-            st = fenster_start(s["fenster"]); d = min(dauer(wav), sek - st)
-            if st > 0: frames.append({"image": img, "seconds": st})
-            frames.append({"image": img, "seconds": round(d + 0.3, 2) if st + d + 0.3 <= sek else round(sek - st, 2),
-                           "speaker": s["sprecher"].upper(), "text": s["zeile"]})
-            rest = sek - sum(f["seconds"] for f in frames)
-            if rest > 0.01: frames.append({"image": img, "seconds": round(rest, 2)})
+        sid = s["id"]; sek = float(s["sek"])
+        wav = os.path.join(a.stimmen, f"{sid}_{s['sprecher']}.wav")
+        sprache = s["sprecher"] not in ("–", "-", "") and os.path.exists(wav)
+        st = fenster_start(s["fenster"]) if sprache else 0.0
+        d = dauer(wav) if sprache else 0.0
+        cues = [c for c in ton.get("sfx", []) if c["sh"] == sid]
+        if a.kuerzen:
+            lead = min(st, 0.35) if sprache else 0.0
+            if sprache:
+                sek = lead + d + 0.55
+            else:
+                ende = max([float(c.get("off", 0)) + min(sfx_laenge(c), 1.8) + 0.3 for c in cues] + [0.0])
+                sek = max(2.5, min(ende if cues else (3.5 if sid in musik_szenen else 2.5), sek))
+            for c in cues:                                  # Effekte, die später einsetzen, müssen noch in die Szene passen
+                sek = max(sek, float(c.get("off", 0)) + min(sfx_laenge(c), 1.2))
+            st = lead
+        starts[sid] = (t, sek)
+        # Zeitleiste: (Dauer, Sprecher, Text)
+        if sprache:
+            seg = ([(st, "", "")] if st > 0.01 else []) + [(round(d + 0.3, 2), s["sprecher"].upper(), s["zeile"])]
+            rest = sek - sum(x[0] for x in seg)
+            if rest > 0.01: seg.append((round(rest, 2), "", ""))
             voices.append((t + st, wav))
         else:
-            frames.append({"image": img, "seconds": sek})
-        scenes.append({"id": s["id"], "frames": frames}); t += sek
+            seg = [(sek, "", "")]
+        total_s = sum(x[0] for x in seg)
+        imgA = bild(sid, "A" if a.paare else ""); imgB = bild(sid, "B") if a.paare else None
+        if a.fallback and not imgA:
+            fb = os.path.join(os.path.abspath(a.fallback), f"{sid}_blender.jpg")
+            fb = fb if os.path.exists(fb) else os.path.join(os.path.abspath(a.fallback), f"{sid}_blender.png")
+            imgA = fb if os.path.exists(fb) else None
+        if a.fallback and imgA and a.paare and not imgB and not imgA.endswith(("_blender.jpg", "_blender.png")):
+            imgB = None                                   # nur Startbild vorhanden: Szene bleibt mit einem Bild
+        if not imgA:
+            imgA = os.path.join(work, "karten", sid + ".png"); karte(s, imgA)
+        frames, cur = [], 0.0
+        half = total_s / 2
+        for dur, sp, tx in seg:
+            parts = [(dur, imgA)]
+            if imgB:
+                if cur >= half: parts = [(dur, imgB)]
+                elif cur + dur > half: parts = [(half - cur, imgA), (cur + dur - half, imgB)]
+            for dd, im in parts:
+                if dd > 0.01: frames.append({"image": im, "seconds": round(dd, 3), "speaker": sp, "text": tx})
+            cur += dur
+        scenes.append({"id": sid, "frames": frames}); t += total_s
     man = {"title": "Maxi Cartoons – " + a.titel, "subtitle": a.untertitel, "width": W, "height": H, "fps": 24,
            "title_card_seconds": a.titel_sek, "end_card_seconds": 2.0, "end_card_text": "ENDE",
            "intro": os.path.abspath(a.intro), "scenes": scenes}
@@ -106,7 +162,7 @@ def main():
         fl.append(f"[{i}:a]aresample=48000,aformat=channel_layouts=stereo,adelay={ms}|{ms}[v{i}]"); labels.append(f"[v{i}]")
     n = len(labels)
     if a.ton:  # Soundeffekte und Musik (Pfade relativ zur ton.json)
-        ton = json.load(open(a.ton)); base = os.path.dirname(os.path.abspath(a.ton))
+        base = os.path.dirname(os.path.abspath(a.ton))
         pf = lambda p: p if os.path.isabs(p) else os.path.join(base, p)
         for c in ton.get("sfx", []):
             n += 1; inputs += ["-i", pf(c["datei"])]

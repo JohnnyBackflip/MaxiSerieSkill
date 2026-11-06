@@ -74,9 +74,10 @@ Kein neuer Blender-Ort nötig.
 | (Serie) | Opas Mut-Dose (Blechdose) und Maxis Mut-Stein mit gemaltem Hasen | Diese Sheets fehlen laut Wiki noch und müssen ohnehin angelegt werden. |
 | (Serie) | Familienauto, Bilderbuch, Maxis Bettzeug | vorhanden bzw. einfach |
 
-## 6. Szenenplan (Storyboard) – Fassung r4 (2026-11-06)
+## 6. Szenenplan (Storyboard) – Fassung r5 (2026-11-06)
 
 Regeln: Jede Einstellung hat **einen Sprecher**; der Sprecher ist halbnah und frontal zu sehen, alle anderen haben den Mund zu. Die Zeilen haben höchstens 8 Wörter. „STUMM“ heißt: kein Dialog, nur Geräusch und Musik.
+
 
 
 
@@ -94,8 +95,8 @@ Regeln: Jede Einstellung hat **einen Sprecher**; der Sprecher ist halbnah und fr
 | SH032 | 6 s | Einfahrt, TF_CAM_032 (Papa frontal) | Papa Thomas hebt ächzend den riesigen Koffer an, Gesicht verzogen. | Papa | Uff! Was ist da bloß drin? Steine? | 1–3,5 s |
 | SH040 | 6 s | Flur, TF_CAM_040 (aus dem Flur, Frieda frontal) | Frieda hält den Käfig in der Hand; Frieda steht tiefer im Flur, blickt auf den Läufer und spricht; Mama steht hinter ihr. Aufbau bleibt für SH040/042/041 gleich, nur die Kamera wechselt. | Frieda | Oh, ihr habt einen neuen Teppich! | 1–3,5 s |
 | SH042 | 4 s | Flur, TF_CAM_042 (näher, Frieda frontal) | Frieda hält den Käfig in der Hand; Frieda rümpft die Nase und tippt mit der Schuhspitze auf den Teppich. | Frieda | So etwas ist doch viel zu teuer. | 0,5–3,5 s |
-| SH041 | 6 s | Flur, TF_CAM_041 (Mama hinter Frieda) | Frieda hält den Käfig in der Hand; Mama Katrin lächelt verlegen, schaut zur Seite und kratzt sich am Hals: Sie flunkert (der Teppich war teuer). | Mama | Ähm, nein. Der war im Angebot. Hehe. | 1–4,5 s |
-| SH047 | 4 s | Kinderzimmer, TF_CAM_047 (Closeup auf Frieda an der Tür) | Closeup auf Frieda: Sie schließt die Tür des Zimmers hinter sich, den Käfig in der Hand, und sieht sich um. | – | – | – |
+| SH041 | 6 s | Flur, TF_CAM_041 (Mama hinter Frieda) | Mama Katrin spricht verlegen: Die Kamera zoomt auf Mamas Gesicht (Frieda mit Käfig vorn, unscharf). | Mama | Ähm, nein. Der war im Angebot. Hehe. | 1–4,5 s |
+| SH047 | 4 s | Kinderzimmer, TF_CAM_047 (Tür und Rahmen im Bild) | Closeup auf Frieda im Türrahmen des Kinderzimmers: Sie schließt die Tür hinter sich, den Käfig in der Hand; Türrahmen und Tür deutlich sichtbar. | – | – | – |
 | SH048 | 4 s | Kinderzimmer, TF_CAM_048 (Hasi deutlich auf dem Bett) | Hasi liegt deutlich sichtbar auf dem Bett; man hört Schritte, die auf ihn zukommen. | – | – | – |
 | SH050 | 6 s | Kinderzimmer, TF_CAM_050 (vom Bett, tief) | Kamera tief vom Bett: Frieda hält Hasi auf Hüfthöhe und spricht; der Käfig steht neben ihr auf dem Boden. | Frieda | Und das Kuscheltier kommt raus. | 1–3,5 s |
 | SH051 | 4 s | Kinderzimmer, TF_CAM_051 (Closeup Maxi in der Tür) | Closeup auf Maxi in der Zimmertür: Er schaut böse und spricht dann. | Maxi | Das ist kein Kuscheltier. Das ist Hasi! | 1–3,5 s |
@@ -110,22 +111,24 @@ Regeln: Jede Einstellung hat **einen Sprecher**; der Sprecher ist halbnah und fr
 | SH065 | 4 s | Garten, neu TF_CAM_065 | Maxi spielt allein mit einem roten Ball im Garten und kickt ihn missmutig. | – | – | – |
 | SH070 | 6 s | Garten, Zauntor zu Anna, KOM_CAM_33 | Anna sitzt weit hinten rittlings auf dem Zauntor und ruft zu Maxi herüber; Maxi (Rücken) steht vorn mit dem Ball. | Anna | Wer ist die Meckertante mit dem Vogel? | 2–5 s |
 | SH075 | 6 s | Garten, TF_CAM_072 (Maxi frontal) | Maxi steht am Zaun, frontal zur Kamera, und erzählt enttäuscht, wer die Tante ist. | Maxi | Das ist meine Tante. Sie will in meinem Zimmer schlafen. | 1–4,5 s |
-| SH071 | 6 s | Garten, Anna halbnah | Anna sitzt auf dem Tor und schlägt vor, der Tante einen Streich zu spielen (kein Glitzerstein mehr). | Anna | Dann spielen wir ihr einen Streich! | 1–3,5 s |
+| SH071 | 6 s | Garten, Anna halbnah | Anna sitzt auf dem Tor und schlägt vor, der Tante einen Streich zu spielen (kein Glitzerstein mehr). | Anna | Dann spiel ihr doch einen Streich! | 1–3,5 s |
+| SH073 | 4 s | Garten, TF_CAM_072 (Maxi frontal) | Maxi überlegt, die Hand am Kinn. | Maxi | Hmm, was könnte ich denn machen? | 0,5–3 s |
+| SH074 | 4 s | Garten, TF_CAM_071 (Anna frontal) | Anna strahlt und hat die Idee. | Anna | Versteck doch ihren Vogel! | 0,5–2,5 s |
 | SH072 | 4 s | Garten, Maxi halbnah | Maxi schlägt ein (Handschlag mit Anna). | Maxi | Gute Idee! Achtung Crew, Mission! | 0,5–3 s |
 
 ### Block A – Ankunft – Samstag 14.11.2026, 13:00, grauer Novembertag, trocken, Tageslicht
 
 | ID | Dauer | Ort / Kamera | Bild | Sprecher | Zeile | Sprechfenster |
 |---|---|---|---|---|---|---|
-| SH080 | 6 s | Kinderzimmer, TF_CAM_080 | Maxi schleicht herein und nimmt den Käfig mit Lorchen vom Nachttisch (Schleichmusik). | – | – | – |
+| SH080 | 6 s | Kinderzimmer, TF_CAM_080 | Maxi schleicht herein und trägt den Käfig mit Lorchen vorsichtig an der Seite (hängt am Griff, überlappt Maxi nicht). | – | – | – |
 | SH081 | 6 s | Kinderzimmer, TF_CAM_081 (Schrank) | Maxi versteckt den Käfig im Kleiderschrank seines Zimmers und schließt die Türen. | – | – | – |
-| SH082 | 4 s | Kinderzimmer, TF_CAM_082 | Maxi rennt zum Bett und springt darauf. | – | – | – |
+| SH082 | 4 s | Kinderzimmer, TF_CAM_082 | Maxi rennt quer durchs Zimmer in Richtung Bett (Ende: Sprung aufs Bett). | – | – | – |
 
 ### Block C – Versuch 1: Die Dusche – 14:00, Kinderzimmer
 
 | ID | Dauer | Ort / Kamera | Bild | Sprecher | Zeile | Sprechfenster |
 |---|---|---|---|---|---|---|
-| SH089 | 4 s | Kinderzimmer, TF_CAM_089 (Closeup) | Die Tür geht auf: Closeup auf Friedas neugieriges Gesicht. | – | – | – |
+| SH089 | 4 s | Kinderzimmer, TF_CAM_089 (Tür mit Rahmen, Flur dahinter) | Die Tür geht auf: Closeup auf Friedas neugieriges Gesicht im Türrahmen; Tür, Rahmen und der Flur dahinter sichtbar, warmes Sonnenlicht. | – | – | – |
 
 ### Block A – Ankunft – Samstag 14.11.2026, 13:00, grauer Novembertag, trocken, Tageslicht
 
@@ -163,6 +166,7 @@ Regeln: Jede Einstellung hat **einen Sprecher**; der Sprecher ist halbnah und fr
 |---|---|---|---|---|---|---|
 | SH100 | 6 s | Küche, KOM_CAM_09 | Mama stellt den Apfelkuchen auf den Tisch, Lorchens Käfig steht jetzt auf der Anrichte neben der Spüle. Uhr über der Tür: 3. | Mama | Opa kommt gleich. Bitte sei nett, Frieda. | 1–4 s |
 | SH101 | 6 s | Küche, Frieda halbnah am Tisch | Frieda sitzt am Tisch, den Ellbogen aufgestützt, trinkt Kaffee und spricht. | Frieda | Ich bin nett. Ich sag nur die Wahrheit. | 1–4 s |
+| SH109 | 3 s | Außen vor der Haustür, TF_CAM_109 | Opa Heinrich steht draußen vor der Haustür und klingelt (Klingel am Türrahmen). | – | – | – |
 | SH110 | 6 s | Flur, FLUR_CAM_01 | Opa an der Haustür, nimmt die Schiebermütze ab – Glatze glänzt. | Opa | Frieda! Lange nicht gesehen! | 1–3 s |
 | SH111 | 6 s | Flur, Frieda halbnah | Frieda zeigt mit dem Finger auf Opas Kopf. | Frieda | Heinrich! Du hast ja gar keine Haare mehr! | 1–4 s |
 | SH112 | 4 s | Flur, Opa halbnah | Opa grinst, streicht über die Glatze. | Opa | Die sind beim Denken ausgefallen. | 1–3 s |
@@ -177,10 +181,10 @@ Regeln: Jede Einstellung hat **einen Sprecher**; der Sprecher ist halbnah und fr
 | ID | Dauer | Ort / Kamera | Bild | Sprecher | Zeile | Sprechfenster |
 |---|---|---|---|---|---|---|
 | SH140 | 6 s | Küche, Frieda halbnah | Frieda hält die Kaffeetasse hoch. | Frieda | Und der Kaffee? Viel zu teuer! | 1–3,5 s |
-| SH141 | 8 s | Küche, Lorchen nah | Lorchen plustert sich, plappert mit Friedas Stimme. | Lorchen | Viel zu teuer! Viel zu trocken! Viel zu laut! | 1–5 s |
+| SH141 | 8 s | Küche, TF_CAM_141 (Käfig mit Lorchen ganz im Bild) | Lorchen im Käfig auf der Arbeitsplatte, ganzer Käfig und Papagei gut sichtbar, plappert. | Lorchen | Viel zu teuer! Viel zu trocken! Viel zu laut! | 1–5 s |
 | SH143 | 6 s | Küche, Opa halbnah | Opa prustet los, haut auf den Tisch. | Opa | Frieda, der klingt genau wie du! | 1–3,5 s |
 | SH145 | 4 s | Küche, TF_CAM_145 (Closeup Maxi) | Closeup: Maxi verkneift sich das Lachen (Hand vor dem Mund, Schultern zucken). | – | – | – |
-| SH144 | 6 s | Küche, Lorchen nah | Lorchen legt den Kopf schief – jetzt mit Kinderstimme. | Lorchen | Tante Frieda, fahr heim! | 1–3 s |
+| SH144 | 6 s | Küche, Lorchen nah | Lorchen im Käfig, ganzer Käfig und Papagei gut im Bild, spricht frontal. | Lorchen | Tante Frieda, fahr heim! | 1–3 s |
 | SH150 | 6 s | Küche, Frieda halbnah | Friedas Nasenspitze wird weiß, sie reibt sie, steht auf. | Frieda | Wer hat ihm DAS beigebracht? | 1–3 s |
 
 ### Block F – Mutprobe Nr. 18: „Das war ich!“
@@ -188,16 +192,18 @@ Regeln: Jede Einstellung hat **einen Sprecher**; der Sprecher ist halbnah und fr
 | ID | Dauer | Ort / Kamera | Bild | Sprecher | Zeile | Sprechfenster |
 |---|---|---|---|---|---|---|
 | SH151 | 6 s | Küche, Maxi halbnah | Maxi hält Hasi vors Gesicht und spricht mit Hasi-Stimme (höher, langsamer). | Maxi | Hasi sagt: Das war Maxi. | 1–3,5 s |
-| SH152 | 6 s | Küche, Maxi halbnah | Maxi nimmt Hasi runter, steht auf, laut. | Maxi | Das war ich! Und ich hab auch den Vogel versteckt. | 0,8–5 s |
 | SH160 | 6 s | Küche, Frieda halbnah | Frieda nimmt den Käfig von der Anrichte. | Frieda | Ich fahre heute noch. Jawohl! | 1–3 s |
 
 ### Block G – Tiefpunkt – 16:30, Dämmerung (Fenster dunkelblau, Lampenlicht)
 
 | ID | Dauer | Ort / Kamera | Bild | Sprecher | Zeile | Sprechfenster |
 |---|---|---|---|---|---|---|
-| SH170 | 8 s | Flur, TF_CAM_170 (von der Haustür, Papa frontal) | Papa trägt den Koffer gut sichtbar Richtung Haustür, Frieda knöpft den Mantel zu, Maxi sitzt traurig auf der Treppe. | – | – | – |
+| SH165 | 6 s | Flur, TF_CAM_165 (Mama frontal, Frieda im Vordergrund) | Frieda steht im Mantel an der Haustür, Koffer neben ihr. Mama geht auf sie zu. | Mama | Schade, dass du schon fährst, Frieda. | 1–3,5 s |
+| SH166 | 6 s | Flur, TF_CAM_166 (Frieda frontal) | Frieda antwortet beleidigt. | Frieda | Hier will mich ja sowieso keiner. | 1–3,5 s |
+| SH167 | 6 s | Flur, TF_CAM_167 (Papa) | Papa nimmt den Koffer und bietet an, sie zu fahren. | Papa | Ich fahre dich zum Bahnhof, Tante Frieda. | 1–4 s |
+| SH170 | 8 s | Flur, TF_CAM_170 (von der Haustür, Papa frontal) | Papa trägt den Koffer gut sichtbar zur Haustür (Kamera von der Haustür, Papa frontal), Frieda knöpft den Mantel zu, Maxi sitzt traurig auf der Treppe. | – | – | – |
 | SH171 | 6 s | Flur, Maxi halbnah auf der Treppe | Maxi, leise. | Maxi | Ich wollte das doch. Warum ist es doof? | 1–4 s |
-| SH173 | 4 s | Flur, Frieda halbnah | Frieda im Mantel sieht Maxi auf der Treppe sitzen. | – | – | – |
+| SH173 | 6 s | Flur, Frieda halbnah | Frieda verabschiedet sich von Maxi auf der Treppe. | Frieda | Tschüss, Maxi. Sei schön brav. | 1–3,5 s |
 | SH174 | 6 s | Flur, TF_CAM_174 (Papa hockt vor Maxi) | Papa hockt sich zu Maxi und spricht ruhig. | Papa | Wenn du dich schlecht fühlst, entschuldige dich bei ihr. | 1–4,8 s |
 | SH175 | 4 s | Flur, TF_CAM_174 | Papa lächelt Maxi aufmunternd an. | Papa | Vielleicht bleibt sie dann doch. | 0,3–2,8 s |
 | SH177 | 6 s | Flur, TF_CAM_177 (Maxi frontal, Frieda im Vordergrund) | Maxi geht zu Frieda und entschuldigt sich. | Maxi | Entschuldigung, dass ich deinen Vogel versteckt habe. | 1–4,5 s |
@@ -216,9 +222,9 @@ Regeln: Jede Einstellung hat **einen Sprecher**; der Sprecher ist halbnah und fr
 |---|---|---|---|---|---|---|
 | SH186 | 8 s | Wohnzimmer, KOM_CAM_30 (Familiensofa) | Alle sitzen im Wohnzimmer und lachen: Frieda auf der Couch, Mama, Papa, Maxi, Opa, Bello. Ende. | – | – | – |
 
-**Summe: 65 Einstellungen, 366 s (6:06 min), davon 15 stumm.**
+**Summe: 70 Einstellungen, 391 s Plan-Länge (6:31 min; im Video mit gekürzten Pausen deutlich kürzer), davon 15 stumm.**
 
-**Änderungen r4 (Kritik am Video v003, neue Geschichte ab dem Streich und neues Ende):** Maxi nimmt Lorchen im Schlaf-Streich nicht mehr nass, sondern **versteckt den Käfig im Schrank** (SH080–SH082); Frieda findet nur das leere Nachtkästchen und ruft nach Lorchen, der Papagei verrät Maxi (SH089–SH095). Anna schlägt einen **Streich** vor statt eines Glitzersteins (SH071). Neues **Ende**: Papa rät Maxi, sich zu entschuldigen (SH174/175), Maxi entschuldigt sich (SH177/178), Frieda bleibt und schläft auf der Couch (SH179), alle lachen im Wohnzimmer (SH186). Gestrichen: Kuchendose/Abreise (SH180–SH190), Glitzerstein-Abschied (SH195) und die Mut-Dose-Schlussszenen (SH200–SH210).
+**Änderungen r5 (Kritik am Video v004):** Zoom auf Mama bei SH041; Tür mit Rahmen bei SH047/SH089; Anna: „Dann spiel ihr doch einen Streich!“, dann Maxi „Hmm, was könnte ich denn machen?“ (SH073) und Anna „Versteck doch ihren Vogel!“ (SH074); Käfig überlappt Maxi nicht (SH080); Maxi rennt zum Bett (SH082); Opa klingelt vor SH110 (SH109); Lorchen im Bild (SH141/SH144); SH152 gestrichen; Abschieddialog (SH165–SH167) und Friedas Abschied von Maxi (SH173).
 
 ## 7. Prüfliste zum Drehbuch (Bibel 2.3 und 8; Stand r1, Ende und Streich haben sich seitdem geändert)
 - Hook in den ersten 8 s: Das Auto rollt herein, Frieda reißt den Käfig hoch. ✔

@@ -13,7 +13,12 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 
 ROOT = os.environ.get("MAXI_ROOT", os.path.dirname(os.path.abspath(__file__)))
 LOGO = f"{ROOT}/00_Intro_Maxi_Cartoons/Maxi_Cartoons_Logo.png"
-FONT = "/usr/share/fonts/opentype/cantarell/Cantarell-ExtraBold.otf"
+FONT_KANDIDATEN = [
+    "/usr/share/fonts/opentype/cantarell/Cantarell-ExtraBold.otf",   # Wunschschrift
+    "/usr/share/fonts/truetype/open-sans/OpenSans-ExtraBold.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",           # fast überall vorhanden
+]
+FONT = next((f for f in FONT_KANDIDATEN if os.path.isfile(f)), FONT_KANDIDATEN[-1])
 NAVY = (13, 42, 92)          # Rand wie im Logo
 GELB = (255, 214, 64)
 WEISS = (255, 255, 255)

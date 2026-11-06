@@ -1,11 +1,50 @@
 {
- "auto_parkt":   {"prompt": "small family car slowly driving into a driveway, engine idling, then the engine switching off and a car door closing", "dauer": 5},
- "koffer":       {"prompt": "heavy suitcase dragged over pavement, wheels rattling, then set down with a thump", "dauer": 3},
- "tuer_schritte":{"prompt": "wooden interior door creaking open and footsteps on a wooden floor", "dauer": 3},
- "ball":         {"prompt": "a ball bouncing on grass and being kicked, dull thuds, outdoors", "dauer": 3},
- "sprueher":     {"prompt": "plant mister spray bottle, three quick pumps with a water spray hiss", "dauer": 3},
- "papagei":      {"prompt": "a happy parrot squawking and flapping wet wings with water droplets splashing", "dauer": 3},
- "auto_weg":     {"prompt": "car starting its engine and driving away down a quiet residential street, fading into the distance", "dauer": 6},
- "bett":         {"prompt": "a small child jumping onto a bed, mattress springs creaking, soft thump", "dauer": 2},
- "dose_klack":   {"prompt": "a small pebble dropping into a metal tin box, a clear clink", "dauer": 2}
+ "auto_parkt": {
+  "prompt": "small family car slowly driving into a driveway, engine idling, then the engine switching off and a car door closing",
+  "dauer": 5
+ },
+ "koffer": {
+  "prompt": "heavy suitcase dragged over pavement, wheels rattling, then set down with a thump",
+  "dauer": 3
+ },
+ "tuer_schritte": {
+  "prompt": "wooden interior door creaking open and footsteps on a wooden floor",
+  "dauer": 3
+ },
+ "ball": {
+  "prompt": "a ball bouncing on grass and being kicked, dull thuds, outdoors",
+  "dauer": 3
+ },
+ "sprueher": {
+  "prompt": "plant mister spray bottle, three quick pumps with a water spray hiss",
+  "dauer": 3
+ },
+ "papagei": {
+  "prompt": "a happy parrot squawking and flapping wet wings with water droplets splashing",
+  "dauer": 3
+ },
+ "auto_weg": {
+  "prompt": "car starting its engine and driving away down a quiet residential street, fading into the distance",
+  "dauer": 6
+ },
+ "bett": {
+  "prompt": "a small child jumping onto a bed, mattress springs creaking, soft thump",
+  "dauer": 2
+ },
+ "dose_klack": {
+  "prompt": "a small pebble dropping into a metal tin box, a clear clink",
+  "dauer": 2
+ },
+ "auto_tuer": {
+  "prompt": "a car door opening with a click and swinging wide, outdoors, quiet street",
+  "dauer": 2
+ },
+ "kofferraum": {
+  "prompt": "a car trunk lid popping open with a latch click and a gas strut hiss",
+  "dauer": 2.5
+ },
+ "fenster": {
+  "prompt": "an old wooden window being pushed open with a soft creak",
+  "dauer": 2
+ }
 }

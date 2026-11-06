@@ -53,6 +53,12 @@ Damit sich der User die Geschichte vor den Bildern vorstellen kann – und spät
 ### 2. Objekte zuerst
 Jeder Gegenstand, der gehalten wird oder eine Rolle spielt → `OBJ_xx`-Modelsheet in Flow (Stil `object`: zwei Ansichten, Studio-Hintergrund, Farben/Maße, Größenbezug zu Maxi). Zwei Zustände (Korb leer/voll) auf ein Blatt.
 
+### 3a. Haus texturieren (Flow-Texturen, UV-Maps, Details) – vor den Mockups
+- Texturkatalog `03_Blender_3D_Haus_Blockout/texturen_katalog.py` (id → Flow-Beschreibung, Meter je Bild, Modus kachel/fit). Jeder Raum bekommt einen **individuellen Boden**, dazu Wände, Dach, Türen, Fensterrahmen, Küchenschränke, Treppe, Möbelhölzer, Stoffe, Rasen, Pflaster, Asphalt, Hecken, Nachbarhäuser.
+- Ablauf: `python3 texturen_katalog.py` → `jobs_texturen.json` → `agy_generate_image.py batch … --parallel 3` (Rohbilder `Texturen/roh/`) → `python3 texturen_nachbearbeiten.py` (nahtlos per Versatz-Überblendung, quadratisch 1024 px) → `blender -b Maxis_Haus_Komplett_Blockout.blend --python texturiere_haus.py` → `Maxis_Haus_Komplett_Texturiert.blend`.
+- `texturiere_haus.py` ersetzt Materialien nach Namen, baut **UV-Maps im Weltmaß** (Box-Projektion, Meter je Textur; Türen: ein Bild je Fläche) und ergänzt Details: Fußleisten, Sockel außen, Treppenverkleidung (EG-Treppe, Dachbodentreppe), Küchenfronten mit Griffen, Fensterscheiben.
+- Texturregeln: mattes Albedo, keine Schatten/Glanzlichter/Perspektive, nahtlos, keine Schrift. Mockups ab jetzt mit der **texturierten** Blend rendern (`blender -b Maxis_Haus_Komplett_Texturiert.blend --python build_…`). Texturen, Blend und Mockup-PNGs dauerhaft ins Repo (nicht `.gitignore`n).
+
 ### 3. Neue Orte in Blender (wiederverwendbar)
 - Eigene `.blend` je Ort, Standardkameras definieren, Screenshots rendern → leere Flow-Raumszene (Referenzen: Screenshot als Layout + bestehende Flow-Szene für den Stil + Objekt-Sheets).
 - Jeder Story-Beat bekommt eigenen Ort/eigene Kamera.
@@ -60,6 +66,7 @@ Jeder Gegenstand, der gehalten wird oder eine Rolle spielt → `OBJ_xx`-Modelshe
 - Wiederkehrende Props (Auto, Fahrrad) in `maxi_blender_lib.py`.
 
 ### 4. Szenen-Mockups in Blender (PFLICHT vor jedem Flow-Szenenbild)
+- **DIALOGE (User 2026-11-06, Skill `dialog-szenen-inszenieren`):** Szene EINMAL aufbauen (feste Positionen/Blickrichtungen im Skript als gemeinsamer Block), dann je Sprecher nur die **Kamera** wechseln (frontal, Over-the-Shoulder, Übersicht). Nie die Figuren pro Einstellung an dieselbe Stelle setzen und austauschen. Mindestens 3 Einstellungen pro Aufstellung aus verschiedenen Perspektiven.
 - Farbpuppen: blau Maxi, gelb Mama, grün Papa, orange Karl, türkis Anna, braun Opa, violett Frieda (weitere Farben im Wiki `Figuren.md` festlegen); Props; Kamera; PNG + `.blend` je Szene (`02_Szenen_Blender_Mockups/`, Skript `build_folgeNN_szenen*.py`).
 - Prüfen: Figuren groß genug (Erwachsene ≈ halbe Bildhöhe – kleine Figuren → verzerrte Gesichter), Gesichter zur Kamera, kein Rücken, Gesten treffen ihr Ziel (`point_down`), Fahrzeuge exakt seitlich/frontal.
 - Für Dialog-Einstellungen eigene Sprecher-Startbilder (Sprecher halbnah frontal), z. B. `SH090S`.

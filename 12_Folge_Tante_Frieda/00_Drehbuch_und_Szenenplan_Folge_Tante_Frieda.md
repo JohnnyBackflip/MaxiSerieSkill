@@ -74,28 +74,32 @@ Kein neuer Blender-Ort nötig.
 | (Serie) | Opas Mut-Dose (Blechdose) und Maxis Mut-Stein mit gemaltem Hasen | Diese Sheets fehlen laut Wiki noch und müssen ohnehin angelegt werden. |
 | (Serie) | Familienauto, Bilderbuch, Maxis Bettzeug | vorhanden bzw. einfach |
 
-## 6. Szenenplan (Storyboard) – Fassung r2 (2026-11-06)
+## 6. Szenenplan (Storyboard) – Fassung r3 (2026-11-06)
 
 Regeln: Jede Einstellung hat **einen Sprecher**; der Sprecher ist halbnah und frontal zu sehen, alle anderen haben den Mund zu. Die Zeilen haben höchstens 8 Wörter. „STUMM“ heißt: kein Dialog, nur Geräusch und Musik.
+
 
 
 ### Block A – Ankunft – Samstag 14.11.2026, 13:00, grauer Novembertag, trocken, Tageslicht
 
 | ID | Dauer | Ort / Kamera | Bild | Sprecher | Zeile | Sprechfenster |
 |---|---|---|---|---|---|---|
-| SH001 | 6 s | Einfahrt, neu TF_CAM_001 (von der Straße) | Das Familienauto rollt in die Einfahrt und parkt. Papa sitzt am Steuer, Frieda winkt aus dem Beifahrerfenster; Mama, Maxi (mit Hasi) und Bello warten an der Hauswand. | – | – | – |
-| SH002 | 6 s | Einfahrt, neu TF_CAM_002 (Mama halbnah frontal) | Frieda ist ausgestiegen und steht mit dem Käfig am Auto. Mama Katrin geht strahlend auf sie zu und begrüßt sie mit offenen Armen. | Mama | Frieda! Wie schön, dass du da bist! | 1–3,5 s |
-| SH010 | 6 s | Einfahrt, CAM_030 (aus F02) | Familienauto hält, Papa kommt vom Bahnhof. Frieda steigt hinten aus, hebt den Käfig mit Lorchen hoch wie eine Trophäe. Maxi, Mama und Bello an der Veranda. | Frieda | Huhu! Ich nehm das Kinderzimmer! | 1–3,5 s |
-| SH020 | 6 s | Veranda, neu TF_CAM_020 (Maxi halbnah, frontal) | Maxi drückt Hasi an die Brust, Augen werden zu Schlitzen. | Maxi | Mein Zimmer? Bis heute Abend ist die weg. | 1–4,5 s |
+| SH001 | 6 s | Einfahrt, TF_CAM_001 (seitlich, Frieda an der offenen Tür) | Das Familienauto parkt in der Einfahrt. Frieda steht neben dem Auto an der geöffneten Beifahrertür und winkt; Mama und Bello warten an der Hauswand (Maxi ist oben im Haus, Papa nicht im Bild). | – | – | – |
+| SH002 | 6 s | Einfahrt, neu TF_CAM_002 (Mama halbnah frontal) | Mama Katrin geht strahlend auf Frieda zu und begrüßt sie mit offenen Armen (Frieda im Vordergrund, Rücken). | Mama | Frieda! Wie schön, dass du da bist! | 1–3,5 s |
+| SH003 | 6 s | Einfahrt, TF_CAM_003 (Heck, Kofferraum) | Frieda öffnet den Kofferraum und strahlt Mama an. | Frieda | Ich freue mich auch, hier zu sein! | 1–3,5 s |
+| SH010 | 6 s | Einfahrt, CAM_030 (aus F02) | Frieda hält den Käfig mit Lorchen im Arm (auf Brusthöhe) und spricht frontal in die Kamera. Mama links im Hintergrund. | Frieda | Und ich nehme das Kinderzimmer! | 1–3,5 s |
+| SH020 | 6 s | Haus außen, TF_CAM_020 (von der Einfahrt hoch zum Kinderzimmerfenster) | Maxi schaut oben aus dem Fenster seines Kinderzimmers, Hasi im Arm. Er hat alles heimlich gehört und flüstert empört. Frontal, groß im Fenster. | Maxi | Mein Zimmer?! Bis heute Abend ist die weg. | 1–4,5 s |
 | SH030 | 6 s | Einfahrt, neu TF_CAM_030 (Blick Richtung Straße, Papa im Vordergrund links) | Blick vom Haus zur Straße: Papa steht links im Vordergrund und zerrt am riesigen Koffer, Frieda steht dahinter frontal zur Kamera und zeigt mit der Handtasche auf den Koffer. Das Auto steht rechts, hinten die Straße. | Frieda | Thomas, trag mal. Du bist doch jung. | 1–4 s |
-| SH040 | 6 s | Flur, FLUR_CAM_01 | Frieda bleibt auf dem Flurläufer stehen und mustert ihn überrascht. Hinten an der Haustür Mama mit erzwungenem Lächeln. | Frieda | Oh, ihr habt einen neuen Teppich! | 1–3,5 s |
-| SH042 | 4 s | Flur, FLUR_CAM_01, Frieda halbnah | Frieda rümpft die Nase und tippt mit der Schuhspitze auf den Teppich. | Frieda | So etwas ist doch viel zu teuer. | 0,5–3,5 s |
-| SH041 | 6 s | Flur, Mama halbnah | Mama Katrin lächelt verlegen, schaut zur Seite und kratzt sich am Hals: Sie flunkert (der Teppich war teuer). | Mama | Ähm, nein. Der war im Angebot. Hehe. | 1–4,5 s |
+| SH032 | 6 s | Einfahrt, TF_CAM_032 (Papa frontal) | Papa Thomas hebt ächzend den riesigen Koffer an, Gesicht verzogen. | Papa | Uff! Was ist da bloß drin? Steine? | 1–3,5 s |
+| SH040 | 6 s | Flur, TF_CAM_040 (aus dem Flur, Frieda frontal) | Frieda steht tiefer im Flur, blickt auf den Läufer und spricht; Mama steht hinter ihr. Aufbau bleibt für SH040/042/041 gleich, nur die Kamera wechselt. | Frieda | Oh, ihr habt einen neuen Teppich! | 1–3,5 s |
+| SH042 | 4 s | Flur, TF_CAM_042 (näher, Frieda frontal) | Frieda rümpft die Nase und tippt mit der Schuhspitze auf den Teppich. | Frieda | So etwas ist doch viel zu teuer. | 0,5–3,5 s |
+| SH041 | 6 s | Flur, TF_CAM_041 (Mama hinter Frieda) | Mama Katrin lächelt verlegen, schaut zur Seite und kratzt sich am Hals: Sie flunkert (der Teppich war teuer). | Mama | Ähm, nein. Der war im Angebot. Hehe. | 1–4,5 s |
 | SH047 | 4 s | Kinderzimmer, neu TF_CAM_047 (vom Bett zur Tür) | Frieda tritt mit dem Käfig in der Hand ins Kinderzimmer und sieht sich kritisch um. | – | – | – |
 | SH048 | 4 s | Kinderzimmer, neu TF_CAM_048 (nah aufs Bett) | Hasi liegt auf dem Kissen im Kinderbett. | – | – | – |
-| SH050 | 6 s | Kinderzimmer, neu TF_CAM_050 (vom Bett aus) | Blick vom Bett: Frieda hält Hasi mit zwei Fingern hoch, den Käfig neben sich auf dem Teppich, und spricht. | Frieda | Und das Kuscheltier kommt raus. | 1–3,5 s |
+| SH050 | 6 s | Kinderzimmer, TF_CAM_050 (vom Bett, tief) | Kamera tief vom Bett: Frieda hält Hasi auf Hüfthöhe und spricht; der Käfig steht neben ihr auf dem Boden. | Frieda | Und das Kuscheltier kommt raus. | 1–3,5 s |
 | SH051 | 4 s | Kinderzimmer, neu TF_CAM_051 (über Friedas Rücken zur Tür) | Friedas Rücken im Vordergrund; hinter ihr in der Tür steht Maxi frontal, empört, und spricht. | Maxi | Das ist kein Kuscheltier. Das ist Hasi! | 1–3,5 s |
-| SH058 | 6 s | Kinderzimmer, neu TF_CAM_058 (Frieda frontal am Nachttisch) | Frieda stellt den Käfig auf den Nachttisch und spricht zum Papagei. | Frieda | Du kommst hier hin, Lorchen. | 1–3,5 s |
+| SH052 | 4 s | Kinderzimmer, TF_CAM_052 | Maxi nimmt Frieda eingeschnappt den Hasi aus der Hand und drückt ihn an sich. | – | – | – |
+| SH058 | 6 s | Kinderzimmer, TF_CAM_058 (Nachttisch im Vordergrund) | Nachttisch im Vordergrund; dahinter stellt Frieda den (größeren) Käfig auf den Nachttisch. | Frieda | Und Lorchen kommt hier hin. | 1–3,5 s |
 | SH060 | 6 s | Kinderzimmer, Käfig nah | Frieda spitzt den Mund ans Gitter, Lorchen gibt ihr ein Schnabel-Küsschen. Hinten Maxi: angeekelt (stumm). | Frieda | Lorchen, mein Schatz. Küsschen! | 1–3 s |
 
 ### Block B – Der Auftrag – 13:30, Garten
@@ -114,9 +118,9 @@ Regeln: Jede Einstellung hat **einen Sprecher**; der Sprecher ist halbnah und fr
 |---|---|---|---|---|---|---|
 | SH080 | 6 s | Kinderzimmer, KOM_CAM_32 (Kinderaugenhöhe) | Maxi schleicht mit Mamas grünem Blumensprüher herein. Lorchen klettert misstrauisch in die Käfigecke, hebt einen Fuß. STUMM. | – | – | – |
 | SH081 | 6 s | Kinderzimmer, Käfig nah | Maxi sprüht – Lorchen plustert sich auf, breitet die Flügel aus und dreht sich glücklich im Sprühnebel. Maxi verdutzt. | Lorchen | Duschen! Lorchen duscht! Duschen! | 2–5 s |
-| SH089 | 4 s | Kinderzimmer, neu TF_CAM_047 (vom Bett zur Tür) | Die Tür geht auf: Tante Frieda tritt ins Kinderzimmer. | – | – | – |
-| SH090 | 6 s | Kinderzimmer, Tür, Frieda halbnah | Frieda reißt die Tür auf, sieht das tropfnasse Lorchen. Maxi sitzt plötzlich auf dem Bett mit einem Bilderbuch – verkehrt herum. | Frieda | Das arme Tier! Klatschnass! | 1–3 s |
-| SH091 | 6 s | Kinderzimmer, Maxi halbnah auf dem Bett | Maxi schaut unschuldig über das verkehrte Buch. | Maxi | Das war bestimmt Bello. Der sabbert so. | 1–4 s |
+| SH089 | 4 s | Kinderzimmer, TF_CAM_089 (groß auf die Tür) | Kamera groß auf die Tür: Frieda tritt aus dem Flur ins Kinderzimmer. | – | – | – |
+| SH090 | 6 s | Kinderzimmer, TF_CAM_090 (Käfig im Vordergrund) | Käfig mit dem tropfnassen Lorchen im Vordergrund; Frieda beugt sich dahinter herunter, Gesicht gut sichtbar, und spricht zum Vogel. Aufbau gleich für SH090/091/093/094. | Frieda | Oh nein, was ist denn mit dir passiert? | 1–3 s |
+| SH091 | 6 s | Kinderzimmer, TF_CAM_091 (Übersicht mit Frieda) | Übersicht: Maxi sitzt auf dem Bett (spricht), Frieda beugt sich am Nachttisch über den Käfig. Alle im Bild. | Maxi | Das war bestimmt Bello. Der sabbert so. | 1–4 s |
 | SH093 | 6 s | Kinderzimmer, Lorchen nah | Lorchen schüttelt sich, starrt Maxi an. | Lorchen | Maxi! Spritz, spritz! | 1–3 s |
 | SH094 | 6 s | Kinderzimmer, Frieda halbnah | Frieda drückt den Käfig an sich und nimmt ihn mit. | Frieda | Mein Lorchen ist so klug. Der bleibt bei mir. | 1–4 s |
 
@@ -181,9 +185,9 @@ Regeln: Jede Einstellung hat **einen Sprecher**; der Sprecher ist halbnah und fr
 | SH201 | 8 s | Kinderzimmer, Opa halbnah mit Blechdose | Opa hält die Mut-Dose hin; Maxi lässt seinen Hasen-Stein hineinfallen (klack). | Opa | „Das war ich“ sagen. Das ist echter Mut. | 1–4 s |
 | SH210 | 8 s | Kinderzimmer, Totale | Maxi, Mama, Papa, Opa, Bello: alle Arme hoch, dann Licht aus, nur das Nachtlicht. | Maxi | Hasi hoch! | 1–2 s |
 
-**Summe: 57 Einstellungen, 332 s (5:32 min), davon 10 stumm.** Davor das Intro, im Storyboard-Video die Titelkarte.
+**Summe: 60 Einstellungen, 348 s (5:48 min), davon 11 stumm.**
 
-**Änderungen r2 (User-Kritik zum Mockup-Video v001):** neuer Anfang SH001/SH002 (Auto parkt, Mama begrüßt); SH030 Papa links im Vordergrund, Kamera Richtung Straße; Teppich-Dialog SH040/SH042/SH041 (Mama flunkert verlegen); Hasi-Szene SH047/SH048/SH050/SH051 neu geschnitten, dazu SH058 „Du kommst hier hin“; Ball-Vorlauf SH065/SH075 und Anna ruft von weitem (SH070); SH089 Frieda betritt das Zimmer; SH172 („Keiner ruft an“) gestrichen. Ton: ElevenLabs-Effekte, Gemini-Lyria-Schleichmusik in SH080–SH081 und SH124–SH130.
+**Änderungen r3 (Kritik am Video v002):** Maxi lauscht am Fenster (SH020) und ist im Auto-Block nicht mehr dabei; Frieda steht an der offenen Autotür (SH001), öffnet den Kofferraum und freut sich (SH003), hält den Käfig im Arm (SH010); Papa im Vordergrund links, Kamera Richtung Straße (SH030) und er stöhnt (SH032); Flur-Dialog mit fester Aufstellung (Frieda vorn, Mama dahinter), nur die Kamera wechselt (SH040/042/041); Hasi auf Hüfthöhe, Kamera vom Bett (SH050/051), Maxi nimmt Hasi eingeschnappt (SH052), „Und Lorchen kommt hier hin.“ mit Nachttisch im Vordergrund (SH058); SH089 groß auf die Tür, SH090 Käfig im Vordergrund und Frieda gebeugt („Oh nein, was ist denn mit dir passiert?“), SH091 Übersicht mit Frieda; neuer, größerer Käfig mit sichtbarem Papagei; Opa/Frieda- und Abschieds-Flurdialog mit fester Aufstellung. Haus texturiert (siehe `03_Blender_3D_Haus_Blockout/00_VERMERK_Texturierung.md`).
 
 ## 7. Prüfliste zum Drehbuch (Bibel 2.3 und 8)
 - Hook in den ersten 8 s: Das Auto rollt herein, Frieda reißt den Käfig hoch. ✔

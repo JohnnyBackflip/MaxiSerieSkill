@@ -59,7 +59,7 @@ Wiederkehrende Objekte wie Hasi, Zollstock, Bollerwagen, Kaffeetasse, Auto oder 
 ## FTF – Tante Frieda und Lorchen (`../12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/`, Sheets gemalt, nicht freigegeben)
 | OBJ | Gegenstand | Zustände |
 |---|---|---|
-| OBJ_TF01 | Lorchens Messing-Käfig mit Kuppeldach | trocken / Lorchen nass und gesträubt |
+| OBJ_TF01 | Lorchens Messing-Käfig mit Kuppeldach (Blender-Modell seit r3 größer: 0,95 m hoch, Papagei gut sichtbar) | trocken / Lorchen nass und gesträubt |
 | OBJ_TF02 | Friedas riesiger pflaumenfarbener Rollkoffer | – |
 | OBJ_TF03 | Mamas grüner Blumensprüher | – |
 | OBJ_TF04 | Apfelkuchen auf Tortenplatte / Kuchendose | ganz / angeschnitten / in der Dose |

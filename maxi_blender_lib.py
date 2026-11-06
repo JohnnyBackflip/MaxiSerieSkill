@@ -570,43 +570,60 @@ def prop_dog(name, loc, facing_deg, col):
     return e
 
 
-def prop_parrot(name, loc, col, facing_deg=0.0, wet=False, wings_open=False):
-    """Papagei Lorchen (Amazone: grün, gelbe Stirn, roter Flügelfleck, ca. 35 cm). loc = Fußpunkt."""
-    m_g = mat("MAT_Lorchen_Gruen", (0.20, 0.62, 0.15, 1)); m_y = mat("MAT_Lorchen_Gelb", (0.98, 0.85, 0.10, 1))
-    m_r = mat("MAT_Lorchen_Rot", (0.85, 0.12, 0.10, 1)); m_s = mat("MAT_Lorchen_Schnabel", (0.85, 0.80, 0.70, 1))
-    e = empty(name, loc, facing_deg, col)
-    sx = 1.25 if wet else 1.0
-    sphere(f"{name}_Rumpf", (0, 0, 0.11), 0.065, m_g, col, scale=(0.9 * sx, 0.85 * sx, 1.35), parent=e)
-    sphere(f"{name}_Kopf", (0.01, 0, 0.22), 0.05, m_g, col, parent=e)
-    sphere(f"{name}_Stirn", (0.03, 0, 0.25), 0.035, m_y, col, scale=(1, 1, 0.6), parent=e)
-    cone(f"{name}_Schnabel", (0.06, 0, 0.21), 0.02, 0.0, 0.04, m_s, col, parent=e)
-    for y in (0.06, -0.06):
+def prop_parrot(name, loc, col, facing_deg=0.0, wet=False, wings_open=False, scale=1.0):
+    """Papagei Lorchen, Amazone (grün, gelbe Stirn, rote Flügelflecken, große Augen, Hakenschnabel), ca. 42 cm. loc = Fußpunkt."""
+    g = (0.10, 0.42, 0.10, 1) if wet else (0.18, 0.62, 0.14, 1)
+    m_g = mat("MAT_Lorchen_Gruen" + ("_nass" if wet else ""), g); m_y = mat("MAT_Lorchen_Gelb", (0.98, 0.85, 0.10, 1))
+    m_r = mat("MAT_Lorchen_Rot", (0.85, 0.12, 0.10, 1)); m_s = mat("MAT_Lorchen_Schnabel", (0.88, 0.82, 0.68, 1))
+    m_w = mat("MAT_Lorchen_AugeWeiss", (0.98, 0.98, 0.96, 1)); m_k = mat("MAT_Lorchen_Pupille", (0.03, 0.02, 0.02, 1))
+    m_f = mat("MAT_Lorchen_Fuss", (0.45, 0.45, 0.47, 1))
+    e = empty(name, loc, facing_deg, col); e.scale = (scale, scale, scale)
+    k = 1.18 if wet else 1.0                      # nass = plustrig
+    sphere(f"{name}_Rumpf", (0, 0, 0.19), 0.10, m_g, col, scale=(0.9 * k, 0.8 * k, 1.5 * k), parent=e)
+    sphere(f"{name}_Brust", (0.05, 0, 0.17), 0.07, mat("MAT_Lorchen_Brust", (0.40, 0.75, 0.25, 1)), col, scale=(0.8, 0.9, 1.4), parent=e)
+    sphere(f"{name}_Kopf", (0.025, 0, 0.385), 0.078, m_g, col, scale=(1.0 * k, 1.0 * k, 1.0 * k), parent=e)
+    sphere(f"{name}_Stirn", (0.06, 0, 0.44), 0.05, m_y, col, scale=(1.0, 1.1, 0.6), parent=e)
+    for sg in (1, -1):
+        sphere(f"{name}_Wange_{sg}", (0.07, sg * 0.05, 0.37), 0.03, m_y, col, scale=(1, 0.5, 1), parent=e)
+        sphere(f"{name}_AugeW_{sg}", (0.085, sg * 0.05, 0.40), 0.024, m_w, col, parent=e)
+        sphere(f"{name}_AugeP_{sg}", (0.103, sg * 0.052, 0.40), 0.013, m_k, col, parent=e)
+    sphere(f"{name}_SchnabelO", (0.125, 0, 0.365), 0.04, m_s, col, scale=(1.35, 0.9, 1.15), parent=e)
+    sphere(f"{name}_SchnabelU", (0.115, 0, 0.335), 0.025, m_s, col, scale=(1.2, 0.9, 0.8), parent=e)
+    for sg in (1, -1):
         if wings_open:
-            sphere(f"{name}_Fluegel_{y}", (0, y * 2.2, 0.15), 0.05, m_g, col, scale=(0.8, 1.9, 0.4), parent=e)
-            sphere(f"{name}_Spiegel_{y}", (0, y * 2.6, 0.16), 0.02, m_r, col, parent=e)
+            sphere(f"{name}_Fluegel_{sg}", (0, sg * 0.24, 0.24), 0.07, m_g, col, scale=(1.1, 3.4, 0.35), parent=e)
+            sphere(f"{name}_Spiegel_{sg}", (0.01, sg * 0.20, 0.26), 0.03, m_r, col, scale=(1, 1.6, 0.5), parent=e)
         else:
-            sphere(f"{name}_Spiegel_{y}", (0, y, 0.13), 0.022, m_r, col, parent=e)
-    cyl(f"{name}_Schwanz", (-0.05, 0, 0.0), 0.02, 0.12, m_g, col, rot=(0, math.radians(20), 0), parent=e)
+            sphere(f"{name}_Fluegel_{sg}", (-0.015, sg * 0.092, 0.20), 0.075, m_g, col, scale=(0.75, 0.28, 1.7), parent=e)
+            sphere(f"{name}_Spiegel_{sg}", (0.01, sg * 0.105, 0.27), 0.03, m_r, col, scale=(0.8, 0.4, 1.0), parent=e)
+        cyl(f"{name}_Fuss_{sg}", (0.02, sg * 0.035, 0.012), 0.012, 0.05, m_f, col, parent=e)
+    cyl(f"{name}_Schwanz", (-0.13, 0, 0.035), 0.035, 0.32, m_g, col, rot=(0, math.radians(18), 0), parent=e)
+    cyl(f"{name}_SchwanzSpitze", (-0.185, 0, -0.095), 0.03, 0.1, m_y, col, rot=(0, math.radians(18), 0), parent=e)
     return e
 
 
 def prop_cage(name, loc, col, facing_deg=0.0, bird=True, wet=False, wings_open=False):
-    """Lorchens Messingkäfig (rund, Kuppeldach, ca. 55 cm hoch, Ø 35 cm). loc = Bodenmitte. Rückgabe: Empty."""
-    m = mat("MAT_Kaefig_Messing", (0.85, 0.66, 0.22, 1), rough=0.35); m_w = mat("MAT_Kaefig_Stange", (0.55, 0.38, 0.22, 1))
+    """Lorchens Messingkäfig, groß und rund mit Kuppeldach: 0,95 m hoch, Ø 0,56 m. loc = Bodenmitte. Rückgabe: Empty."""
+    m = mat("MAT_Kaefig_Messing", (0.90, 0.68, 0.20, 1), rough=0.30); m_w = mat("MAT_Kaefig_Stange", (0.55, 0.38, 0.22, 1))
+    m_cup = mat("MAT_Kaefig_Napf", (0.95, 0.95, 0.95, 1)); m_f = mat("MAT_Kaefig_Futter", (0.85, 0.65, 0.25, 1))
     e = empty(name, loc, facing_deg, col)
-    cyl(f"{name}_Sockel", (0, 0, 0.04), 0.18, 0.08, m, col, parent=e)
-    for i in range(16):
-        a = 2 * math.pi * i / 16
-        cyl(f"{name}_Stab_{i}", (0.17 * math.cos(a), 0.17 * math.sin(a), 0.25), 0.004, 0.34, m, col, verts=6, parent=e)
-    torus(f"{name}_Ring", (0, 0, 0.42), 0.17, 0.006, m, col, parent=e)
-    sphere(f"{name}_Kuppel", (0, 0, 0.42), 0.17, m, col, scale=(1, 1, 0.55), parent=e)
-    torus(f"{name}_Griff", (0, 0, 0.55), 0.04, 0.008, m, col, rot=(math.radians(90), 0, 0), parent=e)
-    cyl(f"{name}_Sitzstange", (0, 0, 0.20), 0.008, 0.30, m_w, col, rot=(math.radians(90), 0, 0), parent=e)
+    cyl(f"{name}_Sockel", (0, 0, 0.05), 0.29, 0.10, m, col, parent=e)
+    cyl(f"{name}_Boden", (0, 0, 0.11), 0.27, 0.02, mat("MAT_Kaefig_Einstreu", (0.80, 0.70, 0.50, 1)), col, parent=e)
+    for i in range(24):
+        a = 2 * math.pi * i / 24
+        cyl(f"{name}_Stab_{i}", (0.27 * math.cos(a), 0.27 * math.sin(a), 0.43), 0.007, 0.64, m, col, verts=6, parent=e)
+    torus(f"{name}_RingUnten", (0, 0, 0.12), 0.27, 0.010, m, col, parent=e)
+    torus(f"{name}_RingMitte", (0, 0, 0.43), 0.27, 0.008, m, col, parent=e)
+    torus(f"{name}_RingOben", (0, 0, 0.75), 0.27, 0.012, m, col, parent=e)
+    sphere(f"{name}_Kuppel", (0, 0, 0.75), 0.27, m, col, scale=(1, 1, 0.55), parent=e)
+    cyl(f"{name}_Knauf", (0, 0, 0.92), 0.022, 0.06, m, col, parent=e)
+    torus(f"{name}_Griff", (0, 0, 0.97), 0.07, 0.012, m, col, rot=(math.radians(90), 0, 0), parent=e)
+    cyl(f"{name}_Sitzstange", (0, 0, 0.30), 0.014, 0.50, m_w, col, rot=(math.radians(90), 0, 0), parent=e)
+    cyl(f"{name}_Napf", (0.0, 0.20, 0.38), 0.05, 0.05, m_cup, col, parent=e)
+    sphere(f"{name}_Futter", (0.0, 0.20, 0.41), 0.04, m_f, col, scale=(1, 1, 0.5), parent=e)
     if bird:
-        p = prop_parrot(f"{name}_Lorchen", (0, 0, 0.20), col, wet=wet, wings_open=wings_open)
+        p = prop_parrot(f"{name}_Lorchen", (0, 0, 0.31), col, wet=wet, wings_open=wings_open, scale=0.85)
         p.parent = e
-    for ob in [o for o in col.objects if o.name.startswith(name + "_") and o.type == 'MESH' and "Stab" in o.name]:
-        ob.display_type = 'WIRE' if False else ob.display_type
     return e
 
 

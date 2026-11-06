@@ -80,38 +80,45 @@ def tafel(col, frieda=True, opa=True, maxi=True, mama=True, papa=True, cake=True
 
 
 # ================================================================== BLOCK A  Ankunft (Einfahrt, Veranda, Flur, Kinderzimmer)
-@scene("SH001", ((13.0, -17.8, 1.40), (14.3, -11.4, 1.05), 26.0))
+@scene("SH001", ((10.0, -9.2, 1.45), (13.6, -10.9, 1.20), 24.0))
 def _(col):
-    e, seats = L.prop_car("Auto", *CAR, col)
-    L.build_figure("Papa_Thomas", (seats["VL"].x, seats["VL"].y), -90, "sit", col, seat_z=seats["VL"].z, floor_z=0.62, arms="bike")
-    L.build_figure("Tante_Frieda", (seats["VR"].x, seats["VR"].y), -90, "sit", col, seat_z=seats["VR"].z, floor_z=0.62, arms="wave")
-    L.build_figure("Mama_Katrin", (11.6, -9.6), 270, "wave", col)
-    r = L.build_figure("Maxi", (12.3, -9.5), 270, "hold_front", col)
-    hasi(r, col, facing=270, dz=-0.12)
-    L.prop_dog("Bello", (11.0, -9.4, 0), 250, col)
+    L.prop_car("Auto", *CAR, col, door_open="FR")                                       # Beifahrertür offen
+    L.build_figure("Tante_Frieda", (12.4, -11.3), 300, "wave", col)                      # steht neben der offenen Tür
+    L.build_figure("Mama_Katrin", (10.6, -8.0), 300, "wave", col)
+    L.prop_dog("Bello", (9.9, -8.3, 0), 300, col)
 
 
-@scene("SH002", ((14.0, -16.6, 1.45), (12.4, -12.0, 1.35), 34.0))
+@scene("SH002", ((12.0, -13.9, 1.55), (12.3, -9.0, 1.30), 30.0))
 def _(col):
-    L.prop_car("Auto", *CAR, col)
-    r = L.build_figure("Tante_Frieda", (13.2, -13.4), 100, "hold_front", col)       # Rücken zur Kamera, hält den Käfig
-    L.prop_cage("Kaefig", (r["hand_L"] + r["hand_R"]).__mul__(0.5) - V(0, 0, 0.28), col, facing_deg=-90)
-    L.build_figure("Mama_Katrin", (12.3, -12.2), 280, "wave", col)                    # kommt strahlend auf sie zu, frontal
+    L.prop_car("Auto", *CAR, col, door_open="FR")
+    L.build_figure("Tante_Frieda", (13.0, -11.6), 100, "hold_front", col)                # Rücken zur Kamera
+    L.build_figure("Mama_Katrin", (12.3, -9.0), 285, "wave", col)                        # frontal, begrüßt
+
+
+@scene("SH003", ((11.6, -9.0, 1.55), (13.8, -8.0, 1.30), 26.0))
+def _(col):
+    L.prop_car("Auto", *CAR, col, door_open="FR")
+    lid = L.box("Kofferraumklappe", (14.3, -8.3, 1.35), (1.5, 0.05, 0.9), L.mat("MAT_Auto_Blau", (0.16, 0.40, 0.72, 1)), col)
+    lid.rotation_euler = (math.radians(-72), 0, 0)
+    L.build_figure("Tante_Frieda", (13.3, -7.7), 235, "wave", col, head_turn_deg=-20)   # öffnet den Kofferraum, lacht zur Kamera
+    L.build_figure("Mama_Katrin", (11.4, -9.8), 20, "stand", col)
 
 
 @scene("SH010", ((14.2, -17.4, 1.50), (12.6, -11.6, 1.40), 28.0))
 def _(col):
     L.prop_car("Auto", *CAR, col)
-    r = L.build_figure("Tante_Frieda", (13.0, -13.9), 275, "lift", col)              # reckt den Käfig hoch
-    L.prop_cage("Kaefig", (r["hand_L"].x, r["hand_L"].y, r["hand_L"].z - 0.05), col, facing_deg=275)
+    r = L.build_figure("Tante_Frieda", (13.0, -13.9), 275, "hold_front", col)           # hält den Käfig im Arm
+    L.prop_cage("Kaefig", ((r["hand_L"] + r["hand_R"]).x / 2, (r["hand_L"] + r["hand_R"]).y / 2, r["hand_L"].z - 0.62), col, facing_deg=90)
     L.build_figure("Mama_Katrin", (11.4, -11.6), 280, "stand", col)
-    r2 = L.build_figure("Maxi", (12.1, -11.5), 285, "hold_front", col)
-    hasi(r2, col, facing=285, dz=-0.12)
 
 
-@scene("SH020", ((2.5, -18.2, 1.0), (2.5, -15.5, 0.80), 34.0))
+@scene("SH020", ((-4.7, -8.8, 3.45), (-4.7, -6.3, 3.95), 48.0))
 def _(col):
-    r = L.build_figure("Maxi", (2.5, -15.5), 270, "hold_front", col)
+    hide_blockout_hasi()
+    for o in bpy.data.objects:
+        if o.name == "DET_Glas_OG_Aussenwand_Sued_window_1":
+            o.hide_render = True                                                        # Fenster offen
+    r = L.build_figure("Maxi", (-4.7, -5.8), 270, "hold_front", col, floor_z=Z_OG)       # lauscht am Fenster, frontal von der Straße
     hasi(r, col, "hand_R", 270, dz=0.0)
 
 
@@ -123,26 +130,36 @@ def _(col):
     L.build_figure("Tante_Frieda", (12.0, -13.5), 90, "point", col)                   # frontal zur Kamera, zeigt auf den Koffer
 
 
-@scene("SH040", ((0.3, -0.8, 1.35), (0.3, -4.0, 1.20), 28.0))
+@scene("SH032", ((12.7, -14.6, 1.35), (12.9, -11.4, 1.25), 38.0))
 def _(col):
-    L.build_figure("Tante_Frieda", (0.3, -3.7), 90, "stand", col, head_turn_deg=-15)
-    L.build_figure("Mama_Katrin", (-0.1, -5.5), 80, "stand", col)
+    L.prop_car("Auto", *CAR, col)
+    r = L.build_figure("Papa_Thomas", (12.9, -11.4), 268, "hold_front", col)          # hebt ächzend den Koffer, frontal
+    L.prop_suitcase("Koffer", (r["hand_L"].x, r["hand_L"].y - 0.1, 0), 268, col)
+    L.build_figure("Tante_Frieda", (11.7, -13.3), 60, "point", col)
 
 
-@scene("SH042", ((0.3, -1.6, 1.25), (0.3, -4.0, 0.95), 36.0))
+@scene("SH040", ((0.3, -0.2, 1.35), (0.3, -3.0, 1.20), 30.0))
 def _(col):
-    L.build_figure("Tante_Frieda", (0.3, -3.7), 90, "hold_front", col)
+    L.build_figure("Tante_Frieda", (0.3, -3.0), 90, "hold_front", col)
+    L.build_figure("Mama_Katrin", (0.55, -4.6), 90, "stand", col)
 
 
-@scene("SH041", ((0.3, -1.4, 1.30), (0.3, -4.0, 1.20), 30.0))
+@scene("SH042", ((0.8, -0.9, 1.30), (0.3, -3.0, 1.25), 40.0))
 def _(col):
-    L.build_figure("Mama_Katrin", (0.3, -3.8), 90, "hold_front", col)
+    L.build_figure("Tante_Frieda", (0.3, -3.0), 90, "hold_front", col)
+    L.build_figure("Mama_Katrin", (0.55, -4.6), 90, "stand", col)
+
+
+@scene("SH041", ((-0.5, -1.6, 1.30), (0.55, -4.6, 1.25), 36.0))
+def _(col):
+    L.build_figure("Tante_Frieda", (0.3, -3.0), 90, "hold_front", col)
+    L.build_figure("Mama_Katrin", (0.55, -4.6), 90, "hold_front", col)
 
 
 @scene("SH047", ((-6.4, -1.6, 3.95), (-2.4, -1.4, 3.80), 24.0))
 def _(col):
     r = L.build_figure("Tante_Frieda", (-3.1, -1.3), 180, "walk", col, floor_z=Z_OG)  # tritt mit dem Käfig ein
-    L.prop_cage("Kaefig", (r["hand_R"].x, r["hand_R"].y, r["hand_R"].z - 0.30), col, facing_deg=180)
+    L.prop_cage("Kaefig", (r["hand_R"].x, r["hand_R"].y, r["hand_R"].z - 0.62), col, facing_deg=180)
 
 
 @scene("SH048", ((-5.4, -2.3, 4.15), (-7.55, -3.6, 3.60), 38.0))
@@ -150,28 +167,38 @@ def _(col):
     pass   # Hasi liegt auf dem Kissen (aus dem Blockout)
 
 
-@scene("SH050", ((-7.4, -3.1, 3.95), (-4.0, -1.6, 3.85), 26.0))
+@scene("SH050", ((-7.4, -3.6, 3.70), (-5.0, -3.4, 3.72), 26.0))
 def _(col):
     hide_blockout_hasi()
-    r = L.build_figure("Tante_Frieda", (-5.4, -2.2), 205, "wave", col, floor_z=Z_OG)  # Blick vom Bett aus, hält Hasi hoch
-    L.prop_hasi("Hasi", r["hand_R"] + V(0, 0, 0.05), col, 0)
-    L.prop_cage("Kaefig", (-4.9, -1.7, Z_OG), col, facing_deg=0)
-    L.prop_suitcase("Koffer", (-3.6, -0.4, Z_OG), 90, col, open_lid=True)
+    r = L.build_figure("Tante_Frieda", (-5.0, -3.4), 180, "hold_front", col, floor_z=Z_OG)   # steht vorm Bett, Hasi auf Hüfthöhe
+    L.prop_hasi("Hasi", (-5.28, -3.42, Z_OG + 0.74), col, 180)
+    L.prop_cage("Kaefig", (-4.4, -2.5, Z_OG), col, facing_deg=180)
+    L.prop_suitcase("Koffer", (-3.4, -0.3, Z_OG), 90, col, open_lid=True)
 
 
-@scene("SH051", ((-7.4, -3.2, 4.00), (-2.9, -1.3, 3.80), 28.0))
+@scene("SH051", ((-7.4, -3.6, 3.70), (-3.2, -2.0, 3.80), 28.0))
 def _(col):
     hide_blockout_hasi()
-    r = L.build_figure("Tante_Frieda", (-5.0, -1.4), 20, "wave", col, floor_z=Z_OG)   # Rücken im Vordergrund links
-    L.prop_hasi("Hasi", r["hand_R"] + V(0, 0, 0.05), col, 0)
-    L.build_figure("Maxi", (-2.9, -1.1), 200, "hold_front", col, floor_z=Z_OG)       # steht frontal in der Tür
+    r = L.build_figure("Tante_Frieda", (-5.0, -3.4), 180, "hold_front", col, floor_z=Z_OG)   # steht vorm Bett, Hasi auf Hüfthöhe
+    L.prop_hasi("Hasi", (-5.28, -3.42, Z_OG + 0.74), col, 180)
+    L.prop_cage("Kaefig", (-4.4, -2.5, Z_OG), col, facing_deg=180)
+    L.build_figure("Maxi", (-3.4, -1.5), 195, "hold_front", col, floor_z=Z_OG)               # steht frontal in der Tür
 
 
-@scene("SH058", ((-3.0, -1.7, 4.20), (-7.0, -1.9, 3.90), 30.0))
+@scene("SH052", ((-4.8, -5.3, 3.85), (-4.9, -3.0, 3.70), 32.0))
 def _(col):
     hide_blockout_hasi()
-    r = L.build_figure("Tante_Frieda", (-6.7, -1.5), 5, "hold_front", col, floor_z=Z_OG)
-    L.prop_cage("Kaefig", (r["hand_L"] + r["hand_R"]).__mul__(0.5) - V(0, 0, 0.28), col, facing_deg=180)
+    r = L.build_figure("Tante_Frieda", (-5.0, -3.4), 180, "hold_front", col, floor_z=Z_OG)
+    L.prop_hasi("Hasi", (-5.28, -3.42, Z_OG + 0.74), col, 180)
+    L.build_figure("Maxi", (-4.55, -2.6), 270, "point", col, floor_z=Z_OG)               # greift eingeschnappt nach Hasi, frontal
+    L.prop_cage("Kaefig", (-3.9, -2.3, Z_OG), col, facing_deg=180)
+
+
+@scene("SH058", ((-5.5, -2.7, 3.80), (-7.9, -1.8, 3.80), 32.0))
+def _(col):
+    hide_blockout_hasi()
+    r = L.build_figure("Tante_Frieda", (-7.5, -1.2), 250, "hold_front", col, floor_z=Z_OG)
+    L.prop_cage("Kaefig", (-7.85, -1.95, 3.45), col, facing_deg=0)                          # wird gerade auf den Nachttisch gestellt
 
 
 @scene("SH060", ((-4.6, -0.2, 4.05), (-7.5, -2.1, 3.80), 30.0))
@@ -179,7 +206,6 @@ def _(col):
     hide_blockout_hasi()
     L.prop_cage("Kaefig", NT, col, facing_deg=0)
     L.build_figure("Tante_Frieda", (-7.7, -0.9), 255, "stand", col, floor_z=Z_OG)
-    L.build_figure("Maxi", (-6.0, 0.6), 200, "stand", col, floor_z=Z_OG)
 
 
 # ================================================================== BLOCK B  Der Auftrag (Garten)
@@ -188,15 +214,15 @@ GATE = (-18.9, 1.8)
 
 @scene("SH065", ((-11.6, 0.4, 1.05), (-14.5, 1.3, 0.55), 34.0))
 def _(col):
-    L.build_figure("Maxi", (-13.6, 1.1), 20, "walk", col, head_turn_deg=-20)          # kickt den Ball missmutig
+    L.build_figure("Maxi", (-13.6, 1.1), 20, "walk", col, head_turn_deg=-20)
     ball(col, (-13.0, 0.9, 0.11))
 
 
-@scene("SH070", ((-14.6, 1.7, 1.25), (-18.3, 1.8, 1.00), 30.0))
+@scene("SH070", ((-13.2, 1.7, 1.25), (-18.3, 1.8, 1.00), 30.0))
 def _(col):
     L.build_figure("Anna", (GATE[0], GATE[1]), 0, "sit", col, seat_z=1.02, arms="point")   # weit hinten auf dem Tor, ruft
-    L.build_figure("Maxi", (-16.4, 1.1), 150, "hold_front", col)
-    ball(col, (-15.6, 0.7, 0.11))
+    L.build_figure("Maxi", (-14.6, 1.2), 180, "stand", col)                                  # Rücken zur Kamera
+    ball(col, (-14.9, 0.8, 0.11))
 
 
 @scene("SH075", ((-14.2, -0.8, 1.10), (-16.8, 1.6, 0.80), 30.0))
@@ -206,17 +232,17 @@ def _(col):
     ball(col, (r["hand_L"].x, r["hand_L"].y, r["hand_L"].z - 0.05))
 
 
-@scene("SH071", ((-14.2, 1.7, 1.20), (-17.3, 1.8, 0.95), 32.0))
+@scene("SH071", ((-14.0, 1.7, 1.20), (-17.6, 1.8, 0.95), 34.0))
 def _(col):
-    r = L.build_figure("Anna", (-17.5, 1.8), 0, "lift", col)
+    r = L.build_figure("Anna", (GATE[0], GATE[1]), 0, "sit", col, seat_z=1.02, arms="lift")   # Aufstellung wie SH070
     L.prop_glitterstone("Glitzerstein", r["hand_R"] + V(0, 0, 0.05), col)
-    L.build_figure("Maxi", (-16.0, 2.5), 215, "stand", col)
+    L.build_figure("Maxi", (-17.0, 1.4), 180, "stand", col)
 
 
-@scene("SH072", ((-13.4, 1.6, 1.10), (-16.5, 1.7, 0.90), 34.0))
+@scene("SH072", ((-21.0, 3.8, 1.90), (-17.0, 1.4, 0.95), 30.0))
 def _(col):
-    L.build_figure("Maxi", (-16.2, 1.7), 0, "point", col)
-    L.build_figure("Anna", (-17.4, 1.0), 40, "point", col)
+    L.build_figure("Anna", (GATE[0], GATE[1]), 0, "sit", col, seat_z=1.02, arms="point")     # Rücken zur Kamera
+    L.build_figure("Maxi", (-17.0, 1.4), 180, "point", col)                                  # spricht frontal zur Kamera
 
 
 # ================================================================== BLOCK C  Versuch 1: die Dusche (Kinderzimmer)
@@ -236,28 +262,29 @@ def _(col):
     L.prop_sprayer("Spruehflasche", r["hand_R"] + V(0.05, -0.05, 0.0), col)
 
 
-@scene("SH089", ((-6.4, -1.6, 3.95), (-2.4, -1.4, 3.80), 24.0))
+@scene("SH089", ((-4.8, -1.3, 3.90), (-2.2, -1.3, 3.80), 28.0))
 def _(col):
     hide_blockout_hasi()
     L.prop_cage("Kaefig", NT, col, facing_deg=0, wet=True)
-    L.build_figure("Tante_Frieda", (-2.6, -1.3), 180, "stand", col, floor_z=Z_OG)    # öffnet die Tür
+    L.build_figure("Tante_Frieda", (-2.5, -1.3), 180, "stand", col, floor_z=Z_OG)    # öffnet die Tür, groß im Bild
 
 
-@scene("SH090", ((-1.9, -1.3, 4.10), (-6.4, -2.8, 3.70), 22.0))
+@scene("SH090", ((-7.1, -2.8, 3.95), (-7.85, -1.2, 3.70), 28.0))
 def _(col):
     hide_blockout_hasi()
     L.prop_cage("Kaefig", NT, col, facing_deg=0, wet=True)
-    L.build_figure("Tante_Frieda", (-3.6, -1.2), 355, "hold_front", col, floor_z=Z_OG)   # schaut entsetzt, Hände an den Wangen
+    L.build_figure("Tante_Frieda", (-7.85, -1.15), 270, "crouch", col, floor_z=Z_OG)
     r = L.build_figure("Maxi", (-6.5, -3.5), 0, "sit", col, seat_z=3.46, arms="hold_front")
     L.prop_book("Bilderbuch", r["hand_R"] + V(0, 0, 0.0), col, 90)
 
 
-@scene("SH091", ((-3.3, -3.4, 3.95), (-6.8, -3.5, 3.75), 32.0))
+@scene("SH091", ((-3.0, -1.2, 4.25), (-6.8, -2.8, 3.75), 24.0))
 def _(col):
     hide_blockout_hasi()
-    r = L.build_figure("Maxi", (-6.6, -3.5), 0, "sit", col, seat_z=3.46, arms="hold_front")
-    L.prop_book("Bilderbuch", r["hand_R"] + V(0, 0, 0.02), col, 90)
-    L.prop_hasi("Hasi", (-6.9, -3.0, 3.46), col, 0)
+    L.prop_cage("Kaefig", NT, col, facing_deg=0, wet=True)
+    L.build_figure("Tante_Frieda", (-7.85, -1.15), 270, "crouch", col, floor_z=Z_OG)
+    r = L.build_figure("Maxi", (-6.5, -3.5), 0, "sit", col, seat_z=3.46, arms="hold_front")
+    L.prop_book("Bilderbuch", r["hand_R"] + V(0, 0, 0.0), col, 90)
 
 
 @scene("SH092", ((-4.9, -1.0, 3.30), (-2.4, -1.0, 3.05), 35.0))
@@ -266,17 +293,22 @@ def _(col):
     L.prop_dog("Bello", (-3.0, -1.0, Z_OG), 180, col)
 
 
-@scene("SH093", ((-6.4, -1.8, 3.75), (-7.85, -2.1, 3.75), 45.0))
+@scene("SH093", ((-6.5, -1.6, 3.85), (-7.85, -2.1, 3.75), 38.0))
 def _(col):
     hide_blockout_hasi()
-    L.prop_cage("Kaefig", NT, col, facing_deg=-10, wet=True, wings_open=True)
+    L.prop_cage("Kaefig", NT, col, facing_deg=0, wet=True)
+    L.build_figure("Tante_Frieda", (-7.85, -1.15), 270, "crouch", col, floor_z=Z_OG)
+    r = L.build_figure("Maxi", (-6.5, -3.5), 0, "sit", col, seat_z=3.46, arms="hold_front")
+    L.prop_book("Bilderbuch", r["hand_R"] + V(0, 0, 0.0), col, 90)
 
 
-@scene("SH094", ((-2.8, -1.1, 3.85), (-6.0, -1.2, 3.55), 32.0))
+@scene("SH094", ((-3.0, -1.7, 4.20), (-6.4, -1.3, 3.90), 30.0))
 def _(col):
     hide_blockout_hasi()
-    r = L.build_figure("Tante_Frieda", (-6.0, -1.2), 0, "hold_front", col, floor_z=Z_OG)
-    L.prop_cage("Kaefig", (r["hand_L"] + r["hand_R"]).__mul__(0.5) - V(0, 0, 0.25), col, facing_deg=180, wet=True)
+    r = L.build_figure("Tante_Frieda", (-7.2, -1.3), 0, "hold_front", col, floor_z=Z_OG)
+    L.prop_cage("Kaefig", ((r["hand_L"] + r["hand_R"]).x / 2, (r["hand_L"] + r["hand_R"]).y / 2, r["hand_L"].z - 0.62), col, facing_deg=180, wet=True)
+    r2 = L.build_figure("Maxi", (-6.5, -3.5), 0, "sit", col, seat_z=3.46, arms="hold_front")
+    L.prop_book("Bilderbuch", r2["hand_R"] + V(0, 0, 0.0), col, 90)
 
 
 # ================================================================== BLOCK D  Versuch 2: Kaffeetafel (Küche)
@@ -292,21 +324,23 @@ def _(col):
     tafel(col, opa=False, maxi=False, mama=False, papa=False, frieda_arms="wave")
 
 
-@scene("SH110", ((0.3, -2.4, 1.40), (0.3, -5.4, 1.30), 26.0))
+@scene("SH110", ((-0.3, -1.6, 1.35), (0.3, -5.3, 1.30), 30.0))
 def _(col):
-    r = L.build_figure("Opa_Heinrich", (0.3, -5.2), 90, "lift", col)
-    L.prop_cap("Muetze", r["hand_R"] + V(0, 0, 0.05), col)
+    L.build_figure("Opa_Heinrich", (0.3, -5.3), 90, "lift", col)
+    L.build_figure("Tante_Frieda", (0.3, -3.3), 270, "hold_front", col)
+    L.prop_cap("Muetze", (0.45, -5.0, 1.55), col)
 
 
-@scene("SH111", ((0.3, -1.4, 1.30), (0.3, -4.0, 1.20), 30.0))
+@scene("SH111", ((1.0, -5.7, 1.30), (0.3, -3.3, 1.30), 30.0))
 def _(col):
-    L.build_figure("Tante_Frieda", (0.3, -3.8), 90, "point", col)
+    L.build_figure("Opa_Heinrich", (0.3, -5.3), 90, "stand", col)
+    L.build_figure("Tante_Frieda", (0.3, -3.3), 270, "point", col)
 
 
-@scene("SH112", ((0.3, -2.4, 1.40), (0.3, -5.2, 1.30), 28.0))
+@scene("SH112", ((-0.3, -1.6, 1.35), (0.3, -5.3, 1.30), 28.0))
 def _(col):
-    r = L.build_figure("Opa_Heinrich", (0.3, -5.0), 90, "hold_front", col)
-    L.prop_cap("Muetze", r["hand_R"] + V(0, 0, 0.03), col)
+    L.build_figure("Opa_Heinrich", (0.3, -5.3), 90, "hold_front", col)
+    L.build_figure("Tante_Frieda", (0.3, -3.3), 270, "stand", col)
 
 
 @scene("SH120", ((-3.45, 0.9, 1.45), (-3.45, 3.5, 0.85), 20.0))
@@ -408,28 +442,36 @@ def _(col):
     L.build_figure("Tante_Frieda", (0.3, -3.9), 90, "hold_front", col)
 
 
-@scene("SH180", ((0.3, -1.0, 1.00), (0.1, -3.9, 1.00), 30.0))
+@scene("SH180", ((-0.9, -1.4, 1.25), (1.0, -3.4, 1.00), 28.0))
 def _(col):
-    r = L.build_figure("Maxi", (0.45, -3.6), 90, "hold_front", col)
-    L.prop_cakebox("Kuchendose", (r["hand_L"] + r["hand_R"]).__mul__(0.5) - V(0, 0, 0.12), col)
-    L.build_figure("Tante_Frieda", (-0.3, -3.6), 20, "stand", col)
+    L.build_figure("Maxi", (1.0, -3.4), 180, "hold_front", col)
+    r = L.build_figure("Tante_Frieda", (-0.3, -3.4), 0, "hold_front", col)
+    L.build_figure("Mama_Katrin", (0.4, -1.6), 270, "stand", col)
+    L.prop_cakebox("Kuchendose", (0.85, -3.35, 0.78), col)
 
 
-@scene("SH181", ((0.3, -1.4, 1.30), (0.3, -4.0, 1.20), 30.0))
+@scene("SH181", ((1.6, -3.0, 1.20), (-0.3, -3.4, 1.20), 28.0))
 def _(col):
-    r = L.build_figure("Tante_Frieda", (0.3, -3.8), 90, "hold_front", col, head_turn_deg=-40)
-    L.prop_cakebox("Kuchendose", (r["hand_L"] + r["hand_R"]).__mul__(0.5) - V(0, 0, 0.12), col)
+    L.build_figure("Maxi", (1.0, -3.4), 180, "hold_front", col)
+    r = L.build_figure("Tante_Frieda", (-0.3, -3.4), 0, "hold_front", col)
+    L.build_figure("Mama_Katrin", (0.4, -1.6), 270, "stand", col)
+    L.prop_cakebox("Kuchendose", (-0.2, -3.35, 0.95), col)
 
 
-@scene("SH182", ((0.3, -1.4, 1.30), (0.3, -4.0, 1.20), 30.0))
+@scene("SH182", ((0.4, -5.9, 1.30), (0.4, -1.6, 1.25), 34.0))
 def _(col):
-    L.build_figure("Mama_Katrin", (0.3, -3.8), 90, "wave", col)
+    L.build_figure("Maxi", (1.0, -3.4), 180, "hold_front", col)
+    r = L.build_figure("Tante_Frieda", (-0.3, -3.4), 0, "hold_front", col)
+    L.build_figure("Mama_Katrin", (0.4, -1.6), 270, "wave", col)
+    L.prop_cakebox("Kuchendose", (-0.2, -3.35, 0.95), col)
 
 
-@scene("SH183", ((0.3, -1.0, 1.00), (0.3, -3.8, 0.90), 32.0))
+@scene("SH183", ((-0.9, -1.4, 1.25), (1.0, -3.4, 1.00), 28.0))
 def _(col):
-    r = L.build_figure("Maxi", (0.3, -3.6), 90, "hold_front", col)
-    hasi(r, col, "hand_R", 90, dz=0.0)
+    L.build_figure("Maxi", (1.0, -3.4), 180, "hold_front", col)
+    r = L.build_figure("Tante_Frieda", (-0.3, -3.4), 0, "hold_front", col)
+    L.build_figure("Mama_Katrin", (0.4, -1.6), 270, "stand", col)
+    L.prop_cakebox("Kuchendose", (-0.2, -3.35, 0.95), col)
 
 
 @scene("SH184", ((0.3, -2.5, 1.25), (0.3, -4.7, 1.15), 35.0))
@@ -443,9 +485,9 @@ def _(col):
     e, seats = L.prop_car("Auto", *CAR, col, door_open=None)
     L.build_figure("Tante_Frieda", (seats["VR"].x, seats["VR"].y), -90, "sit", col, seat_z=seats["VR"].z, floor_z=0.62, arms="wave")
     L.prop_cage("Kaefig", (seats["VR"].x, seats["VR"].y, seats["VR"].z + 0.25), col, facing_deg=-90)
-    L.build_figure("Mama_Katrin", (11.0, -12.6), 10, "wave", col)
-    L.build_figure("Opa_Heinrich", (10.6, -13.5), 10, "wave", col)
-    L.build_figure("Maxi", (11.9, -13.0), 10, "wave", col)
+    L.build_figure("Mama_Katrin", (11.4, -8.8), 10, "wave", col)
+    L.build_figure("Opa_Heinrich", (10.6, -9.5), 10, "wave", col)
+    L.build_figure("Maxi", (11.9, -9.8), 10, "wave", col)
 
 
 @scene("SH195", ((-15.0, 2.0, 1.10), (-18.6, 1.9, 0.95), 32.0))
@@ -491,7 +533,7 @@ def clear_scene_col():
             bpy.data.objects.remove(o, do_unlink=True)
         bpy.data.collections.remove(col)
     for o in bpy.data.objects:
-        if o.name.startswith(("KU_Stuhl", "KZ_Hasi")):
+        if o.name.startswith(("KU_Stuhl", "KZ_Hasi", "DET_Glas")):
             o.hide_render = False
     for o in list(bpy.data.objects):
         if o.name.startswith("SZENE_CAM_"):

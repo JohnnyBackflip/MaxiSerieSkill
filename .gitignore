@@ -6,8 +6,12 @@ __pycache__/
 rejected/
 **/02_Szenen_Blender_Mockups/*.png
 **/02_Szenen_Blender_Mockups/blend/
+# Mockups der Folge „Tante Frieda“ liegen als SHxxx_blender.jpg im Repo (Blender-Grafiken dauerhaft, User 2026-11-06); die PNG-Originale bleiben lokal
+**/03_Blender_3D_Haus_Blockout/renders/
+**/03_Blender_3D_Haus_Blockout/*_vor_*.blend
 **/03_Szenen_Flow_Bilder/
 **/04_Video/**/*.mp4
 # Intro-Song: Herkunft ungeklärt, nicht veröffentlichen
 Saturday_Morning_Adventure.mp3
 **/04_Video/*_arbeit/
+12_Folge_Tante_Frieda/02_Szenen_Blender_Mockups/*.png

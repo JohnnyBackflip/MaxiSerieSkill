@@ -1,0 +1,305 @@
+{
+ "jobs": [
+  {
+   "id": "floor_eg_flur",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/floor_eg_flur.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. terracotta and cream square ceramic floor tiles in a checker arrangement, 4 by 4 tiles visible, thin light grout lines, slightly worn. Landscape 16:9."
+  },
+  {
+   "id": "floor_eg_wohnzimmer",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/floor_eg_wohnzimmer.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. warm honey oak herringbone parquet floor, about 8 by 8 plank rows visible, fine wood grain. Landscape 16:9."
+  },
+  {
+   "id": "floor_eg_kueche",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/floor_eg_kueche.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. sage-green and cream checkerboard ceramic kitchen floor tiles, 4 by 4 tiles visible, thin grout. Landscape 16:9."
+  },
+  {
+   "id": "floor_eg_spielzimmer",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/floor_eg_spielzimmer.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. soft pale blue-grey rubber play floor with tiny confetti speckles in yellow, coral and teal. Landscape 16:9."
+  },
+  {
+   "id": "floor_eg_gaesteklo",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/floor_eg_gaesteklo.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. small white hexagonal bathroom floor tiles with light grey grout, many tiles visible. Landscape 16:9."
+  },
+  {
+   "id": "floor_og_bad",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/floor_og_bad.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. small turquoise and white square mosaic bathroom tiles, fine grout, many tiles visible. Landscape 16:9."
+  },
+  {
+   "id": "floor_og_flur",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/floor_og_flur.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. dark walnut wide wooden plank floor, 5 planks visible running in one direction, subtle grain. Landscape 16:9."
+  },
+  {
+   "id": "floor_og_kinderzimmer",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/floor_og_kinderzimmer.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. light birch wooden plank floor, 6 planks visible running in one direction, soft grain, friendly. Landscape 16:9."
+  },
+  {
+   "id": "floor_og_eltern",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/floor_og_eltern.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. calm warm grey-brown oak wide plank floor, 5 planks visible running in one direction. Landscape 16:9."
+  },
+  {
+   "id": "floor_dg_dachboden",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/floor_dg_dachboden.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. old weathered dusty wide wooden attic floor planks with few nails and knots, 5 planks visible. Landscape 16:9."
+  },
+  {
+   "id": "floor_garage",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/floor_garage.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. light grey concrete garage floor with faint oil stains and fine hairline cracks. Landscape 16:9."
+  },
+  {
+   "id": "wall_interior",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/wall_interior.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. very fine off-white cream woodchip wallpaper plaster, soft subtle grain. Landscape 16:9."
+  },
+  {
+   "id": "wall_exterior",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/wall_exterior.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. warm cream-yellow stucco facade plaster with fine sandy grain. Landscape 16:9."
+  },
+  {
+   "id": "roof_tiles",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/roof_tiles.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. terracotta red-brown clay roof tiles in overlapping rows, 6 rows visible. Landscape 16:9."
+  },
+  {
+   "id": "brick_red",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/brick_red.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. red-brown brick wall with light mortar joints, running bond, about 10 rows visible. Landscape 16:9."
+  },
+  {
+   "id": "slate_roof",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/slate_roof.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. dark grey-blue slate roof shingles in overlapping rows. Landscape 16:9."
+  },
+  {
+   "id": "plaster_mint",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/plaster_mint.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. soft mint green stucco wall plaster with fine grain. Landscape 16:9."
+  },
+  {
+   "id": "fence_wood",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/fence_wood.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. weathered brown wooden fence boards, vertical planks with grain and a few knots. Landscape 16:9."
+  },
+  {
+   "id": "terrace_deck",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/terrace_deck.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. outdoor grey-brown wooden decking planks with thin gaps, 6 planks visible. Landscape 16:9."
+  },
+  {
+   "id": "paving_path",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/paving_path.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. beige-grey irregular flagstone garden path paving with thin grass-free joints. Landscape 16:9."
+  },
+  {
+   "id": "paving_blocks",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/paving_blocks.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. light grey rectangular concrete paving blocks in running bond, thin joints. Landscape 16:9."
+  },
+  {
+   "id": "asphalt",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/asphalt.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. dark grey street asphalt with fine gravel grain and tiny hairline cracks. Landscape 16:9."
+  },
+  {
+   "id": "grass_lawn",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/grass_lawn.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. lush green mown lawn grass seen from above, fine blades, natural variation. Landscape 16:9."
+  },
+  {
+   "id": "meadow",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/meadow.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. wild green meadow with clover and a few tiny white flowers seen from above. Landscape 16:9."
+  },
+  {
+   "id": "foliage",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/foliage.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. dense green leaves foliage hedge texture, many overlapping leaves in several greens. Landscape 16:9."
+  },
+  {
+   "id": "bark",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/bark.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. brown tree bark with vertical grooves. Landscape 16:9."
+  },
+  {
+   "id": "curb_granite",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/curb_granite.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. grey granite curb stone surface with fine speckles. Landscape 16:9."
+  },
+  {
+   "id": "garage_door",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/garage_door.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. white sectional garage door panels with horizontal grooves, 4 panels visible, no handle. Landscape 16:9."
+  },
+  {
+   "id": "shed_wood",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/shed_wood.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. reddish-brown vertical wooden shed boards with grain. Landscape 16:9."
+  },
+  {
+   "id": "bitumen_roof",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/bitumen_roof.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. dark grey-green bitumen roof shingles in rows. Landscape 16:9."
+  },
+  {
+   "id": "door_leaf",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/door_leaf.jpg",
+   "refs": [],
+   "prompt": "Straight-on front view, stylized 3D-animation painted look (Pixar-like), flat even light, no shadows, no text. a single white painted wooden interior door with six raised rectangular panels, seen straight from the front, the door fills the whole image, plain white background not needed. Landscape 16:9."
+  },
+  {
+   "id": "door_front",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/door_front.jpg",
+   "refs": [],
+   "prompt": "Straight-on front view, stylized 3D-animation painted look (Pixar-like), flat even light, no shadows, no text. a single dark teal painted wooden front door with vertical raised panels and a brass letter slot, seen straight from the front, fills the whole image. Landscape 16:9."
+  },
+  {
+   "id": "paint_white",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/paint_white.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. smooth white painted wood with very fine brush grain, clean, for window frames and trim. Landscape 16:9."
+  },
+  {
+   "id": "kitchen_sage",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/kitchen_sage.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. sage green painted wood with subtle brush grain for kitchen cabinets. Landscape 16:9."
+  },
+  {
+   "id": "counter_oak",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/counter_oak.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. oak butcher-block kitchen countertop wood, light honey colour, strips visible. Landscape 16:9."
+  },
+  {
+   "id": "wood_dark",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/wood_dark.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. dark walnut wood grain surface for furniture. Landscape 16:9."
+  },
+  {
+   "id": "wood_medium",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/wood_medium.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. medium oak wood grain surface for furniture. Landscape 16:9."
+  },
+  {
+   "id": "wood_light",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/wood_light.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. light pine wood grain surface for furniture. Landscape 16:9."
+  },
+  {
+   "id": "stair_wood",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/stair_wood.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. warm medium oak wood stair stringer panel wood with fine vertical grain, clean. Landscape 16:9."
+  },
+  {
+   "id": "sofa_floral",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/sofa_floral.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. retro golden-yellow floral upholstery fabric with cream and coral flowers and green leaves. Landscape 16:9."
+  },
+  {
+   "id": "rug_blue",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/rug_blue.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. woven wool rug with geometric diamond pattern in navy blue and cream. Landscape 16:9."
+  },
+  {
+   "id": "rug_terra",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/rug_terra.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. woven wool rug with terracotta and cream stripe and diamond pattern. Landscape 16:9."
+  },
+  {
+   "id": "rug_play",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/03_Blender_3D_Haus_Blockout/Texturen/roh/rug_play.jpg",
+   "refs": [],
+   "prompt": "Seamless tileable texture, perfectly flat top-down orthographic view, fills the whole image edge to edge, even soft ambient light, no shadows, no highlights, no reflections, no perspective, matte albedo only, stylized 3D-animation painted look (Pixar-like, clean, warm), no text, no letters, no logos, no objects lying on it, no border, no vignette. colourful children's play rug pattern with little roads, small houses and trees seen from above, soft pastel colours. Landscape 16:9."
+  }
+ ]
+}

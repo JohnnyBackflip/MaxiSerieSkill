@@ -48,3 +48,26 @@ Ursachen-Tabelle (Bild-Nummern aus v001 → Änderung; **die Nummern in v002 hab
 - **Ton (User-Vorgabe):** Soundeffekte **nur** mit ElevenLabs (`../sfx_elevenlabs.py`, Key `~/.elevenlabs_key`), Musik **nur** mit Gemini Lyria über das Chrome-Plugin. Die ElevenLabs-Music-API ist für Free-Konten gesperrt und war ohnehin nicht gewünscht. Effekte: Auto parkt (SH001), Koffer (SH030), Tür und Schritte (SH047, SH089), Ball (SH065), Sprüher und Papagei (SH081), Papagei (SH093), Auto fährt weg (SH190), Bett (SH200), Dose klackt (SH201).
 - **Video:** `04_Video/Folge_Tante_Frieda_Mockup-Vorschau-v002.mp4` (5:41 min, 57 Einstellungen, 47 Stimmen, Bilder nummeriert). Tonprüfung: Musik liegt hörbar unter SH080–SH081, Spitzenpegel −0,3 dB.
 - **Flow-Szenenbilder:** weiter **nicht** gemalt, sie warten auf die Freigabe von v002.
+
+## Runde 5 – 2026-11-06: Kritik am Video v002 → Haus texturiert, Szenen überarbeitet, Video v003
+Die Bild-Nummern der Kritik beziehen sich auf v002; in v003 haben sie sich erneut verschoben (`…v003_arbeit/bild_Bildliste.md`).
+
+| Bild (v002) | Kritik | Änderung (v003-Nr.) |
+|---|---|---|
+| 1 | Frieda neben dem Auto mit offener Tür sichtbar, Papa raus | SH001 (Bild 1): Frieda steht an der offenen Beifahrertür, nur Mama und Bello warten, Papa nicht im Bild; Maxi ist jetzt oben im Haus |
+| 3 | Frieda freut sich beim Kofferraum-Öffnen, hält den Papagei im Arm, nimmt das Kinderzimmer | neu SH003 (Bild 3): „Ich freue mich auch, hier zu sein!“ mit Kofferraum; SH010 (Bild 4): Käfig im Arm, „Und ich nehme das Kinderzimmer!“ |
+| 4 | Maxi schaut aus dem Fenster und hat heimlich gehört | SH020 (Bild 5): Kamera von der Einfahrt hoch zum Kinderzimmerfenster, Maxi flüstert „Mein Zimmer?! Bis heute Abend ist die weg.“ |
+| nach 5 | Papa stöhnt wegen des Koffers; Papa steht links im Vordergrund, Kamera Richtung Straße | SH030 (Bild 6): neue Kamera; neu SH032 (Bild 7): „Uff! Was ist da bloß drin? Steine?“ (Stöhnen) |
+| 7 | Gesicht der Tante nicht richtig sichtbar, Aufstellung im Flur | SH040/SH042/SH041 (Bild 8–10): **feste Aufstellung** (Frieda vorn, Mama dahinter), nur die Kamera wechselt. Meine Lesart „in Richtung Flur“: Frieda steht tiefer im Flur und schaut in den Flur, die Kamera sieht ihr Gesicht frontal. |
+| 11 | Kamera tiefer, Hasi auf Hüfthöhe | SH050 (Bild 13): Kamera vom Bett aus, Hasi auf Hüfthöhe |
+| 4/13 | Maxi nimmt eingeschnappt den Hasen, dann „Und Lorchen kommt hier hin“, Nachttisch im Vordergrund | neu SH052 (Bild 15); SH058 (Bild 16): Nachttisch vorn, Frieda stellt den Käfig ab |
+| 21/22 | Frieda und Kamera weg von der Eingangstür; Bild 22 groß auf die Tür; danach Käfig im Vordergrund, Tante gebeugt: „Oh nein, was ist denn mit dir passiert?“ | SH089 (Bild 25) groß auf die Tür; SH090 (Bild 26): Käfig im Vordergrund, Frieda gebeugt, neue Zeile; SH091 (Bild 27) Übersicht mit Frieda; SH089–SH094 teilen eine Aufstellung (Kamera wechselt). Für „Bild 21“ bin ich von SH089 ausgegangen. |
+| – | Vogel nie richtig zu sehen, Käfig größer | Käfig und Papagei neu modelliert (0,95 m, 24 Stäbe, Kuppel, Ring, Napf; Papagei mit Augen, Hakenschnabel, Flügeln) |
+| – | Dialoge einmal aufbauen, nur Kamera wechseln | Skill `dialog-szenen-inszenieren` und Hinweis in `maxi-folge-erstellen`; alle Dialoge (Flur, Zimmer, Garten, Opa/Frieda, Abschied) mit fester Aufstellung neu gebaut |
+| – | Haus mit Flow-Texturen, UV, Details; alle Screenshots neu; dauerhaft speichern | siehe `../03_Blender_3D_Haus_Blockout/00_VERMERK_Texturierung.md`; alle 60 Mockups mit dem texturierten Haus neu gerendert |
+
+- **Neuer Ton:** Soundeffekte Autotür, Kofferraum und Fenster (ElevenLabs), Cues in `04_Video/01_Ton/ton_r3.json`. Neue Stimmen: SH003, SH010, SH020 (flüsternd), SH032 (stöhnend), SH058, SH090; alte nach `00_Stimmen_TTS/rejected/`.
+- **Szenenplan r3:** 60 Einstellungen, 5:48 min (`szenenplan_r3.json`).
+- **Video:** `04_Video/Folge_Tante_Frieda_Mockup-Vorschau-v003.mp4` (5:58 min mit Intro/Titel, Spitzenpegel −0,3 dB).
+- **Bekannte Schwächen:** SH020 (Maxi im Fenster) ist klein und sein Gesicht nur ein Punktpaar; SH001 zeigt die Autotür nur als Platte; Flur-Dialog „in Richtung Flur“ nach eigener Lesart; Papa-Stöhnen ist ein gesprochenes „Uff!“ (TTS), noch kein Stöhn-Effekt.
+- **Flow-Szenenbilder:** weiter nicht gemalt, warten auf Freigabe von v003.

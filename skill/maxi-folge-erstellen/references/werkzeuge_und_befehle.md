@@ -76,6 +76,15 @@ Folgenanfang: `--cue 00_Musik_Serie/Musik_01_...mp3@4.54-13.5:ab=1.0:laut=-9`.
 - Bild-Upload: `HTMLInputElement.click` für type=file abfangen, dann `file_upload` auf das Feld (kein Datei-Dialog).
 - Google-Filter: Prompt neutral umformulieren und neu senden.
 
+### Szenenbilder in Flow ohne Skript (bewährt 2026-11-06, Folge Tante Frieda, 30 Bilder in ~1,5 h)
+Flow-Seite (Nano Banana 2.1) hat **keinen Datei-Input**, der Upload-Knopf öffnet einen nativen Dialog; Strg+V mit Bild friert den Tab ein. Stattdessen:
+1. Folgenordner lokal ausliefern: `cd NN_Folge && python3 -m http.server 8765 --bind 127.0.0.1`; dort `_flow_view.html` (zeigt `?i=<pfad>` randlos, `object-fit: cover`). `file://` darf das Plugin nicht öffnen; Chromes eigene Bildansicht hat schwarzen Rand → Flow malt den Rand mit.
+2. Zweiter Tab: `_flow_view.html?i=02_Szenen_Blender_Mockups/SHxxx_blender.jpg` öffnen, **Screenshot in voller Größe** (mit `scale` kommen nur ~20 KB an), dann `upload_image(imageId, coordinate=[700,400])` auf den Flow-Tab = Drag & Drop. Dateiname `SHxxx_mockup.jpg`. Modelsheets/OBJ-Sheets einmal genauso hochladen (Kurznamen `CHAR_01_Maxi.jpg` …).
+3. Referenzen: Knopf „Bildelemente zum Prompt-Feld hinzufügen“ (per `find`-ref klicken, nicht per Koordinate) → Picker mit Suchfeld → Name tippen → „Zum Prompt hinzufügen“. Reihenfolge = Referenz 1, 2 … (Mockup zuerst). Fertige Flow-Bilder als Raum-Referenz über ihren Flow-Titel suchen (z. B. „Boy places cage“).
+4. Prompt tippen (`flow_chrome_prompts.py A|B SHxxx` liefert Suchbegriffe + Prompt), senden. Während Flow malt, nächste Szene vorbereiten.
+5. Download: Kachel-Menü ⋮ → Herunterladen → 1K; `python3 flow_holen.py SHxxxA` holt die neueste Datei aus ~/Downloads (wartet bis 20 s, schneidet Ränder, legt Prompt daneben, verhindert Doppelverwendung).
+Fallen: Ein Fehlklick auf eine Kachel öffnet die Bearbeiten-Ansicht („Was möchten Sie ändern?“) – dort NIE senden, Prompt löschen und zurück. Tippen ohne offenes Feld löst Tastenkürzel aus (Agentenmodus an, Ansicht wechselt) – Agentenmodus wieder ausschalten, Modell muss „Nano Banana 2.1“ zeigen. Fenstergröße kann sich ändern → Koordinaten neu messen. „Fehlgeschlagen – verstößt möglicherweise gegen Richtlinien“ kam bei allen Opa-Szenen an der Haustür (auch neutral, auch ohne Opa-Sheet) – zurückstellen. **„Ungewöhnliche Aktivitäten festgestellt“ = sofort aufhören und dem User melden** (nach ~35 Bildern am Stück).
+
 ## Thumbnail / Cover – `thumbnail_bauen.py`
 1. Hintergrund in Flow ohne Schrift (Maxi groß, frontal, mit dem Haupt-Objekt; Gegenspieler klein hinten; eine Bildseite bzw. das obere Drittel ruhig für den Titel). **Bildwerkzeug nimmt höchstens 3 Referenzen** (Maxi, Gegenspieler, Ort) – Objekte über den Text beschreiben und danach prüfen. (Seit 2026-11-06 prüft `valid_image` die längere Bildseite; vorher wurden Hochkantbilder 768×1376 fälschlich als „fail“ gemeldet.) Für 9:16 `style: none` + eigene Stil-Präambel mit „HOCHFORMAT 9:16“.
 2. Text drauf:

@@ -699,6 +699,18 @@ def clear_scene_col():
 
 
 LICHT = bool(os.environ.get("MOCKUP_LICHT"))
+HOCH = bool(os.environ.get("MOCKUP_HOCH"))        # TikTok 9:16: andere Kameras, Ausgabe nach hochkant/
+_GRUPPE = {"SH001", "SH002", "SH003", "SH010", "SH030", "SH032", "SH165", "SH166", "SH167", "SH170", "SH186", "SH100", "SH123", "SH081", "SH082", "SH082_B", "SH083", "SH087", "SH095", "SH109"}
+HOCH_CAM = {   # (Kamera, Ziel, Brennweite) – neue Perspektiven für Hochkant (Tiefenstaffelung statt Breite)
+    "SH120": ((-0.9, 3.0, 1.55), (-5.0, 3.0, 0.95), 24.0),          # Kaffeetafel entlang des Tisches: Frieda vorn, Opa hinten
+    "SH186": ((-3.4, -3.0, 2.0), (-7.1, -3.0, 0.7), 26.0),          # Sofa leicht von oben
+    "SH071": ((-15.0, 1.7, 1.45), (-18.2, 1.8, 1.10), 40.0),
+    "SH122": ((-3.3, 2.5, 1.25), (-5.0, 3.0, 1.15), 40.0),
+}
+def hoch_cam(sid, loc, tgt, lens):
+    k = sid
+    if k in HOCH_CAM: return HOCH_CAM[k]
+    return loc, tgt, lens * (1.05 if k in _GRUPPE else 1.5)
 _AUSSEN = {"SH001", "SH002", "SH003", "SH010", "SH030", "SH032", "SH109", "SH065", "SH070", "SH071", "SH072", "SH073", "SH074", "SH075"}
 _FLUR = {"SH040", "SH041", "SH042", "SH110", "SH111", "SH112", "SH165", "SH166", "SH167", "SH170", "SH171", "SH173", "SH174", "SH175", "SH177", "SH178", "SH179", "SH184"}
 _KUECHE = {"SH100", "SH101", "SH120", "SH122", "SH123", "SH124", "SH130", "SH140", "SH141", "SH143", "SH144", "SH145", "SH150", "SH151", "SH160"}
@@ -741,7 +753,7 @@ def main():
                     except Exception: pass
         else:
             sc.render.engine = "CYCLES"; sc.cycles.samples = int(os.environ.get("MOCK_SAMPLES", "48"))
-        sc.render.resolution_x, sc.render.resolution_y, sc.render.resolution_percentage = 1376, 768, 100
+        sc.render.resolution_x, sc.render.resolution_y, sc.render.resolution_percentage = (1080, 1920, 100) if HOCH else (1376, 768, 100)
         sc.render.image_settings.file_format = "PNG"
         sc.render.use_persistent_data = True                  # Haus bleibt zwischen den Bildern im Speicher (viel schneller)
     else:
@@ -758,13 +770,19 @@ def main():
             cam = next(o for o in bpy.data.objects if o.type == "CAMERA" and o.name.startswith(spec["cam"]))
         else:
             loc, tgt, lens = spec["cam"]
+            if HOCH:
+                loc, tgt, lens = hoch_cam(sid, loc, tgt, lens)
             cam = L.add_camera(f"SZENE_CAM_{sid}", loc, tgt, lens, cam_col)
+            if HOCH:
+                cam.data.sensor_fit = "HORIZONTAL"; cam.data.sensor_width = 36.0
         if LICHT:
             az, el, ev = light_for(sid); aim_light(az, el); bpy.context.scene.view_settings.exposure = ev - (1.7 if os.environ.get("MOCK_EEVEE") else 0.0)
             haze = bpy.data.objects.get("Dunst_Volumen")                      # Dunst nur draußen (Volumen ist teuer)
             if haze:
                 haze.hide_render = sid.split("_")[0] not in (_AUSSEN | {"SH020"})
-        L.render_camera(cam, os.path.join(OUT_DIR, f"{sid}_blender.png"))
+        _od = os.path.join(OUT_DIR, "hochkant") if HOCH else OUT_DIR
+        os.makedirs(_od, exist_ok=True)
+        L.render_camera(cam, os.path.join(_od, f"{sid}_blender.png"))
         print("Szene fertig:", sid)
     clear_scene_col()
 

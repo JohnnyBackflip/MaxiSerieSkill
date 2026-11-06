@@ -1,0 +1,72 @@
+{
+ "jobs": [
+  {
+   "id": "CHAR_13",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_05_Opa_Heinrich_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_03_Mama_Katrin_Modelsheet.jpg"
+   ],
+   "prompt": "CHARACTER MODEL SHEET im exakt gleichen 3D-Pixar-CGI-Stil, Proportionen und Studio-Look wie die Referenz-Modelsheets: Drei Ansichten nebeneinander auf neutralem grauem Studiohintergrund – links Ganzkörper Frontansicht, Mitte Ganzkörper Dreiviertel-Ansicht, rechts großes Gesichts-Close-up. (Referenz 1 = Großvater Heinrich, ihr jüngerer Bruder – gleiche Familienähnlichkeit, gleiche Größe der Erwachsenen; Referenz 2 = Erwachsene für Stil und Proportionen.) NEUE FIGUR: TANTE FRIEDA, ca. 72 Jahre, Großtante, etwa 1,60 m, aufrechte, steife Haltung. Silbergraue, feste, runde Dauerwellen-Frisur; große ovale Brille mit dünnem Goldrand an einer Perlenkette; schmale spitze Nase, schmale Lippen, hochgezogene Augenbrauen, leicht missbilligender, aber nicht böser Blick (komische Figur). Kleidung: pflaumenfarbene (dunkles Violett-Rot) Strickjacke mit runder goldener Brosche, darunter weiße Bluse mit kleinem Kragen, grau karierter Rock bis unter das Knie, hautfarbene Strumpfhose, schwarze Halbschuhe; schwarze Henkelhandtasche am Unterarm. Keine Texte, keine Schrift, keine Logos im Bild, keine schwarzen Outlines, Querformat 16:9 (1376×768)."
+  },
+  {
+   "id": "CHAR_14",
+   "style": "none",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_14_Lorchen_Papagei_Modelsheet.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg"
+   ],
+   "prompt": "CHARACTER MODEL SHEET im exakt gleichen 3D-Pixar-CGI-Stil, Proportionen und Studio-Look wie die Referenz-Modelsheets: Drei Ansichten nebeneinander auf neutralem grauem Studiohintergrund – links Frontansicht, Mitte Dreiviertel-Ansicht, rechts großes Gesichts-Close-up. (Referenz 1 = Kind Maxi, nur für Stil und Größenvergleich.) NEUE FIGUR: LORCHEN, ein Papagei (Amazone), etwa 35 cm groß. Gefieder kräftig grasgrün, gelbe Stirn und gelbe Wangen, roter Fleck an den Flügeln (Flügelspiegel), Schwanzspitzen gelbgrün, heller hornfarbener gebogener Schnabel, große runde orangefarbene Augen mit weißem Ring, graue Füße. Ausdrucksstark und frech, wie eine Cartoonfigur. Links frontal auf einer Holzstange sitzend, Mitte im Profil mit leicht geöffneten Flügeln, rechts Kopf-Close-up mit schief gelegtem Kopf. Keine Menschen auf dem Sheet. Keine Texte, keine Schrift, keine Logos im Bild, keine schwarzen Outlines, Querformat 16:9 (1376×768)."
+  },
+  {
+   "id": "OBJ_TF01",
+   "style": "object",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF01_Lorchens_Messing_Kaefig.jpg",
+   "refs": [],
+   "prompt": "OBJEKT: Ein runder Vogelkäfig aus glänzendem Messing mit Kuppeldach und Tragering oben, etwa 55 cm hoch und 35 cm Durchmesser, senkrechte Gitterstäbe, kleine Tür vorn, eine waagrechte Holz-Sitzstange, ein weißer Porzellan-Futternapf, Boden mit Schublade. LINKS: Käfig mit einem grünen Papagei (gelbe Stirn, roter Flügelfleck) trocken und ordentlich auf der Stange. RECHTS: derselbe Käfig, der Papagei ist tropfnass, die Federn gesträubt und plustrig, glücklich mit ausgebreiteten Flügeln, ein paar Wassertropfen. Größenbezug: ein 5-jähriges Kind (1,06 m) muss ihn mit beiden Armen tragen."
+  },
+  {
+   "id": "OBJ_TF02",
+   "style": "object",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF02_Friedas_Riesen_Rollkoffer.jpg",
+   "refs": [],
+   "prompt": "OBJEKT: Ein riesiger Hartschalen-Rollkoffer in Pflaumenfarbe (dunkles Violett-Rot), etwa 85 cm hoch (reicht einem 5-jährigen Kind bis zur Brust), vier Rollen, ausziehbarer Griff, goldene Zahlenschloss-Schnallen, ein altmodischer brauner Lederanhänger. LINKS: Dreiviertel-Ansicht stehend. RECHTS: Seitenansicht mit ausgezogenem Griff."
+  },
+  {
+   "id": "OBJ_TF03",
+   "style": "object",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF03_Mamas_gruener_Blumensprueher.jpg",
+   "refs": [],
+   "prompt": "OBJEKT: Ein grüner Kunststoff-Blumensprüher (Pumpsprüher) für Zimmerpflanzen, etwa 25 cm hoch, halbtransparente grüne Flasche mit Wasser, weißer Sprühkopf mit Abzugsgriff. LINKS: Dreiviertel-Ansicht. RECHTS: Seitenansicht, ein feiner Sprühnebel tritt aus."
+  },
+  {
+   "id": "OBJ_TF04",
+   "style": "object",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF04_Apfelkuchen_und_Kuchendose.jpg",
+   "refs": [],
+   "prompt": "OBJEKT: LINKS: ein runder gedeckter Apfelkuchen mit goldbraunem Streuselgitter auf einer weißen Tortenplatte, ein Stück herausgeschnitten, Apfelfüllung sichtbar, daneben ein Tortenheber. RECHTS: eine runde himmelblaue Kuchendose aus Kunststoff mit durchsichtigem Deckel, darin drei Stück Apfelkuchen. Größenbezug: Ein 5-jähriges Kind kann die Dose mit beiden Händen halten."
+  },
+  {
+   "id": "OBJ_TF05",
+   "style": "object",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF05_Annas_Glitzerstein.jpg",
+   "refs": [],
+   "prompt": "OBJEKT: Ein daumengroßer violetter Kristall (Amethyst-Druse) mit funkelnden Spitzen, etwa 4 cm, liegt in einer offenen Kinderhand (nur Hand sichtbar). LINKS: Kristall allein in Dreiviertel-Ansicht, glitzernd. RECHTS: Kristall in einer kleinen Kinderhand."
+  },
+  {
+   "id": "OBJ_TF06",
+   "style": "object",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF06_Opas_graue_Schiebermuetze.jpg",
+   "refs": [],
+   "prompt": "OBJEKT: Eine graue Schiebermütze (Flatcap) aus Tweed mit feinem Fischgrätmuster und kurzem Schirm. LINKS: Dreiviertel-Ansicht von vorn. RECHTS: Seitenansicht."
+  },
+  {
+   "id": "OBJ_TF07",
+   "style": "object",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF07_Mut_Dose_und_Hasen_Stein.jpg",
+   "refs": [],
+   "prompt": "OBJEKT: LINKS: eine alte runde Blechdose (Keksdose) mit Deckel, etwa 15 cm Durchmesser, verblasstes Dunkelrot mit Goldrand, leicht zerkratzt, Deckel offen, innen einige glatte Kieselsteine. RECHTS: ein flacher grauer Kieselstein, etwa 5 cm, mit einem einfachen, kindlich aufgemalten weißen Hasengesicht mit langen Ohren (ohne Schrift)."
+  }
+ ]
+}

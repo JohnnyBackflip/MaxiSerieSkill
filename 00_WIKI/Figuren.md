@@ -26,6 +26,8 @@ In `../02_Charaktere_Steckbriefe_und_Bilder/` liegen zu jeder Figur Wohnort- und
 Maxi als echtes 3D-Modell in Blender: `../07_Blender_Charakter_Maximilian/` (Modell, LookDev, Rig, Hero-Porträt 9:16).
 
 ## Erwähnt, aber noch ohne Modelsheet
+- **CHAR_13 Großtante Frieda** (ca. 72), Opa Heinrichs ältere Schwester (FTF): silbergraue Dauerwelle, Brille an einer Perlenkette, spitze Nase; pflaumenfarbene Strickjacke mit Brosche über einer weißen Bluse, grau karierter Rock, schwarze Halbschuhe, schwarze Henkeltasche. Puppe: violett.
+- **CHAR_14 Lorchen**, Friedas Papagei (FTF): eine grüne Amazone mit gelber Stirn und rotem Flügelspiegel, im Messing-Käfig; sie plappert nach.
 - **Lenni** (3), Karls kleiner Bruder (F06)
 - **Lotta**, Annas Babyschwester (F08)
 - **Annas Mama** und **Bens Papa** (F04, F08)
@@ -34,4 +36,4 @@ Wenn eine dieser Figuren ins Bild kommt, braucht sie vorher ein Modelsheet. Den 
 
 ## Regeln
 - Die Lager (Bibel 4.1/4.2): Die Kleinen sind Maxi, Anna und Ben. Die Großen sind Karl, Lea und Timo. Höchstens zwei Große sind gleichzeitig im Bild.
-- Farbcode der Blender-Puppen: blau Maxi, gelb Mama, grün Papa, orange Karl. Für weitere Figuren eine neue Farbe festlegen und hier eintragen.
+- Farbcode der Blender-Puppen: blau Maxi, gelb Mama, grün Papa, orange Karl, türkis Anna, braun Opa, violett Frieda (seit FTF). Für weitere Figuren eine neue Farbe festlegen und hier eintragen.

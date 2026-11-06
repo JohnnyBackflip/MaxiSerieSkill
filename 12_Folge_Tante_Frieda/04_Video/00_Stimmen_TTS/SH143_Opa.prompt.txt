@@ -1,0 +1,2 @@
+voice=Algenib halbtoene=-1.0 tempo=0.95
+Sprich auf Deutsch wie ein gemütlicher, humorvoller Großvater um die siebzig, langsam und schmunzelnd: Frieda, der klingt genau wie du!

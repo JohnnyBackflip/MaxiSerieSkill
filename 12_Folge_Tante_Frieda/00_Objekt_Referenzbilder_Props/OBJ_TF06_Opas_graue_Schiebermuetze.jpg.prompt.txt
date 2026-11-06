@@ -1,0 +1,2 @@
+STIL (verbindlich): Freigestelltes 3D-Studio-Modelsheet eines einzelnen Objekts im Pixar-CGI-Look auf neutralem, hellem Studio-Hintergrund (warmes Hellgrau/Creme), weiches Studiolicht, zwei Ansichten nebeneinander (Dreiviertel-Ansicht links, zweite Ansicht rechts), keine Personen, keine schwarzen Outlines, keine Texte/Schriften im Bild, Querformat 16:9 (1376×768). 
+MOTIV: OBJEKT: Eine graue Schiebermütze (Flatcap) aus Tweed mit feinem Fischgrätmuster und kurzem Schirm. LINKS: Dreiviertel-Ansicht von vorn. RECHTS: Seitenansicht.

@@ -1,6 +1,6 @@
 ---
 name: maxi-folge-erstellen
-description: Eine Folge der Serie „Maxi Cartoons“ (Maxis Welt) von der Geschichte bis zum fertigen Video bauen – Szenenplan, Objekt-Sheets, Blender-Blockouts und Mockups, Flow-Bilder, Storyboard-Video mit Bildprüfung, Veo-Szenenvideos mit Dialog, Sprachprüfung und Schnitt, Intro, Einblenden, Lyria-Musik, Thumbnail und Social-Media-Texte (TikTok/YouTube) – und das Projekt-Wiki pflegen. Verwenden, wenn der User eine neue Folge, Szene, Figur, einen Ort oder eine Korrekturrunde für Maxi Cartoons / Maxis Welt / die Korrekturmappe will, oder von Storyboard-Video, Flow-Szenenvideo, Veo-Dialog, Intro, Hintergrundmusik, Thumbnail, TikTok/YouTube-Texten oder Wiki der Serie spricht.
+description: Eine Folge der Serie „Maxi Cartoons“ (Maxis Welt) von der Geschichte bis zum fertigen Video bauen – Szenenplan, Objekt-Sheets, Blender-Blockouts und Mockups, Flow-Bilder, Figurenstimmen mit Gemini-TTS und Hör-Storyboard, Storyboard-Video mit Bildprüfung und Stimmen, Veo-Szenenvideos mit Dialog, Sprachprüfung und Schnitt, Intro, Einblenden, Lyria-Musik, Thumbnail und Social-Media-Texte (TikTok/YouTube) – und das Projekt-Wiki pflegen. Verwenden, wenn der User eine neue Folge (auch frei nach einer Buch-Vorlage), Szene, Figur, einen Ort oder eine Korrekturrunde für Maxi Cartoons / Maxis Welt / die Korrekturmappe will, oder von Storyboard-Video, Stimmen/TTS/Hör-Storyboard, Flow-Szenenvideo, Veo-Dialog, Intro, Hintergrundmusik, Thumbnail, TikTok/YouTube-Texten oder Wiki der Serie spricht.
 ---
 
 # Maxi-Folge erstellen
@@ -39,7 +39,16 @@ Regel: Neue Figur, neuer Ort, neue Kamera, neues Objekt, neue Szene, neue Versio
 - Szenenplan-Tabelle: ID (SH010, SH011 …), Dauer **4/6/8 s**, Ort/Kamera, Bild, Sprecher, Zeile, Sprechzeitfenster.
 - **Eine Einstellung = EIN Sprecher**, Zeilen ≤ ~8 Wörter / ≤ 3 s, Sprecher groß, halbnah, frontal (Details: Dialog-Regeln).
 - Tageszeit je Szenenblock festschreiben (ab Abend sind alle Fenster/Außenbilder dunkel). Standardkleidung. Feste Sitz-/Platzordnung je Ort.
-- Ablage: `00_Drehbuch_und_Szenenplan_Folge_NN.md`.
+- Ablage: `00_Drehbuch_und_Szenenplan_Folge_NN.md` **und** `szenenplan_rN.json` (je Einstellung `id, sek, ort, bild, sprecher, zeile, fenster, block, tageszeit`, optional `stimme`, `stil_zusatz`) – die JSON speist Stimmen und Hör-Storyboard.
+- **Buch-/Fremdvorlage** (z. B. Ludwig Thoma, „Tante Frieda“ → Folge FTF): Nur gemeinfreie Texte oder Vorlagen mit Erlaubnis übernehmen und auch dann nur die Handlung – Dialoge neu schreiben, Illustrationen nicht verwenden, Figuren neu entwerfen. Im Drehbuch eine Tabelle „Original → heute“ (Figur/Ereignis | heute | warum) anlegen; Unzeitgemäßes (Titel, Stände, Geld) ersetzen, und alles, was gegen die Nachahmungsregel verstößt (Feuer, Pulver, Tierquälerei), zu einem harmlosen Gag umbauen. Danach die Bibel-Bausteine nachweisen (Mission, Uhr, Mutprobe, Reparatur, Hochgefühl).
+
+### 1b. Figurenstimmen (Gemini-TTS) und Hör-Storyboard
+Damit sich der User die Geschichte vor den Bildern vorstellen kann – und später als Tonspur des Storyboard-Videos.
+- Keys: eine Zeile je Google-API-Key in `~/.config/maxi/google_api_keys.txt` (chmod 600). **Niemals ins Projekt/Repo** (öffentlich!). Vor dem Push `git grep -n "AIza"` → muss leer sein.
+- Besetzung je Folge in `04_Video/00_Stimmen_TTS/besetzung.json` (Sprecher → `voice`, `stil`, `halbtoene`, `tempo`). Bewährt (FTF): Maxi Puck +4, Anna Leda +4, Mama Aoede, Papa Charon, Opa Algenib −1, Frieda Gacrux +1, Papagei Gacrux +4 (mehr als +4 wird unverständlich). Kinder = erwachsene Stimme + 4 Halbtöne + „wie ein fünfjähriger Junge/Mädchen“ im Stil.
+- Erzeugen: `python3 stimmen_tts.py <szenenplan.json> <besetzung.json> <ordner> [--nur SH010,…] [--force]` → `<SH>_<Sprecher>.wav` (+ `.prompt.txt`), Stille an den Rändern weg, Lautheit normalisiert, Keys reihum.
+- Prüfen: `.venv_sprache/bin/python stimmen_pruefen.py <szenenplan.json> <ordner>` (Whisper, OK ab 0,8). Fehlerhafte Zeile nach `rejected/<name>_v00N.wav`, mit `--nur` neu erzeugen. Stimme/Figur selbst anhören lassen – Whisper erkennt keine Sprecher.
+- Hör-Storyboard: `python3 hoerstoryboard_bauen.py <szenenplan.json> <stimmen_ordner> <04_Video/…_Hoerstoryboard-v00N.mp4> --titel "<Titel>" [--bilder 03_Szenen_Flow_Bilder]`. Ohne Bilder: Karte je Einstellung (Ort, Bild, Tageszeit); mit `--bilder` nimmt es `SHxxx*.jpg`. Intro + Titelkarte davor, jede Stimme beginnt am Anfang ihres Sprechfensters. Ton-Sync mit `silencedetect` an einer Stelle nachmessen.
 
 ### 2. Objekte zuerst
 Jeder Gegenstand, der gehalten wird oder eine Rolle spielt → `OBJ_xx`-Modelsheet in Flow (Stil `object`: zwei Ansichten, Studio-Hintergrund, Farben/Maße, Größenbezug zu Maxi). Zwei Zustände (Korb leer/voll) auf ein Blatt.
@@ -50,8 +59,8 @@ Jeder Gegenstand, der gehalten wird oder eine Rolle spielt → `OBJ_xx`-Modelshe
 - **Blockout baulich prüfen, bevor Flow läuft:** Treppen stehen auf dem Boden, keine Kamera in/unter Bauteilen, keine Bäume/Objekte auf Fahrbahnen, keine Schränke vor Fenstern – Flow malt Blockout-Fehler mit.
 - Wiederkehrende Props (Auto, Fahrrad) in `maxi_blender_lib.py`.
 
-### 4. Szenen-Mockups in Blender
-- Farbpuppen: blau Maxi, gelb Mama, grün Papa, orange Karl; Props; Kamera; PNG + `.blend` je Szene (`02_Szenen_Blender_Mockups/`, Skript `build_folgeNN_szenen*.py`).
+### 4. Szenen-Mockups in Blender (PFLICHT vor jedem Flow-Szenenbild)
+- Farbpuppen: blau Maxi, gelb Mama, grün Papa, orange Karl, türkis Anna, braun Opa, violett Frieda (weitere Farben im Wiki `Figuren.md` festlegen); Props; Kamera; PNG + `.blend` je Szene (`02_Szenen_Blender_Mockups/`, Skript `build_folgeNN_szenen*.py`).
 - Prüfen: Figuren groß genug (Erwachsene ≈ halbe Bildhöhe – kleine Figuren → verzerrte Gesichter), Gesichter zur Kamera, kein Rücken, Gesten treffen ihr Ziel (`point_down`), Fahrzeuge exakt seitlich/frontal.
 - Für Dialog-Einstellungen eigene Sprecher-Startbilder (Sprecher halbnah frontal), z. B. `SH090S`.
 
@@ -60,9 +69,13 @@ Jeder Gegenstand, der gehalten wird oder eine Rolle spielt → `OBJ_xx`-Modelshe
 - Referenzen in fester Reihenfolge: **1 Mockup, 2 (bei B-Bildern) fertiges A-Bild / freigegebenes Szenenbild, dann CHAR-Modelsheets, OBJ-Sheets, Raumszene des Ortes** (+ Raumszene des sichtbaren Nachbarraums, + Szene mit korrekter Architektur).
 - A/B nacheinander: erst alle Startbilder, dann Endbilder mit Startbild als Referenz 2.
 - Batch `--parallel 2–3`, nicht parallel zu zwei Blender-Instanzen (Speicher). Flow braucht 1,5–7 min/Bild.
+- Jobs immer per Skript `make_jobs_NN_*.py` (Datenblock je SH: Raum, Figuren, Objekte, Licht, Motiv, Sprecher → Prompt-Bausteine), Log `jobs_NN_*.log`. Höchstens 5 Referenzen je Bild.
+- **IMMER erst Blender-Mockups mit Farbpuppen (Schritt 4), dann daraus die Flow-Bilder – auch für das allererste Storyboard-Video** (User-Vorgabe 2026-11-06). Kein Bild nur mit Raumszene als Layout. Referenz 1 ist immer das Mockup.
+- Neue Figuren/Objekte als **Welle 1** (`make_jobs_01_sheets.py`), Szenen als **Welle 2** erst danach starten (Szenen brauchen die Sheets als Referenz).
 
 ### 6. Storyboard-Video mit Bildprüfung (PFLICHT)
 - Manifest → `build_episode_video.py`: jede Szene exakt so lange wie geplant; oben links SH-ID + Zeit, **oben rechts „Bild NN“**, unten Sprecher + Text (nur im Sprechfenster); `_Bildliste.md` entsteht automatisch.
+- **Mit Stimmen:** Liegen TTS-Stimmen vor (1b), das Storyboard mit `hoerstoryboard_bauen.py … --bilder 03_Szenen_Flow_Bilder` bauen – gleiche Manifest-Logik, Bilder statt Karten, Stimmen im Sprechfenster.
 - **Titelkarte gibt es NUR im Storyboard-Video** (`title`/`subtitle` im Manifest), nach dem Intro (`"intro"` im Manifest).
 - **Jedes Bild selbst prüfen, bevor das Video an den User geht** – Bild für Bild ansehen und gegen Szenenplan, Modelsheets, OBJ-Sheets und Raumszene abgleichen:
   - Figuren: richtige Person, Kleidung/Haare/Farben wie Modelsheet, keine verzerrten Gesichter, richtige Anzahl Figuren, Sprecher groß/frontal.

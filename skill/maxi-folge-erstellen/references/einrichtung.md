@@ -42,3 +42,6 @@ agy --version && blender --version | head -1
 - Drin: Skill, Werkzeuge, Wiki, Charakterbibel v2.1, Modelsheets, Objekt-Sheets, Raumreferenzen `REF_xx`, leere Flow-Raumszenen `FLOW_CAM_xx`, Blender-Blockouts (Haus, Herbstwald + Tunnel), Logo, Intro (quer + hochkant), Lyria-Musik, Folge 02 als Musterbeispiel (Drehbuch, Vermerk, Job-/Mockup-Skripte, Flow-Prompts, Thumbnails, `social_media.md`).
 - Nicht drin: fertige Folgenvideos, Szenenbilder und Flow-Clips, `rejected/`, `*.bak`, Blender-Kamera-Screenshots (aus den `.blend` neu rendern), der Intro-Song `Saturday_Morning_Adventure.mp3` (Herkunft ungeklärt; das fertige Intro reicht für neue Folgen). Wer das Intro neu bauen will, braucht den Song separat.
 - Große Ergebnisse neuer Folgen (mp4, Flow-Bilder) nicht ins Repo committen – `.gitignore` schließt sie aus.
+
+## Google-API-Keys für Stimmen (Gemini-TTS)
+`mkdir -p ~/.config/maxi && nano ~/.config/maxi/google_api_keys.txt && chmod 600 ~/.config/maxi/google_api_keys.txt` – eine Key-Zeile (`AIza…`) je Zeile; Free-Tier-Keys reichen (werden reihum genutzt). Die Datei liegt bewusst außerhalb des Repos. Test: `python3 stimmen_tts.py` mit `--nur` auf eine Zeile.

@@ -1,0 +1,2 @@
+voice=Aoede halbtoene=0.0 tempo=1.0
+Sprich auf Deutsch wie eine lebhafte, warme Mutter Mitte dreißig, singend und voller Energie: Opa kommt gleich. Bitte sei nett, Frieda.

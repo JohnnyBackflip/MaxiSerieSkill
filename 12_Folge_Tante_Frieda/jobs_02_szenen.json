@@ -1,0 +1,572 @@
+{
+ "jobs": [
+  {
+   "id": "SH010",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH010.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/REF_Einfahrt_mit_Auto_aus_F02_SH030A.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_03_Mama_Katrin_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_05_Blaues_Familienauto_Kombi.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH010 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = REF_Einfahrt_mit_Auto_aus_F02_SH030A; Referenz 2 = CHAR_13_Tante_Frieda_Modelsheet; Referenz 3 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 4 = CHAR_03_Mama_Katrin_Modelsheet; Referenz 5 = OBJ_05_Blaues_Familienauto_Kombi). MOTIV: Das blaue Familienauto ist gerade angekommen. Tante Frieda ist hinten ausgestiegen, steht groß halbnah links vor dem Auto und reckt den Messing-Käfig mit dem grünen Papagei Lorchen wie eine Trophäe hoch, strahlt frontal in die Kamera und ruft. Rechts im Hintergrund an der Hauswand Mama Katrin und Maxi (Hasi im Arm), beide verdutzt. EINFAHRT (fest) wie Referenz: graue Pflaster-Einfahrt vor der Garage, das kleine runde blaue Familienauto (OBJ_05) steht GERADE in der Einfahrt, Hauswand mit Sandkasten links. LICHT: früher Nachmittag Mitte November, weiches graues Tageslicht, bedeckter Himmel, Bäume fast kahl, ein paar bunte Restblätter. SPRECHER-EINSTELLUNG: Tante Frieda (pflaumenfarbene Strickjacke, links) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH020",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH020.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_03_Vorgarten_Gartentor_und_Veranda.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_02_Hasi_Kuschelhase_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH020 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_03_Vorgarten_Gartentor_und_Veranda; Referenz 2 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 3 = CHAR_02_Hasi_Kuschelhase_Modelsheet). MOTIV: Nah in Kinderaugenhöhe vor der Veranda: Maxi drückt Hasi fest an die Brust, die Augen werden zu entschlossenen Schlitzen, er spricht frontal in die Kamera. LICHT: früher Nachmittag Mitte November, weiches graues Tageslicht, bedeckter Himmel, Bäume fast kahl, ein paar bunte Restblätter. SPRECHER-EINSTELLUNG: Maxi (blau-weiß gestreiftes Shirt, Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH030",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH030.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/REF_Einfahrt_mit_Auto_aus_F02_SH030A.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_04_Papa_Thomas_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF02_Friedas_Riesen_Rollkoffer.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_05_Blaues_Familienauto_Kombi.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH030 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = REF_Einfahrt_mit_Auto_aus_F02_SH030A; Referenz 2 = CHAR_13_Tante_Frieda_Modelsheet; Referenz 3 = CHAR_04_Papa_Thomas_Modelsheet; Referenz 4 = OBJ_TF02_Friedas_Riesen_Rollkoffer; Referenz 5 = OBJ_05_Blaues_Familienauto_Kombi). MOTIV: Am offenen Kofferraum des blauen Autos: Papa Thomas zerrt mit beiden Händen an Friedas riesigem pflaumenfarbenem Rollkoffer (OBJ_TF02). Tante Frieda steht groß halbnah links frontal zur Kamera, zeigt mit ihrer Handtasche auf den Koffer und spricht befehlend. EINFAHRT (fest) wie Referenz: graue Pflaster-Einfahrt vor der Garage, das kleine runde blaue Familienauto (OBJ_05) steht GERADE in der Einfahrt, Hauswand mit Sandkasten links. LICHT: früher Nachmittag Mitte November, weiches graues Tageslicht, bedeckter Himmel, Bäume fast kahl, ein paar bunte Restblätter. SPRECHER-EINSTELLUNG: Tante Frieda (links) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH040",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH040.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_03_Mama_Katrin_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH040 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued; Referenz 2 = CHAR_13_Tante_Frieda_Modelsheet; Referenz 3 = CHAR_03_Mama_Katrin_Modelsheet). MOTIV: Flur: Tante Frieda steht groß halbnah frontal auf dem Flurläufer, schaut naserümpfend nach unten auf den Teppich und spricht abfällig. Hinten an der Haustür Mama Katrin mit erzwungenem Lächeln. LICHT: früher Nachmittag Mitte November, weiches graues Tageslicht, bedeckter Himmel, Bäume fast kahl, ein paar bunte Restblätter. SPRECHER-EINSTELLUNG: Tante Frieda (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH041",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH041.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_03_Mama_Katrin_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH041 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued; Referenz 2 = CHAR_03_Mama_Katrin_Modelsheet). MOTIV: Flur: Mama Katrin halbnah frontal, viel zu breites erzwungenes Lächeln, Hände vor der Brust gefaltet, flüstert sich selbst Ruhe zu. LICHT: früher Nachmittag Mitte November, weiches graues Tageslicht, bedeckter Himmel, Bäume fast kahl, ein paar bunte Restblätter. SPRECHER-EINSTELLUNG: Mama Katrin (senfgelber Pullover) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet.  GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH050",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH050.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_17_KZ_Kinderbett_mit_Hasi_Kissenburg_und_Eisenbahn.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_02_Hasi_Kuschelhase_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF01_Lorchens_Messing_Kaefig.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF02_Friedas_Riesen_Rollkoffer.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH050 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_17_KZ_Kinderbett_mit_Hasi_Kissenburg_und_Eisenbahn; Referenz 2 = CHAR_13_Tante_Frieda_Modelsheet; Referenz 3 = CHAR_02_Hasi_Kuschelhase_Modelsheet; Referenz 4 = OBJ_TF01_Lorchens_Messing_Kaefig; Referenz 5 = OBJ_TF02_Friedas_Riesen_Rollkoffer). MOTIV: Kinderzimmer: Tante Frieda steht halbnah frontal neben Maxis Bett und hält Hasi mit spitzen zwei Fingern am Ohr weit von sich weg, angewidertes Gesicht, spricht. KINDERZIMMER (fest) wie Raum-Referenz: Maxis Kinderbett, Spielzeug-Eisenbahn, Kissenburg; Friedas pflaumenfarbener Riesenkoffer (OBJ_TF02) steht offen neben dem Bett, Lorchens Messing-Käfig (OBJ_TF01) steht auf dem Nachttisch. LICHT: früher Nachmittag Mitte November, weiches graues Tageslicht, bedeckter Himmel, Bäume fast kahl, ein paar bunte Restblätter. SPRECHER-EINSTELLUNG: Tante Frieda (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH051",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH051.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_17_KZ_Kinderbett_mit_Hasi_Kissenburg_und_Eisenbahn.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_02_Hasi_Kuschelhase_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH051 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_17_KZ_Kinderbett_mit_Hasi_Kissenburg_und_Eisenbahn; Referenz 2 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 3 = CHAR_02_Hasi_Kuschelhase_Modelsheet). MOTIV: Kinderzimmer, Kinderaugenhöhe: Maxi steht halbnah frontal und drückt Hasi beschützend an sich, empört, spricht energisch. KINDERZIMMER (fest) wie Raum-Referenz: Maxis Kinderbett, Spielzeug-Eisenbahn, Kissenburg; Friedas pflaumenfarbener Riesenkoffer (OBJ_TF02) steht offen neben dem Bett, Lorchens Messing-Käfig (OBJ_TF01) steht auf dem Nachttisch. LICHT: früher Nachmittag Mitte November, weiches graues Tageslicht, bedeckter Himmel, Bäume fast kahl, ein paar bunte Restblätter. SPRECHER-EINSTELLUNG: Maxi (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH060",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH060.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_17_KZ_Kinderbett_mit_Hasi_Kissenburg_und_Eisenbahn.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_14_Lorchen_Papagei_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF01_Lorchens_Messing_Kaefig.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH060 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_17_KZ_Kinderbett_mit_Hasi_Kissenburg_und_Eisenbahn; Referenz 2 = CHAR_13_Tante_Frieda_Modelsheet; Referenz 3 = CHAR_14_Lorchen_Papagei_Modelsheet; Referenz 4 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 5 = OBJ_TF01_Lorchens_Messing_Kaefig). MOTIV: Nah am Nachttisch: Tante Frieda beugt sich mit gespitztem Kussmund zum Gitter des Messing-Käfigs, der grüne Papagei Lorchen gibt ihr ein Schnabel-Küsschen. Frieda im Dreiviertelprofil zur Kamera, Gesicht gut sichtbar. Hinten unscharf Maxi, der angeekelt die Zunge herausstreckt (still). LICHT: früher Nachmittag Mitte November, weiches graues Tageslicht, bedeckter Himmel, Bäume fast kahl, ein paar bunte Restblätter. SPRECHER-EINSTELLUNG: Tante Frieda (links) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH070",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH070.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_33_Garten_Zauntor_zu_Anna_Hochbeet_und_Apfelbaum.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_07_Anna_Freundin_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH070 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_33_Garten_Zauntor_zu_Anna_Hochbeet_und_Apfelbaum; Referenz 2 = CHAR_07_Anna_Freundin_Modelsheet; Referenz 3 = CHAR_01_Maxi_Turnaround_Modelsheet). MOTIV: Garten am gelben Zauntor zu Annas Haus: Anna sitzt rittlings oben auf dem niedrigen Gartentor (statt durchzugehen), halbnah frontal, zeigt mit dem Daumen über die Schulter Richtung Haus und fragt frech. Maxi steht rechts, Hasi im Arm (still). LICHT: früher Nachmittag Mitte November, weiches graues Tageslicht, bedeckter Himmel, Bäume fast kahl, ein paar bunte Restblätter. SPRECHER-EINSTELLUNG: Anna (türkise Latzhose, auf dem Tor) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH071",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH071.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_33_Garten_Zauntor_zu_Anna_Hochbeet_und_Apfelbaum.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_07_Anna_Freundin_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF05_Annas_Glitzerstein.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH071 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_33_Garten_Zauntor_zu_Anna_Hochbeet_und_Apfelbaum; Referenz 2 = CHAR_07_Anna_Freundin_Modelsheet; Referenz 3 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 4 = OBJ_TF05_Annas_Glitzerstein). MOTIV: Am Zauntor: Anna steht halbnah frontal und hält ihren funkelnden violetten Glitzerstein (OBJ_TF05) hoch, verschwörerisches Grinsen. Maxi rechts im Profil staunt (still). LICHT: früher Nachmittag Mitte November, weiches graues Tageslicht, bedeckter Himmel, Bäume fast kahl, ein paar bunte Restblätter. SPRECHER-EINSTELLUNG: Anna (links) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH072",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH072.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_33_Garten_Zauntor_zu_Anna_Hochbeet_und_Apfelbaum.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_07_Anna_Freundin_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH072 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_33_Garten_Zauntor_zu_Anna_Hochbeet_und_Apfelbaum; Referenz 2 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 3 = CHAR_07_Anna_Freundin_Modelsheet). MOTIV: Am Zauntor: Maxi halbnah frontal, entschlossen, schlägt mit Anna per Handschlag ein, Hasi unter den Arm geklemmt. Anna von hinten-seitlich angeschnitten links (still). LICHT: früher Nachmittag Mitte November, weiches graues Tageslicht, bedeckter Himmel, Bäume fast kahl, ein paar bunte Restblätter. SPRECHER-EINSTELLUNG: Maxi (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH080",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH080.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_32_KZ_Kinderaugenhoehe_Bett_Hasi_Eisenbahn_und_Kissenburg.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_14_Lorchen_Papagei_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF03_Mamas_gruener_Blumensprueher.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF01_Lorchens_Messing_Kaefig.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH080 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_32_KZ_Kinderaugenhoehe_Bett_Hasi_Eisenbahn_und_Kissenburg; Referenz 2 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 3 = CHAR_14_Lorchen_Papagei_Modelsheet; Referenz 4 = OBJ_TF03_Mamas_gruener_Blumensprueher; Referenz 5 = OBJ_TF01_Lorchens_Messing_Kaefig). MOTIV: Kinderzimmer, Kinderaugenhöhe: Maxi schleicht auf Zehenspitzen mit Mamas grünem Blumensprüher (OBJ_TF03) herein, frech-heimlicher Blick. Im Käfig auf dem Nachttisch drückt sich der Papagei Lorchen misstrauisch in die Ecke und hebt einen Fuß. KINDERZIMMER (fest) wie Raum-Referenz: Maxis Kinderbett, Spielzeug-Eisenbahn, Kissenburg; Friedas pflaumenfarbener Riesenkoffer (OBJ_TF02) steht offen neben dem Bett, Lorchens Messing-Käfig (OBJ_TF01) steht auf dem Nachttisch. LICHT: früher Nachmittag Mitte November, weiches graues Tageslicht, bedeckter Himmel, Bäume fast kahl, ein paar bunte Restblätter. STUMME EINSTELLUNG: niemand spricht, alle Münder geschlossen. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH081",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH081.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_32_KZ_Kinderaugenhoehe_Bett_Hasi_Eisenbahn_und_Kissenburg.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_14_Lorchen_Papagei_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF01_Lorchens_Messing_Kaefig.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF03_Mamas_gruener_Blumensprueher.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH081 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_32_KZ_Kinderaugenhoehe_Bett_Hasi_Eisenbahn_und_Kissenburg; Referenz 2 = CHAR_14_Lorchen_Papagei_Modelsheet; Referenz 3 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 4 = OBJ_TF01_Lorchens_Messing_Kaefig; Referenz 5 = OBJ_TF03_Mamas_gruener_Blumensprueher). MOTIV: Nah am Käfig: Maxi sprüht mit dem grünen Blumensprüher feinen Nebel in den Käfig. Lorchen ist begeistert, breitet nass die Flügel aus und dreht sich glücklich im Sprühnebel, Schnabel offen (wie rechte Hälfte von OBJ_TF01). Maxi am Bildrand völlig verdutzt. LICHT: früher Nachmittag Mitte November, weiches graues Tageslicht, bedeckter Himmel, Bäume fast kahl, ein paar bunte Restblätter. SPRECHER-EINSTELLUNG: Lorchen, der grüne Papagei im Käfig (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH090",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH090.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_17_KZ_Kinderbett_mit_Hasi_Kissenburg_und_Eisenbahn.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_14_Lorchen_Papagei_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF01_Lorchens_Messing_Kaefig.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH090 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_17_KZ_Kinderbett_mit_Hasi_Kissenburg_und_Eisenbahn; Referenz 2 = CHAR_13_Tante_Frieda_Modelsheet; Referenz 3 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 4 = CHAR_14_Lorchen_Papagei_Modelsheet; Referenz 5 = OBJ_TF01_Lorchens_Messing_Kaefig). MOTIV: Kinderzimmer: Tante Frieda steht halbnah frontal in der Tür, Hände entsetzt an den Wangen, schaut auf den tropfnassen Papagei im Käfig. Maxi sitzt brav auf dem Bett mit einem Bilderbuch – verkehrt herum (still). KINDERZIMMER (fest) wie Raum-Referenz: Maxis Kinderbett, Spielzeug-Eisenbahn, Kissenburg; Friedas pflaumenfarbener Riesenkoffer (OBJ_TF02) steht offen neben dem Bett, Lorchens Messing-Käfig (OBJ_TF01) steht auf dem Nachttisch. LICHT: früher Nachmittag Mitte November, weiches graues Tageslicht, bedeckter Himmel, Bäume fast kahl, ein paar bunte Restblätter. SPRECHER-EINSTELLUNG: Tante Frieda (in der Tür) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH091",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH091.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_32_KZ_Kinderaugenhoehe_Bett_Hasi_Eisenbahn_und_Kissenburg.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_02_Hasi_Kuschelhase_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH091 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_32_KZ_Kinderaugenhoehe_Bett_Hasi_Eisenbahn_und_Kissenburg; Referenz 2 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 3 = CHAR_02_Hasi_Kuschelhase_Modelsheet). MOTIV: Maxi sitzt halbnah frontal auf seinem Bett, schaut mit unschuldigsten Kulleraugen über ein verkehrt herum gehaltenes Bilderbuch, Hasi neben sich, spricht. LICHT: früher Nachmittag Mitte November, weiches graues Tageslicht, bedeckter Himmel, Bäume fast kahl, ein paar bunte Restblätter. SPRECHER-EINSTELLUNG: Maxi (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH093",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH093.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_32_KZ_Kinderaugenhoehe_Bett_Hasi_Eisenbahn_und_Kissenburg.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_14_Lorchen_Papagei_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF01_Lorchens_Messing_Kaefig.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH093 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_32_KZ_Kinderaugenhoehe_Bett_Hasi_Eisenbahn_und_Kissenburg; Referenz 2 = CHAR_14_Lorchen_Papagei_Modelsheet; Referenz 3 = OBJ_TF01_Lorchens_Messing_Kaefig). MOTIV: Nah: der nasse Papagei Lorchen im Käfig auf dem Nachttisch schüttelt sich, Tropfen fliegen, starrt frech frontal und kreischt mit offenem Schnabel. LICHT: früher Nachmittag Mitte November, weiches graues Tageslicht, bedeckter Himmel, Bäume fast kahl, ein paar bunte Restblätter. SPRECHER-EINSTELLUNG: Lorchen (Papagei, Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet.  GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH094",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH094.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_17_KZ_Kinderbett_mit_Hasi_Kissenburg_und_Eisenbahn.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_14_Lorchen_Papagei_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF01_Lorchens_Messing_Kaefig.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH094 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_17_KZ_Kinderbett_mit_Hasi_Kissenburg_und_Eisenbahn; Referenz 2 = CHAR_13_Tante_Frieda_Modelsheet; Referenz 3 = CHAR_14_Lorchen_Papagei_Modelsheet; Referenz 4 = OBJ_TF01_Lorchens_Messing_Kaefig). MOTIV: Tante Frieda halbnah frontal drückt den Messing-Käfig mit Lorchen beschützend an sich, hochmütig stolzer Blick, spricht. KINDERZIMMER (fest) wie Raum-Referenz: Maxis Kinderbett, Spielzeug-Eisenbahn, Kissenburg; Friedas pflaumenfarbener Riesenkoffer (OBJ_TF02) steht offen neben dem Bett, Lorchens Messing-Käfig (OBJ_TF01) steht auf dem Nachttisch. LICHT: früher Nachmittag Mitte November, weiches graues Tageslicht, bedeckter Himmel, Bäume fast kahl, ein paar bunte Restblätter. SPRECHER-EINSTELLUNG: Tante Frieda (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH100",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH100.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_09_KU_Kuechenzeile_Tritthocker_und_6er_Esstisch.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_03_Mama_Katrin_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF04_Apfelkuchen_und_Kuchendose.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF01_Lorchens_Messing_Kaefig.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH100 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_09_KU_Kuechenzeile_Tritthocker_und_6er_Esstisch; Referenz 2 = CHAR_03_Mama_Katrin_Modelsheet; Referenz 3 = CHAR_13_Tante_Frieda_Modelsheet; Referenz 4 = OBJ_TF04_Apfelkuchen_und_Kuchendose; Referenz 5 = OBJ_TF01_Lorchens_Messing_Kaefig). MOTIV: Küche: Mama Katrin stellt halbnah frontal den Apfelkuchen auf den Esstisch und spricht bittend in die Kamera. Links am Tisch sitzt Tante Frieda mit verschränkten Armen (still). Lorchens Messing-Käfig (OBJ_TF01) steht auf der Arbeitsplatte neben der Spüle. KÜCHE (fest): salbeigrüne L-förmige Küchenzeile mit Holz-Arbeitsplatte nur an der linken Wand und der Fensterwand, weiße Bauernspüle unter einem Sprossenfenster; hinten die Glas-Schiebetür zur Terrasse; langer Holz-Esstisch mit Holzstühlen. Keine Kücheninsel, keine Hängelampen, keine Oberschränke über der Spüle. LICHT: Nachmittag Mitte November, warmes gemütliches Licht in der Küche, draußen hinter der Glastür bedeckter grauer Novemberhimmel. SPRECHER-EINSTELLUNG: Mama Katrin (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH101",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH101.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_10_KU_Gegenschuss_Esstisch_durch_Terrassentuer_in_Garten.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF04_Apfelkuchen_und_Kuchendose.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH101 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_10_KU_Gegenschuss_Esstisch_durch_Terrassentuer_in_Garten; Referenz 2 = CHAR_13_Tante_Frieda_Modelsheet; Referenz 3 = OBJ_TF04_Apfelkuchen_und_Kuchendose). MOTIV: Küche: Tante Frieda sitzt halbnah frontal am Esstisch, rückt ihre Brille an der Perlenkette zurecht, selbstgerecht, spricht. KÜCHE (fest): salbeigrüne L-förmige Küchenzeile mit Holz-Arbeitsplatte nur an der linken Wand und der Fensterwand, weiße Bauernspüle unter einem Sprossenfenster; hinten die Glas-Schiebetür zur Terrasse; langer Holz-Esstisch mit Holzstühlen. Keine Kücheninsel, keine Hängelampen, keine Oberschränke über der Spüle. LICHT: Nachmittag Mitte November, warmes gemütliches Licht in der Küche, draußen hinter der Glastür bedeckter grauer Novemberhimmel. SPRECHER-EINSTELLUNG: Tante Frieda (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet.  GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH110",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH110.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_05_Opa_Heinrich_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF06_Opas_graue_Schiebermuetze.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH110 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued; Referenz 2 = CHAR_05_Opa_Heinrich_Modelsheet; Referenz 3 = OBJ_TF06_Opas_graue_Schiebermuetze). MOTIV: Flur, Haustür offen: Opa Heinrich steht halbnah frontal in der Tür, nimmt fröhlich seine graue Schiebermütze (OBJ_TF06) ab, darunter glänzt seine Glatze, ruft herzlich. LICHT: Nachmittag Mitte November, warmes gemütliches Licht in der Küche, draußen hinter der Glastür bedeckter grauer Novemberhimmel. SPRECHER-EINSTELLUNG: Opa Heinrich (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet.  GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH111",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH111.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH111 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued; Referenz 2 = CHAR_13_Tante_Frieda_Modelsheet). MOTIV: Flur: Tante Frieda halbnah frontal, zeigt mit ausgestrecktem Finger nach oben auf Opas Kopf (außerhalb des Bildes), gespielt entsetzt, spricht. LICHT: Nachmittag Mitte November, warmes gemütliches Licht in der Küche, draußen hinter der Glastür bedeckter grauer Novemberhimmel. SPRECHER-EINSTELLUNG: Tante Frieda (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet.  GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH112",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH112.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_05_Opa_Heinrich_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF06_Opas_graue_Schiebermuetze.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH112 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued; Referenz 2 = CHAR_05_Opa_Heinrich_Modelsheet; Referenz 3 = OBJ_TF06_Opas_graue_Schiebermuetze). MOTIV: Flur: Opa Heinrich halbnah frontal, grinst verschmitzt und streicht sich über die Glatze, Mütze in der Hand, spricht. LICHT: Nachmittag Mitte November, warmes gemütliches Licht in der Küche, draußen hinter der Glastür bedeckter grauer Novemberhimmel. SPRECHER-EINSTELLUNG: Opa Heinrich (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet.  GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH120",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH120.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_10_KU_Gegenschuss_Esstisch_durch_Terrassentuer_in_Garten.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_03_Mama_Katrin_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_04_Papa_Thomas_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH120 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_10_KU_Gegenschuss_Esstisch_durch_Terrassentuer_in_Garten; Referenz 2 = CHAR_13_Tante_Frieda_Modelsheet; Referenz 3 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 4 = CHAR_03_Mama_Katrin_Modelsheet; Referenz 5 = CHAR_04_Papa_Thomas_Modelsheet). MOTIV: Kaffeetafel-Totale: alle sitzen am Tisch. Tante Frieda an der linken Stirnseite kaut und verzieht angewidert das Gesicht, ihr Gesicht zur Kamera gedreht, spricht. SITZORDNUNG KAFFEETAFEL (fest): an der Längsseite zur Kamera von links Maxi, Mama Katrin, Papa Thomas; an der linken Stirnseite Tante Frieda, an der rechten Stirnseite Opa Heinrich. Auf dem Tisch Apfelkuchen (OBJ_TF04), Kaffeetassen, eine Kaffeekanne. KÜCHE (fest): salbeigrüne L-förmige Küchenzeile mit Holz-Arbeitsplatte nur an der linken Wand und der Fensterwand, weiße Bauernspüle unter einem Sprossenfenster; hinten die Glas-Schiebetür zur Terrasse; langer Holz-Esstisch mit Holzstühlen. Keine Kücheninsel, keine Hängelampen, keine Oberschränke über der Spüle. LICHT: Nachmittag Mitte November, warmes gemütliches Licht in der Küche, draußen hinter der Glastür bedeckter grauer Novemberhimmel. SPRECHER-EINSTELLUNG: Tante Frieda (links) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH122",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH122.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_10_KU_Gegenschuss_Esstisch_durch_Terrassentuer_in_Garten.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_04_Papa_Thomas_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF04_Apfelkuchen_und_Kuchendose.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH122 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_10_KU_Gegenschuss_Esstisch_durch_Terrassentuer_in_Garten; Referenz 2 = CHAR_13_Tante_Frieda_Modelsheet; Referenz 3 = CHAR_04_Papa_Thomas_Modelsheet; Referenz 4 = OBJ_TF04_Apfelkuchen_und_Kuchendose). MOTIV: Kaffeetafel: Tante Frieda halbnah frontal zeigt mit der Kuchengabel nach rechts auf Papa Thomas, spöttisch. Papa rechts angeschnitten (still). KÜCHE (fest): salbeigrüne L-förmige Küchenzeile mit Holz-Arbeitsplatte nur an der linken Wand und der Fensterwand, weiße Bauernspüle unter einem Sprossenfenster; hinten die Glas-Schiebetür zur Terrasse; langer Holz-Esstisch mit Holzstühlen. Keine Kücheninsel, keine Hängelampen, keine Oberschränke über der Spüle. LICHT: Nachmittag Mitte November, warmes gemütliches Licht in der Küche, draußen hinter der Glastür bedeckter grauer Novemberhimmel. SPRECHER-EINSTELLUNG: Tante Frieda (links) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH123",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH123.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_10_KU_Gegenschuss_Esstisch_durch_Terrassentuer_in_Garten.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_04_Papa_Thomas_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH123 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_10_KU_Gegenschuss_Esstisch_durch_Terrassentuer_in_Garten; Referenz 2 = CHAR_04_Papa_Thomas_Modelsheet). MOTIV: Kaffeetafel: Papa Thomas halbnah frontal, die Kaffeetasse auf halbem Weg zum Mund erstarrt, trockene Miene, spricht. LICHT: Nachmittag Mitte November, warmes gemütliches Licht in der Küche, draußen hinter der Glastür bedeckter grauer Novemberhimmel. SPRECHER-EINSTELLUNG: Papa Thomas (olivgrünes T-Shirt) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet.  GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH124",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH124.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_10_KU_Gegenschuss_Esstisch_durch_Terrassentuer_in_Garten.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_02_Hasi_Kuschelhase_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH124 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_10_KU_Gegenschuss_Esstisch_durch_Terrassentuer_in_Garten; Referenz 2 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 3 = CHAR_02_Hasi_Kuschelhase_Modelsheet). MOTIV: Kaffeetafel: Maxi halbnah frontal, rotes wütendes Gesicht, flüstert Hasi ins Ohr. LICHT: Nachmittag Mitte November, warmes gemütliches Licht in der Küche, draußen hinter der Glastür bedeckter grauer Novemberhimmel. SPRECHER-EINSTELLUNG: Maxi (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH130",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH130.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_09_KU_Kuechenzeile_Tritthocker_und_6er_Esstisch.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_14_Lorchen_Papagei_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_07_Anna_Freundin_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF01_Lorchens_Messing_Kaefig.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH130 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_09_KU_Kuechenzeile_Tritthocker_und_6er_Esstisch; Referenz 2 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 3 = CHAR_14_Lorchen_Papagei_Modelsheet; Referenz 4 = CHAR_07_Anna_Freundin_Modelsheet; Referenz 5 = OBJ_TF01_Lorchens_Messing_Kaefig). MOTIV: Nah an der Arbeitsplatte neben der Spüle: Maxi flüstert halbnah im Dreiviertelprofil (Gesicht gut sichtbar) ans Gitter des Messing-Käfigs, Lorchen hört aufmerksam zu. Hinten an der Glas-Schiebetür drückt Anna draußen die Nase an die Scheibe und zeigt Daumen hoch (still). KÜCHE (fest): salbeigrüne L-förmige Küchenzeile mit Holz-Arbeitsplatte nur an der linken Wand und der Fensterwand, weiße Bauernspüle unter einem Sprossenfenster; hinten die Glas-Schiebetür zur Terrasse; langer Holz-Esstisch mit Holzstühlen. Keine Kücheninsel, keine Hängelampen, keine Oberschränke über der Spüle. LICHT: Nachmittag Mitte November, warmes gemütliches Licht in der Küche, draußen hinter der Glastür bedeckter grauer Novemberhimmel. SPRECHER-EINSTELLUNG: Maxi (vorne) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH140",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH140.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_10_KU_Gegenschuss_Esstisch_durch_Terrassentuer_in_Garten.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF04_Apfelkuchen_und_Kuchendose.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH140 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_10_KU_Gegenschuss_Esstisch_durch_Terrassentuer_in_Garten; Referenz 2 = CHAR_13_Tante_Frieda_Modelsheet; Referenz 3 = OBJ_TF04_Apfelkuchen_und_Kuchendose). MOTIV: Kaffeetafel: Tante Frieda halbnah frontal hält die Kaffeetasse hoch und mäkelt. LICHT: Nachmittag Mitte November, warmes gemütliches Licht in der Küche, draußen hinter der Glastür bedeckter grauer Novemberhimmel. SPRECHER-EINSTELLUNG: Tante Frieda (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet.  GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH141",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH141.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_09_KU_Kuechenzeile_Tritthocker_und_6er_Esstisch.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_14_Lorchen_Papagei_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF01_Lorchens_Messing_Kaefig.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH141 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_09_KU_Kuechenzeile_Tritthocker_und_6er_Esstisch; Referenz 2 = CHAR_14_Lorchen_Papagei_Modelsheet; Referenz 3 = OBJ_TF01_Lorchens_Messing_Kaefig). MOTIV: Nah: Lorchen im Messing-Käfig auf der Arbeitsplatte plustert sich auf, Schnabel weit offen, plappert frech frontal zur Kamera. KÜCHE (fest): salbeigrüne L-förmige Küchenzeile mit Holz-Arbeitsplatte nur an der linken Wand und der Fensterwand, weiße Bauernspüle unter einem Sprossenfenster; hinten die Glas-Schiebetür zur Terrasse; langer Holz-Esstisch mit Holzstühlen. Keine Kücheninsel, keine Hängelampen, keine Oberschränke über der Spüle. LICHT: Nachmittag Mitte November, warmes gemütliches Licht in der Küche, draußen hinter der Glastür bedeckter grauer Novemberhimmel. SPRECHER-EINSTELLUNG: Lorchen (Papagei) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet.  GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH143",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH143.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_10_KU_Gegenschuss_Esstisch_durch_Terrassentuer_in_Garten.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_05_Opa_Heinrich_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH143 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_10_KU_Gegenschuss_Esstisch_durch_Terrassentuer_in_Garten; Referenz 2 = CHAR_05_Opa_Heinrich_Modelsheet). MOTIV: Kaffeetafel: Opa Heinrich halbnah frontal prustet vor Lachen los, haut mit der flachen Hand auf den Tisch, Lachtränen. LICHT: Nachmittag Mitte November, warmes gemütliches Licht in der Küche, draußen hinter der Glastür bedeckter grauer Novemberhimmel. SPRECHER-EINSTELLUNG: Opa Heinrich (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet.  GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH144",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH144.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_09_KU_Kuechenzeile_Tritthocker_und_6er_Esstisch.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_14_Lorchen_Papagei_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF01_Lorchens_Messing_Kaefig.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH144 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_09_KU_Kuechenzeile_Tritthocker_und_6er_Esstisch; Referenz 2 = CHAR_14_Lorchen_Papagei_Modelsheet; Referenz 3 = OBJ_TF01_Lorchens_Messing_Kaefig). MOTIV: Nah: Lorchen im Käfig legt den Kopf schief, Schnabel offen, frech frontal. LICHT: Nachmittag Mitte November, warmes gemütliches Licht in der Küche, draußen hinter der Glastür bedeckter grauer Novemberhimmel. SPRECHER-EINSTELLUNG: Lorchen (Papagei) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet.  GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH150",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH150.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_10_KU_Gegenschuss_Esstisch_durch_Terrassentuer_in_Garten.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH150 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_10_KU_Gegenschuss_Esstisch_durch_Terrassentuer_in_Garten; Referenz 2 = CHAR_13_Tante_Frieda_Modelsheet). MOTIV: Kaffeetafel: Tante Frieda steht auf, halbnah frontal, die Nasenspitze ist weiß, sie reibt sie, empört und streng, spricht. LICHT: Nachmittag Mitte November, warmes gemütliches Licht in der Küche, draußen hinter der Glastür bedeckter grauer Novemberhimmel. SPRECHER-EINSTELLUNG: Tante Frieda (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet.  GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH151",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH151.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_10_KU_Gegenschuss_Esstisch_durch_Terrassentuer_in_Garten.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_02_Hasi_Kuschelhase_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH151 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_10_KU_Gegenschuss_Esstisch_durch_Terrassentuer_in_Garten; Referenz 2 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 3 = CHAR_02_Hasi_Kuschelhase_Modelsheet). MOTIV: Kaffeetafel: Maxi halbnah frontal hält Hasi vor sein halbes Gesicht wie ein Sprecher, kleinlaut, Mund sichtbar. LICHT: Nachmittag Mitte November, warmes gemütliches Licht in der Küche, draußen hinter der Glastür bedeckter grauer Novemberhimmel. SPRECHER-EINSTELLUNG: Maxi (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH152",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH152.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_10_KU_Gegenschuss_Esstisch_durch_Terrassentuer_in_Garten.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_02_Hasi_Kuschelhase_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH152 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_10_KU_Gegenschuss_Esstisch_durch_Terrassentuer_in_Garten; Referenz 2 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 3 = CHAR_02_Hasi_Kuschelhase_Modelsheet). MOTIV: Kaffeetafel: Maxi ist aufgestanden, halbnah frontal, Hasi gesenkt, mutiger ehrlicher Blick, spricht laut. LICHT: Nachmittag Mitte November, warmes gemütliches Licht in der Küche, draußen hinter der Glastür bedeckter grauer Novemberhimmel. SPRECHER-EINSTELLUNG: Maxi (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH160",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH160.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_09_KU_Kuechenzeile_Tritthocker_und_6er_Esstisch.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_14_Lorchen_Papagei_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF01_Lorchens_Messing_Kaefig.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH160 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_09_KU_Kuechenzeile_Tritthocker_und_6er_Esstisch; Referenz 2 = CHAR_13_Tante_Frieda_Modelsheet; Referenz 3 = CHAR_14_Lorchen_Papagei_Modelsheet; Referenz 4 = OBJ_TF01_Lorchens_Messing_Kaefig). MOTIV: Küche: Tante Frieda halbnah frontal nimmt den Messing-Käfig mit Lorchen entschlossen von der Arbeitsplatte, gekränkt und stur, spricht. KÜCHE (fest): salbeigrüne L-förmige Küchenzeile mit Holz-Arbeitsplatte nur an der linken Wand und der Fensterwand, weiße Bauernspüle unter einem Sprossenfenster; hinten die Glas-Schiebetür zur Terrasse; langer Holz-Esstisch mit Holzstühlen. Keine Kücheninsel, keine Hängelampen, keine Oberschränke über der Spüle. LICHT: Nachmittag Mitte November, warmes gemütliches Licht in der Küche, draußen hinter der Glastür bedeckter grauer Novemberhimmel. SPRECHER-EINSTELLUNG: Tante Frieda (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH170",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH170.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_FLUR_CAM_02_Eingang_Blick_zur_Treppe_Nord.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_02_Hasi_Kuschelhase_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_04_Papa_Thomas_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH170 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_FLUR_CAM_02_Eingang_Blick_zur_Treppe_Nord; Referenz 2 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 3 = CHAR_02_Hasi_Kuschelhase_Modelsheet; Referenz 4 = CHAR_04_Papa_Thomas_Modelsheet; Referenz 5 = CHAR_13_Tante_Frieda_Modelsheet). MOTIV: Flur in der Dämmerung: Maxi sitzt traurig vorn auf der untersten Treppenstufe, Hasi mit dem Gesicht nach unten auf den Knien. Hinten trägt Papa Thomas den pflaumenfarbenen Riesenkoffer zur Haustür, Tante Frieda knöpft ihren Mantel zu. LICHT: Dämmerung, alle Fenster und Glastüren draußen dunkelblau, drinnen warmes gelbes Lampenlicht. STUMME EINSTELLUNG: niemand spricht, alle Münder geschlossen. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH171",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH171.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_FLUR_CAM_02_Eingang_Blick_zur_Treppe_Nord.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_02_Hasi_Kuschelhase_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH171 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_FLUR_CAM_02_Eingang_Blick_zur_Treppe_Nord; Referenz 2 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 3 = CHAR_02_Hasi_Kuschelhase_Modelsheet). MOTIV: Flur, Dämmerung: Maxi halbnah frontal auf der untersten Treppenstufe, traurig, Hasi im Schoß, spricht leise. LICHT: Dämmerung, alle Fenster und Glastüren draußen dunkelblau, drinnen warmes gelbes Lampenlicht. SPRECHER-EINSTELLUNG: Maxi (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH172",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH172.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_14_Lorchen_Papagei_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF01_Lorchens_Messing_Kaefig.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF02_Friedas_Riesen_Rollkoffer.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH172 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued; Referenz 2 = CHAR_14_Lorchen_Papagei_Modelsheet; Referenz 3 = OBJ_TF01_Lorchens_Messing_Kaefig; Referenz 4 = OBJ_TF02_Friedas_Riesen_Rollkoffer). MOTIV: Flur, Dämmerung: Lorchens Messing-Käfig steht auf dem pflaumenfarbenen Koffer an der Haustür; Lorchen sitzt still und traurig zusammengekauert auf der Stange, Schnabel leicht offen. LICHT: Dämmerung, alle Fenster und Glastüren draußen dunkelblau, drinnen warmes gelbes Lampenlicht. SPRECHER-EINSTELLUNG: Lorchen (Papagei) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet.  GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH173",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH173.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH173 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued; Referenz 2 = CHAR_13_Tante_Frieda_Modelsheet). MOTIV: Flur, Dämmerung: Tante Frieda halbnah frontal im Mantel, erstarrt, die Augen glänzen feucht, sie reibt sich die Nase, zum ersten Mal verletzlich. LICHT: Dämmerung, alle Fenster und Glastüren draußen dunkelblau, drinnen warmes gelbes Lampenlicht. STUMME EINSTELLUNG: niemand spricht, alle Münder geschlossen. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH180",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH180.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF04_Apfelkuchen_und_Kuchendose.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH180 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued; Referenz 2 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 3 = CHAR_13_Tante_Frieda_Modelsheet; Referenz 4 = OBJ_TF04_Apfelkuchen_und_Kuchendose). MOTIV: Flur, Dämmerung: Maxi steht halbnah frontal und hält Tante Frieda mit beiden Händen die himmelblaue Kuchendose (OBJ_TF04) hin, schüchtern lächelnd. Frieda links angeschnitten (still). LICHT: Dämmerung, alle Fenster und Glastüren draußen dunkelblau, drinnen warmes gelbes Lampenlicht. SPRECHER-EINSTELLUNG: Maxi (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH181",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH181.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF04_Apfelkuchen_und_Kuchendose.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH181 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued; Referenz 2 = CHAR_13_Tante_Frieda_Modelsheet; Referenz 3 = OBJ_TF04_Apfelkuchen_und_Kuchendose). MOTIV: Flur, Dämmerung: Tante Frieda halbnah frontal hält die himmelblaue Kuchendose, schaut zur Seite, ein kleines verlegenes Lächeln, spricht leise. LICHT: Dämmerung, alle Fenster und Glastüren draußen dunkelblau, drinnen warmes gelbes Lampenlicht. SPRECHER-EINSTELLUNG: Tante Frieda (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet.  GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH182",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH182.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_03_Mama_Katrin_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH182 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued; Referenz 2 = CHAR_03_Mama_Katrin_Modelsheet). MOTIV: Flur, Dämmerung: Mama Katrin halbnah frontal, platzt vor Freude, breitet die Arme weit aus, strahlt. LICHT: Dämmerung, alle Fenster und Glastüren draußen dunkelblau, drinnen warmes gelbes Lampenlicht. SPRECHER-EINSTELLUNG: Mama Katrin (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet.  GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH183",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH183.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_02_Hasi_Kuschelhase_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH183 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued; Referenz 2 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 3 = CHAR_02_Hasi_Kuschelhase_Modelsheet). MOTIV: Flur, Dämmerung: Maxi halbnah frontal grinst schief, Hasi im Arm, spricht. LICHT: Dämmerung, alle Fenster und Glastüren draußen dunkelblau, drinnen warmes gelbes Lampenlicht. SPRECHER-EINSTELLUNG: Maxi (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH184",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH184.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_14_Lorchen_Papagei_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF01_Lorchens_Messing_Kaefig.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF02_Friedas_Riesen_Rollkoffer.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH184 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_FLUR_CAM_01_Haustuer_Garderobe_Blick_Sued; Referenz 2 = CHAR_14_Lorchen_Papagei_Modelsheet; Referenz 3 = OBJ_TF01_Lorchens_Messing_Kaefig; Referenz 4 = OBJ_TF02_Friedas_Riesen_Rollkoffer). MOTIV: Flur, Dämmerung: Lorchen hüpft im Messing-Käfig auf dem Koffer fröhlich auf der Stange, Flügel halb offen, Schnabel offen. LICHT: Dämmerung, alle Fenster und Glastüren draußen dunkelblau, drinnen warmes gelbes Lampenlicht. SPRECHER-EINSTELLUNG: Lorchen (Papagei) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet.  GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH190",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH190.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/REF_Einfahrt_mit_Auto_aus_F02_SH030A.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_03_Mama_Katrin_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_05_Opa_Heinrich_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH190 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = REF_Einfahrt_mit_Auto_aus_F02_SH030A; Referenz 2 = CHAR_13_Tante_Frieda_Modelsheet; Referenz 3 = CHAR_03_Mama_Katrin_Modelsheet; Referenz 4 = CHAR_05_Opa_Heinrich_Modelsheet; Referenz 5 = CHAR_01_Maxi_Turnaround_Modelsheet). MOTIV: Einfahrt in der Dämmerung: das blaue Auto mit leuchtenden Scheinwerfern fährt los, Tante Frieda winkt aus dem Beifahrerfenster, Lorchens Käfig auf ihrem Schoß. Vorn winken Mama, Opa und Maxi (Rücken halb zur Kamera, Gesichter im Profil). EINFAHRT (fest) wie Referenz: graue Pflaster-Einfahrt vor der Garage, das kleine runde blaue Familienauto (OBJ_05) steht GERADE in der Einfahrt, Hauswand mit Sandkasten links. LICHT: Dämmerung, alle Fenster und Glastüren draußen dunkelblau, drinnen warmes gelbes Lampenlicht. STUMME EINSTELLUNG: niemand spricht, alle Münder geschlossen. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH195",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH195.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_33_Garten_Zauntor_zu_Anna_Hochbeet_und_Apfelbaum.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_07_Anna_Freundin_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF05_Annas_Glitzerstein.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH195 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_33_Garten_Zauntor_zu_Anna_Hochbeet_und_Apfelbaum; Referenz 2 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 3 = CHAR_07_Anna_Freundin_Modelsheet; Referenz 4 = OBJ_TF05_Annas_Glitzerstein). MOTIV: Garten am gelben Zauntor in der Dämmerung, Licht aus der Terrassentür: Anna hält Maxi über das Tor den violetten Glitzerstein hin; Maxi halbnah frontal schüttelt lächelnd den Kopf und schiebt ihre Hand sanft zurück. LICHT: Dämmerung, alle Fenster und Glastüren draußen dunkelblau, drinnen warmes gelbes Lampenlicht. SPRECHER-EINSTELLUNG: Maxi (rechts) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH200",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH200.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_32_KZ_Kinderaugenhoehe_Bett_Hasi_Eisenbahn_und_Kissenburg.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_02_Hasi_Kuschelhase_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_04_Papa_Thomas_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH200 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_32_KZ_Kinderaugenhoehe_Bett_Hasi_Eisenbahn_und_Kissenburg; Referenz 2 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 3 = CHAR_02_Hasi_Kuschelhase_Modelsheet; Referenz 4 = CHAR_04_Papa_Thomas_Modelsheet). MOTIV: Kinderzimmer am Abend: Maxi hüpft im Schlafanzug-losen Standardoutfit glücklich mit Hasi in sein eigenes Bett, halbnah frontal, jubelt; Papa Thomas wirft lachend die Decke hinterher (still). Kein Käfig, kein Koffer mehr. LICHT: später Abend, Fenster draußen schwarzblau (Nacht), warmes Licht einer Nachttischlampe. SPRECHER-EINSTELLUNG: Maxi (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH201",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH201.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_32_KZ_Kinderaugenhoehe_Bett_Hasi_Eisenbahn_und_Kissenburg.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_05_Opa_Heinrich_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/OBJ_TF07_Mut_Dose_und_Hasen_Stein.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH201 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_32_KZ_Kinderaugenhoehe_Bett_Hasi_Eisenbahn_und_Kissenburg; Referenz 2 = CHAR_05_Opa_Heinrich_Modelsheet; Referenz 3 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 4 = OBJ_TF07_Mut_Dose_und_Hasen_Stein). MOTIV: Kinderzimmer am Abend: Opa Heinrich sitzt halbnah frontal auf der Bettkante und hält die alte rote Blechdose (OBJ_TF07) offen hin, stolz und warm, spricht; Maxi lässt seinen Kieselstein mit dem gemalten Hasen hineinfallen (still). LICHT: später Abend, Fenster draußen schwarzblau (Nacht), warmes Licht einer Nachttischlampe. SPRECHER-EINSTELLUNG: Opa Heinrich (Mitte) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  },
+  {
+   "id": "SH210",
+   "style": "scene",
+   "out": "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/03_Szenen_Flow_Bilder/SH210.jpg",
+   "refs": [
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Raum_Referenzbilder/FLOW_CAM_17_KZ_Kinderbett_mit_Hasi_Kissenburg_und_Eisenbahn.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_01_Maxi_Turnaround_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_02_Hasi_Kuschelhase_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_03_Mama_Katrin_Modelsheet.jpg",
+    "/home/felix/projects/dump/Maxis_Welt_Korrekturmappe/12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_04_Papa_Thomas_Modelsheet.jpg"
+   ],
+   "prompt": "EINSTELLUNG SH210 der Folge „Tante Frieda und Lorchen“ (Samstag, 14. November). Referenz 1 ist die Raumszene des Ortes: Raum, Möbel, Wandfarben exakt übernehmen, Kamera frei für die beschriebene Einstellung (Referenz 1 = FLOW_CAM_17_KZ_Kinderbett_mit_Hasi_Kissenburg_und_Eisenbahn; Referenz 2 = CHAR_01_Maxi_Turnaround_Modelsheet; Referenz 3 = CHAR_02_Hasi_Kuschelhase_Modelsheet; Referenz 4 = CHAR_03_Mama_Katrin_Modelsheet; Referenz 5 = CHAR_04_Papa_Thomas_Modelsheet). MOTIV: Kinderzimmer-Totale am Abend: Maxi steht auf seinem Bett und reckt Hasi hoch, Mama, Papa und Opa davor heben jubelnd die Arme, Bello springt bellend; alle Gesichter zur Kamera. Kein Käfig, kein Koffer. LICHT: später Abend, Fenster draußen schwarzblau (Nacht), warmes Licht einer Nachttischlampe. SPRECHER-EINSTELLUNG: Maxi (Mitte, auf dem Bett) ist der EINZIGE Sprecher – groß im Bild, Gesicht zur Kamera, Mund gut sichtbar und leicht geöffnet. Alle anderen Figuren schweigen mit geschlossenem Mund. GESICHTER: klar, sauber, symmetrisch, unverzerrt, exakt nach den Modelsheets; keine verzogenen Münder, keine schiefen Augen. Figuren und Kleidung exakt wie auf den Modelsheets, Ort exakt wie auf der Raum-Referenz. VERBOTE: keine weiteren Personen oder Tiere als genannt, kein Text, keine Untertitel, keine Sprechblasen, keine schwarzen Outlines; reiner 3D-Pixar-CGI-Look, Querformat 16:9."
+  }
+ ]
+}

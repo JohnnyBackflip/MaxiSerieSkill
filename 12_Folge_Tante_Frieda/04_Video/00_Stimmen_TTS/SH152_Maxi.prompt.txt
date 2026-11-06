@@ -1,0 +1,2 @@
+voice=Puck halbtoene=4.0 tempo=1.0
+Sprich auf Deutsch wie ein aufgeweckter fünfjähriger Junge, hell, schnell und frech: Das war ich! Und das Duschen auch.

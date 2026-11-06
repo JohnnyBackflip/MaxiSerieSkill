@@ -26,6 +26,17 @@ python3 build_episode_video.py <manifest.json> <ausgabe.mp4>
 ```
 Manifest: `title`, `subtitle` (Titelkarte – nur hier!), `width`/`height`, `intro` (Pfad zum Intro im passenden Format), `scenes[].frames[]` mit `image`, `seconds`, `speaker`, `text`. Erzeugt `<ausgabe>_Bildliste.md` (Bild NN → Startzeit → Szene → Datei).
 
+## Stimmen (Gemini-TTS) und Hör-Storyboard
+Keys: `~/.config/maxi/google_api_keys.txt` (eine je Zeile, chmod 600, nie ins Repo). Modell `gemini-2.5-flash-preview-tts` (änderbar per `TTS_MODEL`).
+```
+python3 stimmen_tts.py <NN_Folge>/szenenplan_rN.json <NN_Folge>/04_Video/00_Stimmen_TTS/besetzung.json <NN_Folge>/04_Video/00_Stimmen_TTS [--nur SH010,SH020] [--force]
+.venv_sprache/bin/python stimmen_pruefen.py <szenenplan.json> <stimmen_ordner> [--nur …] [--grenze 0.8]
+python3 hoerstoryboard_bauen.py <szenenplan.json> <stimmen_ordner> <ausgabe.mp4> --titel "<Titel>" [--bilder <03_Szenen_Flow_Bilder>] [--intro <intro.mp4>]
+```
+besetzung.json: `{"Maxi": {"voice": "Puck", "halbtoene": 4, "tempo": 1.0, "stil": "Sprich auf Deutsch wie ein aufgeweckter fünfjähriger Junge…"}, …}`; Sonderstimmen je Zeile über `"stimme": "Lorchen_Kind"` im Szenenplan, Zusatz über `"stil_zusatz": "flüsternd"`.
+Gemini-Stimmen (Auswahl): weiblich Aoede, Leda, Kore, Zephyr, Gacrux (reif), Sulafat (warm), Laomedeia; männlich Puck, Charon, Algenib (rau), Iapetus, Orus, Achird.
+Sync prüfen: `ffmpeg -ss <t> -t 30 -i v.mp4 -vn -af silencedetect=n=-40dB:d=0.4 -f null -` → Sprech-Einsätze = Intro + Titel + Szenenstart + Fensterstart.
+
 ## Sprachwerkzeug (venv `.venv_sprache`, faster-whisper large-v3-turbo + VAD)
 Prüfen:
 ```

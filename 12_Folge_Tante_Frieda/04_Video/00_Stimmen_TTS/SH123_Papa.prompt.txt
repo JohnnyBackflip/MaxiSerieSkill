@@ -1,0 +1,2 @@
+voice=Charon halbtoene=0.0 tempo=1.0
+Sprich auf Deutsch wie ein ruhiger Vater Ende dreißig, trocken und leicht ironisch: Danke, Tante Frieda.

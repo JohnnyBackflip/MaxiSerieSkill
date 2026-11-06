@@ -1,0 +1,42 @@
+# Serien-Intro „Maxi Cartoons“ (2026-11-05)
+
+- **Inhalt:** Mama, Maxi und Papa winken vor dem Haus frontal in die Kamera (Flow/Veo-Clip), ab 2,3 s „ploppt“ das Logo darüber; Musik = `../Saturday_Morning_Adventure.mp3` von 1:00 bis 1:06 (6 s).
+- **Logo** `Maxi_Cartoons_Logo.png` (2400×700, transparent) im Stil von maxihop.com: Schrift Fredoka (Gewicht 700, im Browser über Google Fonts geladen), „MAXI“ #2FA8F5 mit Schatten #0D4F8B, „CARTOONS“ #FF9A0D mit Schatten #9A3412, dicke weiße Kontur, gelber Stern (#FFD43B/#F59E0B).
+- **Bild:** Blender-Mockup `INTRO_blender.png` (Szene „INTRO“ in `09_…/02_Szenen_Blender_Mockups/build_folge02_szenen_AB.py`) → Flow-Bild `INTRO_Familie_winkt.jpg` → Flow-Video `INTRO_Familie_winkt_Flow.mp4` (Veo 3.1 Fast, 6 s, ohne Dialog).
+- **Fertig:** `Maxi_Cartoons_Intro.mp4` (6 s). Bauen: `python3 ../intro_bauen.py INTRO_Familie_winkt_Flow.mp4 Maxi_Cartoons_Logo.png ../Saturday_Morning_Adventure.mp3 Maxi_Cartoons_Intro.mp4 --musik 60-66`.
+- **Einbau:** Flow-Folgen `flow_clips_schneiden.py … --intro …/Maxi_Cartoons_Intro.mp4`; Storyboard-Videos Manifest-Schlüssel `"intro"` in `build_episode_video.py`.
+
+## Intro v2 (2026-11-05, User-Kritik: Figuren zu weit auseinander, Licht nicht schön genug, Nahaufnahmen gewünscht, besseres Logo aus Flow)
+- **Ablauf (7,2 s):** Maxi nah (1,5 s) → Mama nah (1,5 s) → Papa nah (1,5 s) → alle drei eng zusammen winkend, Maxi springt jubelnd (3,1 s); Überblendungen 0,15 s; Logo ploppt ab 4,4 s über den Figuren auf. Musik `../Saturday_Morning_Adventure.mp3` ab 1:00.
+- **Fertig:** `Maxi_Cartoons_Intro.mp4` (ersetzt v1, gleicher Dateiname → `--intro` / Manifest `"intro"` greifen automatisch). v1 komplett in `alt_v1/`.
+- **Blender:** Szenen `INTRO2_MAXI/MAMA/PAPA/ALLE` in `09_…/02_Szenen_Blender_Mockups/build_folge02_szenen_AB.py` (Backup `…_vor_Intro_v2.py.bak`), Figuren eng: Mama x 0,05, Maxi x 0,5 vorn (y −8,65), Papa x 0,97. Mockups `v2/INTRO2_*_blender.png`.
+- **Flow-Bilder:** `v2/INTRO2_*.jpg` (Jobs `v2/jobs_intro_v2.json`), Licht-Block: goldene Stunde, Gesichter weich ausgeleuchtet, Haar-Gegenlicht, Bokeh. INTRO2_PAPA einmal neu (Maxi trug rotes Shirt + Latzhose → `v2/rejected/`, `jobs_intro_v2b_papa.json`).
+- **Logo:** `Maxi_Cartoons_Logo.png` jetzt aus Flow (3D-Bonbonschrift, `v2/LOGO_Maxi_Cartoons_Flow.jpg` auf Grün, freigestellt per Chroma-Key → `v2/Maxi_Cartoons_Logo_Flow.png`); altes Logo `alt_v1/Maxi_Cartoons_Logo_v1.png`.
+- **Flow-Videos:** Projekt „Nov 05 - 19:29“, Frames nur Startbild, Veo 3.1 Fast, 720p, 4 s, ohne Dialog; Prompts `v2/flow_video_prompts_intro_v2.json`; Clips `v2/flow_videos/INTRO2_*_flow.mp4`.
+- **Bauen:** `python3 ../intro_bauen_v2.py Maxi_Cartoons_Intro.mp4 --logo Maxi_Cartoons_Logo.png --song ../Saturday_Morning_Adventure.mp3 --clip v2/flow_videos/INTRO2_MAXI_flow.mp4:0.0:1.5 --clip v2/flow_videos/INTRO2_MAMA_flow.mp4:0.1:1.5 --clip v2/flow_videos/INTRO2_PAPA_flow.mp4:0.2:1.5 --clip v2/flow_videos/INTRO2_ALLE_flow.mp4:0.0:3.1`
+- **Bekannt:** Im Mama-Bild trägt Papa am rechten Rand ein Hemd mit Kragen statt T-Shirt (nur angeschnitten). Die Nahaufnahmen sind nur kurz verwendet, weil Veo gegen Ende Kleidung/Gesichter freier interpretiert.
+
+## Intro v3 (2026-11-05, Kritik zu v2: Schnitt zu langsam, Ende soll beim Sprung sein)
+- **Ablauf (4,54 s, harte Schnitte):** Maxi 0,8 s → Mama 0,8 s → Papa 0,8 s → alle zusammen 2,12 s; Logo ploppt 0,15 s nach dem Schnitt aufs Schlussbild (2,55 s). Bild, Musik und Ton enden im höchsten Punkt von Maxis Sprung (Clip-Zeit 2,12 s).
+- **Musik:** Song ab 59,25 s, so dass der Schlag bei 63,65 s auf das Sprung-Ende fällt (Onset-Analyse); Einblenden 0,15 s, Ausblenden nur 0,1 s.
+- **Fertig:** `Maxi_Cartoons_Intro.mp4` = `v2/Maxi_Cartoons_Intro_v3.mp4`; die 7-s-Fassung liegt als `v2/Maxi_Cartoons_Intro_v2_7s.mp4`.
+- **Bauen:** `python3 ../intro_bauen_v2.py Maxi_Cartoons_Intro.mp4 --logo Maxi_Cartoons_Logo.png --song ../Saturday_Morning_Adventure.mp3 --clip v2/flow_videos/INTRO2_MAXI_flow.mp4:0.0:0.8 --clip v2/flow_videos/INTRO2_MAMA_flow.mp4:0.1:0.8 --clip v2/flow_videos/INTRO2_PAPA_flow.mp4:0.2:0.8 --clip v2/flow_videos/INTRO2_ALLE_flow.mp4:0.0:2.12 --xfade 0 --musik-ab 59.25 --musik-aus 0.1 --logo-ab-letzter 0.15`
+- **Folgenanfang nach dem Intro:** keine Titelkarte mehr; erste Einstellung 1 s aus Schwarz einblenden (`flow_clips_schneiden.py --einblenden 1.0`), darunter leise Serienmusik (`musik_unterlegen.py --cue <Musik>@<Intro-Ende>-<+9 s>:ab=1.0:laut=-9 --ducking --fade 1.5`; Musik_01 hat ~1,2 s Stille am Anfang).
+
+## Ton-Korrektur (2026-11-06, User: Ton muss exakt der aus v2 sein)
+- `Maxi_Cartoons_Intro.mp4` = Bild aus `v2/Maxi_Cartoons_Intro_v3.mp4` + Tonspur aus `v2/Maxi_Cartoons_Intro_v2.mp4` (Song ab 1:00), die ersten 4,54 s unverändert übernommen (Stream-Copy, kein Neu-Encoding). Damit gilt der Schlag-Abgleich auf den Sprung aus v3 nicht mehr, und am Ende wird nicht ausgeblendet.
+- Bauen: `ffmpeg -i v2/Maxi_Cartoons_Intro_v3.mp4 -i v2/Maxi_Cartoons_Intro_v2.mp4 -map 0:v:0 -map 1:a:0 -c copy -t 4.542 -movflags +faststart Maxi_Cartoons_Intro.mp4`
+
+## Schwarzblende + Hochkant-Fassung (2026-11-06)
+- Ton wieder wie v2: Song ab 1:00, Einblenden 0,15 s (gleiche Verarbeitung wie v2). Neu: Bild und Ton blenden in den letzten 0,3 s aus, die letzten 2 Bilder sind ganz schwarz. Fassung ohne Schwarzblende: `v2/Maxi_Cartoons_Intro_v3b_ton_v2_ohne_schwarz.mp4`.
+- `intro_bauen_v2.py` kann jetzt `--schwarz-aus S` und `--format hochkant` (1080×1920); Clip-Angabe `Datei:Start:Dauer:Ausschnitt` mit Ausschnitt = horizontale Bildmitte 0..1 oder `box` (ganzes Bild auf unscharfem Hintergrund). Backup `intro_bauen_v2.py.bak_vor_hochkant`.
+- Quer: `python3 ../intro_bauen_v2.py Maxi_Cartoons_Intro.mp4 --logo Maxi_Cartoons_Logo.png --song ../Saturday_Morning_Adventure.mp3 --clip v2/flow_videos/INTRO2_MAXI_flow.mp4:0.0:0.8 --clip v2/flow_videos/INTRO2_MAMA_flow.mp4:0.1:0.8 --clip v2/flow_videos/INTRO2_PAPA_flow.mp4:0.2:0.8 --clip v2/flow_videos/INTRO2_ALLE_flow.mp4:0.0:2.12 --xfade 0 --musik-ab 60 --musik-aus 0.3 --schwarz-aus 0.3 --logo-ab-letzter 0.15`
+- Hochkant (TikTok): `python3 ../intro_bauen_v2.py Maxi_Cartoons_Intro_Hochkant.mp4 --format hochkant --logo-breite 980 --logo-y 500 --logo Maxi_Cartoons_Logo.png --song ../Saturday_Morning_Adventure.mp3 --clip v2/flow_videos/INTRO2_MAXI_flow.mp4:0.0:0.8:0.5 --clip v2/flow_videos/INTRO2_MAMA_flow.mp4:0.1:0.8:0.45 --clip v2/flow_videos/INTRO2_PAPA_flow.mp4:0.2:0.8:0.5 --clip v2/flow_videos/INTRO2_ALLE_flow.mp4:0.0:2.12:box --xfade 0 --musik-ab 60 --musik-aus 0.3 --schwarz-aus 0.3 --logo-ab-letzter 0.15`. Nahaufnahmen als 9:16-Ausschnitt bildfüllend; das Schlussbild ist zu breit für 9:16 (Mama und Papa würden abgeschnitten) und steht deshalb ganz mittig auf unscharfem Hintergrund, das Logo darüber.
+
+## Hochkant: Schlussbild als eigenes 9:16-Video (2026-11-06, User: Schlussszene muss vollbild sein, kein gequetschtes Breitbild)
+- Neues Startbild in Google Flow (Projekt „Nov 05 - 19:29“, Bild, 9:16, Nano Banana 2.1, 2 Varianten). Referenzen: 1 INTRO2_ALLE, 2 INTRO2_MAXI, 3 INTRO2_MAMA, 4 INTRO2_PAPA. Gewählt `v2/hochkant/INTRO3_ALLE_HOCH.jpg` (768×1376, große Gesichter, oben Dach/Wand fürs Logo), zweite Variante `…_Variante2.jpg`.
+- Video: Flow → Video → Frames, nur Startbild, 9:16, Veo 3.1 Fast, 4 s, 2 Varianten, Download 1080p (hochskaliert). Prompt `v2/hochkant/INTRO3_ALLE_HOCH_video_prompt.txt`. Gewählt `v2/hochkant/flow_videos/INTRO3_ALLE_HOCH_flow.mp4`: Maxi springt zweimal, zweiter Hochpunkt bei ~2,12 s → Clip 0–2,12 s wie im Querformat. Variante 2 (`…_flow_Variante2.mp4`, ein Sprung mit Hochpunkt ~1,1 s) nicht verwendet.
+- Beim ersten Versuch meldete Flow „ungewöhnliche Aktivitäten“ (Generierung nicht angerechnet); der zweite Versuch lief.
+- `intro_bauen_v2.py`: Clip-Ausschnitt `voll` = Clip ist schon 9:16 (Backup `intro_bauen_v2_vor_Hochkant_voll.py.bak`).
+- Bauen: `python3 ../intro_bauen_v2.py Maxi_Cartoons_Intro_Hochkant.mp4 --format hochkant --logo-breite 980 --logo-y 400 --logo Maxi_Cartoons_Logo.png --song ../Saturday_Morning_Adventure.mp3 --clip v2/flow_videos/INTRO2_MAXI_flow.mp4:0.0:0.8:0.5 --clip v2/flow_videos/INTRO2_MAMA_flow.mp4:0.1:0.8:0.45 --clip v2/flow_videos/INTRO2_PAPA_flow.mp4:0.2:0.8:0.5 --clip v2/hochkant/flow_videos/INTRO3_ALLE_HOCH_flow.mp4:0.0:2.12:voll --xfade 0 --musik-ab 60 --musik-aus 0.3 --schwarz-aus 0.3 --logo-ab-letzter 0.15`
+- Alte Box-Fassung: `v2/hochkant/Maxi_Cartoons_Intro_Hochkant_v1_box.mp4`.

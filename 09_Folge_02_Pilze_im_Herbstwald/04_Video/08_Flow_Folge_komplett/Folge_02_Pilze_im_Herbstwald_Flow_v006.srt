@@ -1,0 +1,104 @@
+1
+00:00:04,542 --> 00:00:07,302
+MAMA: Heute gehen wir Pilze sammeln im Wald.
+
+2
+00:00:08,034 --> 00:00:11,574
+MAXI: Ja, ich finde den Allergrößten.
+
+3
+00:00:11,954 --> 00:00:14,834
+PAPA: Alle einsteigen. Der Wald wartet.
+
+4
+00:00:15,670 --> 00:00:17,530
+MAMA: Korb nicht vergessen, Maxi.
+
+5
+00:00:19,826 --> 00:00:23,706
+KARL: Pilze sammeln? Ihr findet eh nichts.
+
+6
+00:00:25,602 --> 00:00:27,762
+MAXI: Der ist gemein.
+
+7
+00:00:28,486 --> 00:00:31,726
+MAMA: Lass ihn reden. Wir zeigen es ihm.
+
+8
+00:00:32,406 --> 00:00:33,686
+MAXI (OFF): Sind wir bald da?
+
+9
+00:00:34,906 --> 00:00:37,946
+PAPA: Da sind wir. Auf in den Wald.
+
+10
+00:00:38,750 --> 00:00:43,150
+MAMA: Schaut gut unter die Bäume. Da verstecken sich die Pilze.
+
+11
+00:00:43,874 --> 00:00:49,614
+MAXI: Mama! Papa! Ich hab einen! Ein Riesenpilz!
+
+12
+00:00:49,844 --> 00:00:53,544
+PAPA: Ein Steinpilz. Der kommt in den Korb.
+
+13
+00:00:53,764 --> 00:00:57,484
+MAMA: Und hier Pfifferlinge. Die sind lecker.
+
+14
+00:00:57,684 --> 00:01:01,184
+MAXI: Guck mal, so ein schöner Weißer.
+
+15
+00:01:01,604 --> 00:01:08,024
+MAMA: Stopp! Das ist ein Knollenblätterpilz. Der ist giftig. Den darf man niemals essen.
+
+16
+00:01:08,776 --> 00:01:10,856
+MAXI: Dann bleibt der hier stehen.
+
+17
+00:01:11,468 --> 00:01:14,768
+PAPA: Der Korb ist voll. Zeit für zu Hause.
+
+18
+00:01:15,388 --> 00:01:17,668
+MAXI: Ich halte den Korb fest.
+
+19
+00:01:19,516 --> 00:01:21,456
+MAXI: Da ist Karl!
+
+20
+00:01:22,016 --> 00:01:25,036
+MAXI: Bäh, wir haben ganz viele.
+
+21
+00:01:25,924 --> 00:01:29,484
+KARL: Hä? Was war das denn?
+
+22
+00:01:29,844 --> 00:01:31,884
+MAMA: Die Pilze schneiden wir klein.
+
+23
+00:01:33,612 --> 00:01:36,352
+PAPA: Und ab in die Sahnesaus.
+
+24
+00:01:36,552 --> 00:01:40,352
+MAXI: Mh, Nudeln mit unseren Pilzen.
+
+25
+00:01:40,472 --> 00:01:43,612
+PAPA: Und Karl? Der hat nur Luft gefunden.
+
+26
+00:01:44,392 --> 00:01:47,332
+MAMA: Guten Appetit, ihr Pilzsucher!
+

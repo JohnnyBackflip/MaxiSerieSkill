@@ -1,0 +1,7 @@
+THUMB_9x16: [fail] Thumbnail_Hintergrund_9x16.jpg Versuch 1 rc=0 (102s): rgeben. Korb, Steinpilz und Pfifferlinge kamen nur aus der Textbeschreibung, nicht aus ihren Referenzbildern. |  | 09_Folge_02_Pilze_im_Herbstwald/05_Thumbnail/Thumbnail_Hintergrund_9x16.jpg | root agent idle; waiting up to 10m0s for 1 background task(s)
+THUMB_16x9: [ok] Thumbnail_Hintergrund_16x9.jpg (133s, Versuch 1)
+THUMB_9x16: [fail] Thumbnail_Hintergrund_9x16.jpg Versuch 2 rc=0 (188s): intergrund_9x16.jpg |  | Hinweis: Das Bildwerkzeug nimmt höchstens 3 Referenzbilder an. Übergeben wurden nur Maxi, Karl und der Waldweg. Korb, Steinpilz und Pfifferlinge sind deshalb nur nach der Textbeschreibung gemalt, nicht nach OBJ_01–03. | root agent idle; waiting up to 10m0s for 1 background task(s)
+THUMB_9x16: [fail] Thumbnail_Hintergrund_9x16.jpg Versuch 3 rc=0 (96s): Hinweis: Das Bildwerkzeug nimmt höchstens 3 Referenzbilder an, deshalb wurden nur Maxi, Karl und der Waldweg übergeben. Korb, Steinpilz und Pfifferlinge sind nur nach der Textbeschreibung entstanden, nicht nach den Objekt-Referenzbildern. | root agent idle; waiting up to 10m0s for 1 background task(s)
+
+Fertig: 1/2 ok.
+FEHLGESCHLAGEN: THUMB_9x16

@@ -1,0 +1,12 @@
+# Arbeitsstände und große Ergebnisse neuer Folgen nicht committen
+.venv_sprache/
+__pycache__/
+*.bak
+*.blend1
+rejected/
+**/02_Szenen_Blender_Mockups/*.png
+**/02_Szenen_Blender_Mockups/blend/
+**/03_Szenen_Flow_Bilder/
+**/04_Video/**/*.mp4
+# Intro-Song: Herkunft ungeklärt, nicht veröffentlichen
+Saturday_Morning_Adventure.mp3

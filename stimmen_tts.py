@@ -74,6 +74,7 @@ def main():
         flt = f"asetrate={int(24000*f)},aresample=24000,atempo={tempo/f:.5f},silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse,loudnorm=I=-18:TP=-2"
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", roh, "-af", flt, "-ar", "24000", "-ac", "1", wav], check=True)
         os.remove(roh)
+        subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "stimmen_normalisieren.py"), a.out], check=False)   # Pegel angleichen
         dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", wav]))
         print(f"{name}: {dur:.2f} s  ({c['voice']})", flush=True)
         with open(os.path.join(a.out, name + ".prompt.txt"), "w") as fh:

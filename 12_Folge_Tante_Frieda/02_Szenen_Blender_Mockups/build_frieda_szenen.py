@@ -161,11 +161,11 @@ def _(col):
     L.build_figure("Mama_Katrin", (0.55, -4.6), 90, "stand", col)
 
 
-@scene("SH041", ((-0.5, -1.6, 1.30), (0.55, -4.6, 1.25), 36.0))
+@scene("SH041", ((0.95, -3.6, 1.55), (0.55, -4.6, 1.58), 55.0))
 def _(col):
     r = L.build_figure("Tante_Frieda", (0.3, -3.0), 90, "hold_front", col)
     L.prop_cage("Kaefig", ((r["hand_L"] + r["hand_R"]).x / 2, (r["hand_L"] + r["hand_R"]).y / 2 + 0.05, r["hand_L"].z - 0.62), col, facing_deg=90)
-    L.build_figure("Mama_Katrin", (0.55, -4.6), 90, "hold_front", col)
+    L.build_figure("Mama_Katrin", (0.55, -4.6), 90, "hold_front", col)                                                                      # Fokus auf Mama, Frieda aus dem Bild
 
 
 @scene("SH047", ((-4.4, 1.0, 4.15), (-1.3, 1.0, 3.95), 40.0))
@@ -249,10 +249,10 @@ def _(col):
     L.build_figure("Maxi", (-17.0, 1.4), 180, "stand", col)
 
 
-@scene("SH072", ((-21.0, 3.8, 1.90), (-17.0, 1.4, 0.95), 30.0))
+@scene("SH072", ((-19.4, 3.1, 1.30), (-17.0, 1.4, 0.95), 58.0))
 def _(col):
-    L.build_figure("Anna", (GATE[0], GATE[1]), 0, "sit", col, seat_z=1.02, arms="point")     # Rücken zur Kamera
-    L.build_figure("Maxi", (-17.0, 1.4), 180, "point", col)                                  # spricht frontal zur Kamera
+    L.build_figure("Anna", (GATE[0], GATE[1]), 0, "sit", col, seat_z=1.02, arms="stand")     # Rücken zur Kamera
+    L.build_figure("Maxi", (-17.0, 1.4), 180, "point", col)                                  # spricht frontal, Kamera näher am Gesicht
 
 
 # ================================================================== BLOCK C  Versuch 1: die Dusche (Kinderzimmer)
@@ -333,7 +333,7 @@ def _(col):
 @scene("SH111", ((1.0, -5.7, 1.30), (0.3, -3.3, 1.30), 30.0))
 def _(col):
     L.build_figure("Opa_Heinrich", (0.3, -5.3), 90, "stand", col)
-    L.build_figure("Tante_Frieda", (0.3, -3.3), 270, "point", col)
+    L.build_figure("Tante_Frieda", (0.3, -3.3), 270, "hands_hip", col)
 
 
 @scene("SH112", ((-0.3, -1.6, 1.35), (0.3, -5.3, 1.30), 28.0))
@@ -638,15 +638,19 @@ def _(col):
     L.build_figure("Maxi", (-17.0, 1.4), 180, "face", col, mood="suspicious")               # überlegt, Hand am Kinn
 
 
-@scene("SH074", ((-14.0, 1.7, 1.20), (-17.6, 1.8, 0.95), 42.0))
+@scene("SH074", ((-15.6, 1.7, 1.55), (-18.9, 1.8, 1.50), 65.0))
 def _(col):
-    L.build_figure("Anna", (GATE[0], GATE[1]), 0, "sit", col, seat_z=1.02, arms="lift")      # hat die Idee
+    L.build_figure("Anna", (GATE[0], GATE[1]), 0, "sit", col, seat_z=1.02, arms="stand")     # Hände unten, Kamera nah am Gesicht
     L.build_figure("Maxi", (-17.0, 1.4), 180, "stand", col)
 
 
 @scene("SH109", ((2.2, -9.6, 1.40), (0.8, -6.6, 1.40), 28.0))
 def _(col):
-    L.build_figure("Opa_Heinrich", (0.7, -7.3), 90, "point", col)                           # klingelt an der Haustür
+    for o in bpy.data.objects:                                                              # offenes Türblatt weg, geschlossene Haustür davor
+        if o.name.startswith("EG_Aussenwand_Sued_front_door_3_leaf"):
+            o.hide_render = True
+    L.box("Haustuer_zu", (0.62, -6.28, 1.10), (1.12, 0.07, 2.12), L.mat("MAT_Haustuer_Teal", (0.05, 0.30, 0.33, 1)), col)
+    L.build_figure("Opa_Heinrich", (0.7, -7.3), 90, "point", col)                           # klingelt an der geschlossenen Haustür
 
 
 @scene("SH165", ((0.0, -5.2, 1.30), (0.5, -2.2, 1.30), 30.0))
@@ -665,12 +669,12 @@ def _(col):
     L.build_figure("Papa_Thomas", (1.2, -2.9), 250, "stand", col)
 
 
-@scene("SH167", ((-0.4, -5.0, 1.30), (1.2, -2.9, 1.30), 32.0))
+@scene("SH167", ((-0.5, -3.9, 1.40), (1.2, -2.9, 1.42), 50.0))
 def _(col):
-    r = L.build_figure("Tante_Frieda", (0.0, -3.8), 90, "stand", col)
+    L.build_figure("Tante_Frieda", (0.0, -3.8), 90, "stand", col)
     L.prop_suitcase("Koffer", (-0.6, -4.3, 0), 90, col)
     L.build_figure("Mama_Katrin", (0.5, -2.2), 270, "stand", col)
-    L.build_figure("Papa_Thomas", (1.2, -2.9), 250, "hold_front", col)
+    L.build_figure("Papa_Thomas", (1.2, -2.9), 215, "hold_front", col)                       # Fokus auf Papa, schaut zu Frieda
 
 
 @scene("SH173", ((0.2, -1.5, 1.30), (0.3, -4.5, 1.30), 32.0))
@@ -687,7 +691,7 @@ def clear_scene_col():
             bpy.data.objects.remove(o, do_unlink=True)
         bpy.data.collections.remove(col)
     for o in bpy.data.objects:
-        if o.name.startswith(("KU_Stuhl", "KZ_Hasi", "DET_Glas", "KZ_Kleiderschrank")):
+        if o.name.startswith(("KU_Stuhl", "KZ_Hasi", "DET_Glas", "KZ_Kleiderschrank", "EG_Aussenwand_Sued_front_door_3_leaf")):
             o.hide_render = False
     for o in list(bpy.data.objects):
         if o.name.startswith("SZENE_CAM_"):

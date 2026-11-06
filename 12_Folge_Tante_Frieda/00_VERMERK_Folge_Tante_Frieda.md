@@ -123,3 +123,21 @@ Bild-Nummern der Kritik = v004. Szenenplan `szenenplan_r5.json` (70 Einstellunge
 - **Offen:** Flow-Bilder für die übrigen Szenen (Kontingent), Flow-Video, Hochkant-Version (wartet auf den Abschluss dieses Auftrags).
 - **Videos (Stand Ende Runde 7):** `04_Video/Folge_Tante_Frieda_Mockup-Vorschau-v005.mp4` (alle 70 Szenen als Blender-Mockup mit Licht, gekürzte Pausen, 4:37 min) und `04_Video/Folge_Tante_Frieda_Flow-Vorschau-v001_teilweise.mp4` (A/B-Bildpaare je halbe Szenenzeit; nur SH001–SH010 mit Flow-Bildern, sonst Mockup als Ersatz; 184 nummerierte Bilder).
 - **Mockup-Fehler gefunden und behoben:** SH041_B war leer, weil die Kamera in Friedas Körper stand (jetzt zwischen Frieda und Mama).
+
+## Runde 8 – 2026-11-06: Kritik am Video v005 → v006, Audio-Regel
+Bild-Nummern = v005.
+
+| Bild | Kritik | Änderung |
+|---|---|---|
+| 10 (SH041) | Mama im Fokus, näher ran, Tante raus | Mockup jetzt Closeup auf Mama, Frieda nicht im Bild |
+| 15 (SH052) | etwa 1 s länger | Plan-Feld `extra: 1.0`, der Builder addiert die Zeit |
+| 22 (SH073), 35 (SH091), 55 (SH150), 64/65 (SH174/175) | Ton fehlt | **Ursache:** Gemini-TTS lieferte diese Clips mit −41 bis −52 dB, `loudnorm` griff bei kurzen Clips nicht. Alle Stimmen jetzt per Kompressor + Limiter auf −20 dB |
+| 23 (SH074) | Anna Hände runter, Kamera nah am Gesicht | Mockup: Arme unten, Kamera nah |
+| 24 (SH072) | Kamera näher an Maxis Gesicht | Mockup: Kamera näher |
+| 41 (SH109) | Haustür ist offen, soll zu | Türblatt ausgeblendet, geschlossene Tür davor |
+| 43 (SH111) | beide Hände von Frieda an die Hüfte | Pose `hands_hip` |
+| 60 (SH167) | Fokus auf Papa, er schaut mehr zu Frieda | Kamera nah an Papa, Blick Richtung Frieda |
+
+- **Regel (User):** Alle Ton- und Sprachteile laufen durch Kompressor + Limiter: `audio_kette.py`, `stimmen_normalisieren.py`, `video_pegeln.py`, Master −16 LUFS (v006 gemessen: −16,4 LUFS, Spitze −1,5 dB; sprechende Szenen −19 bis −24 dB).
+- **Video:** `04_Video/Folge_Tante_Frieda_Mockup-Vorschau-v006.mp4`.
+- **Flow im Browser:** Strg+V mit Referenzbild hängt den Tab auf (zweimal), das Datei-Upload-Feld ist nicht bedienbar. Es wurden keine Flow-Bilder im Browser gemalt. Offen: wie die Referenzen in Flow kommen sollen.

@@ -10,6 +10,8 @@ Video selbst baut build_episode_video.py (Intro, Titelkarte, Untertitel nur im S
       --titel "Tante Frieda und Lorchen" [--intro 00_Intro_Maxi_Cartoons/Maxi_Cartoons_Intro.mp4] [--bilder DIR]
 """
 import argparse, glob, json, os, re, subprocess, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from audio_kette import LIMIT, EFFEKT, MUSIK, MASTER
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -116,6 +118,7 @@ def main():
             for c in cues:                                  # Effekte, die später einsetzen, müssen noch in die Szene passen
                 sek = max(sek, float(c.get("off", 0)) + min(sfx_laenge(c), 1.2))
             st = lead
+        sek += float(s.get("extra", 0))                       # Zusatzzeit je Szene (User: etwas länger stehen lassen)
         starts[sid] = (t, sek)
         # Zeitleiste: (Dauer, Sprecher, Text)
         if sprache:
@@ -159,7 +162,7 @@ def main():
     for i, (ts, wav) in enumerate(voices, start=1):
         inputs += ["-i", wav]
         ms = int((off + ts) * 1000)
-        fl.append(f"[{i}:a]aresample=48000,aformat=channel_layouts=stereo,adelay={ms}|{ms}[v{i}]"); labels.append(f"[v{i}]")
+        fl.append(f"[{i}:a]aresample=48000,aformat=channel_layouts=stereo,{LIMIT},adelay={ms}|{ms}[v{i}]"); labels.append(f"[v{i}]")
     n = len(labels)
     if a.ton:  # Soundeffekte und Musik (Pfade relativ zur ton.json)
         base = os.path.dirname(os.path.abspath(a.ton))
@@ -167,7 +170,7 @@ def main():
         for c in ton.get("sfx", []):
             n += 1; inputs += ["-i", pf(c["datei"])]
             ms = int((off + starts[c["sh"]][0] + float(c.get("off", 0))) * 1000)
-            fl.append(f"[{n}:a]aresample=48000,aformat=channel_layouts=stereo,volume={c.get('db', -6)}dB,adelay={ms}|{ms}[v{n}]"); labels.append(f"[v{n}]")
+            fl.append(f"[{n}:a]aresample=48000,aformat=channel_layouts=stereo,{EFFEKT},volume={c.get('db', -6)}dB,adelay={ms}|{ms}[v{n}]"); labels.append(f"[v{n}]")
         for c in ton.get("musik", []):
             n += 1; inputs += ["-i", pf(c["datei"])]
             o = float(c.get("off", 0))                       # Einsatz innerhalb der ersten Szene (s)
@@ -175,10 +178,10 @@ def main():
             ln = float(c["dauer"]) if "dauer" in c else t1 - t0
             ms = int(t0 * 1000); ab = float(c.get("ab", 0))
             fi, fo = float(c.get("fade_in", 0.8)), float(c.get("fade_out", 1.2))
-            fl.append(f"[{n}:a]atrim=start={ab}:duration={ln:.2f},asetpts=PTS-STARTPTS,aresample=48000,aformat=channel_layouts=stereo,"
+            fl.append(f"[{n}:a]atrim=start={ab}:duration={ln:.2f},asetpts=PTS-STARTPTS,aresample=48000,aformat=channel_layouts=stereo,{MUSIK},"
                       f"volume={c.get('db', -14)}dB,afade=t=in:d={max(fi,0.005)},afade=t=out:st={max(ln-fo,0):.2f}:d={max(fo,0.005)},adelay={ms}|{ms}[v{n}]"); labels.append(f"[v{n}]")
     fl.append(f"[0:a]aresample=48000[a0]")
-    fl.append("[a0]" + "".join(labels) + f"amix=inputs={len(labels)+1}:normalize=0:duration=first[a]")
+    fl.append("[a0]" + "".join(labels) + f"amix=inputs={len(labels)+1}:normalize=0:duration=first,{MASTER}[a]")   # Master: Kompressor + Limiter + loudnorm
     subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(fl), "-map", "0:v", "-map", "[a]",
                     "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-t", f"{total}", os.path.abspath(a.out)], check=True)
     print(f"fertig: {a.out} ({total:.1f} s, {len(voices)} Stimmen)")

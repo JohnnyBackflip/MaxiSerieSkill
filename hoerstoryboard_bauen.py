@@ -71,7 +71,7 @@ def main():
     for s in plan:
         img = None
         if a.bilder:
-            c = sorted(glob.glob(os.path.join(a.bilder, s["id"] + "*.jpg")) + glob.glob(os.path.join(a.bilder, s["id"] + "*.png")))
+            c = sorted(glob.glob(os.path.join(os.path.abspath(a.bilder), s["id"] + "*.jpg")) + glob.glob(os.path.join(os.path.abspath(a.bilder), s["id"] + "*.png")))
             img = c[0] if c else None
         if not img:
             img = os.path.join(work, "karten", s["id"] + ".png"); karte(s, img)

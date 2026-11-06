@@ -26,8 +26,8 @@ In `../02_Charaktere_Steckbriefe_und_Bilder/` liegen zu jeder Figur Wohnort- und
 Maxi als echtes 3D-Modell in Blender: `../07_Blender_Charakter_Maximilian/` (Modell, LookDev, Rig, Hero-Porträt 9:16).
 
 ## Erwähnt, aber noch ohne Modelsheet
-- **CHAR_13 Großtante Frieda** (ca. 72), Opa Heinrichs ältere Schwester (FTF): silbergraue Dauerwelle, Brille an einer Perlenkette, spitze Nase; pflaumenfarbene Strickjacke mit Brosche über einer weißen Bluse, grau karierter Rock, schwarze Halbschuhe, schwarze Henkeltasche. Puppe: violett.
-- **CHAR_14 Lorchen**, Friedas Papagei (FTF): eine grüne Amazone mit gelber Stirn und rotem Flügelspiegel, im Messing-Käfig; sie plappert nach.
+- **CHAR_13 Großtante Frieda** (ca. 72), Opa Heinrichs ältere Schwester (FTF): silbergraue Dauerwelle, Brille an einer Perlenkette, spitze Nase; pflaumenfarbene Strickjacke mit Brosche über einer weißen Bluse, grau karierter Rock, schwarze Halbschuhe, schwarze Henkeltasche. Modelsheet: `../12_Folge_Tante_Frieda/00_Charakter_Referenzbilder_Modelsheets/CHAR_13_Tante_Frieda_Modelsheet.jpg`. Puppe: violett.
+- **CHAR_14 Lorchen**, Friedas Papagei (FTF): eine grüne Amazone mit gelber Stirn und rotem Flügelspiegel, im Messing-Käfig; sie plappert nach. Modelsheet: `CHAR_14_Lorchen_Papagei_Modelsheet.jpg` im selben Ordner.
 - **Lenni** (3), Karls kleiner Bruder (F06)
 - **Lotta**, Annas Babyschwester (F08)
 - **Annas Mama** und **Bens Papa** (F04, F08)

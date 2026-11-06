@@ -147,6 +147,13 @@ FIGURES = {
                         pants=(0.15, 0.20, 0.35, 1), shoes=(0.85, 0.12, 0.10, 1), hair=(0.45, 0.28, 0.12, 1)),
     "Karl":        dict(h=1.30, head=0.29, shoulder=0.34, skin=(0.94, 0.78, 0.66, 1), top=(0.91, 0.46, 0.12, 1),
                         pants=(0.25, 0.25, 0.28, 1), shoes=(0.08, 0.08, 0.08, 1), hair=(0.06, 0.05, 0.05, 1)),
+    # seit Folge „Tante Frieda“ (2026-11-06): Puppenfarben türkis Anna, braun Opa, violett Frieda
+    "Anna":        dict(h=1.06, head=0.28, shoulder=0.29, skin=(0.96, 0.80, 0.70, 1), top=(0.10, 0.62, 0.62, 1),
+                        pants=(0.06, 0.45, 0.48, 1), shoes=(0.06, 0.45, 0.48, 1), hair=(0.62, 0.36, 0.14, 1), long_hair=True),
+    "Opa_Heinrich": dict(h=1.74, head=0.30, shoulder=0.44, skin=(0.93, 0.76, 0.64, 1), top=(0.48, 0.30, 0.14, 1),
+                        pants=(0.25, 0.25, 0.27, 1), shoes=(0.35, 0.20, 0.10, 1), hair=(0.80, 0.80, 0.80, 1)),
+    "Tante_Frieda": dict(h=1.60, head=0.29, shoulder=0.36, skin=(0.95, 0.80, 0.72, 1), top=(0.48, 0.12, 0.42, 1),
+                        pants=(0.45, 0.45, 0.47, 1), shoes=(0.06, 0.06, 0.06, 1), hair=(0.82, 0.82, 0.86, 1)),
 }
 
 
@@ -530,3 +537,149 @@ def render_camera(cam, path):
     scene.render.filepath = path
     bpy.ops.render.render(write_still=True)
     print("Gerendert:", path)
+
+
+# ----------------------------------------------------------------------------- Props Folge „Tante Frieda“ (2026-11-06)
+
+def prop_hasi(name, loc, col, facing_deg=0.0, scale=1.0):
+    """Maxis Kuschelhase (hellgrau, ca. 30 cm). loc = Unterkante Körpermitte."""
+    m = mat("MAT_Hasi", (0.86, 0.86, 0.88, 1)); m_in = mat("MAT_Hasi_Ohr_Innen", (0.95, 0.70, 0.75, 1))
+    e = empty(name, loc, facing_deg, col); e.scale = (scale, scale, scale)
+    sphere(f"{name}_Koerper", (0, 0, 0.09), 0.08, m, col, scale=(0.9, 0.8, 1.1), parent=e)
+    sphere(f"{name}_Kopf", (0, 0, 0.21), 0.065, m, col, parent=e)
+    for sgn, nm in ((1, "L"), (-1, "R")):
+        sphere(f"{name}_Ohr_{nm}", (0, sgn * 0.03, 0.31), 0.022, m_in, col, scale=(0.8, 1, 3.2), parent=e)
+    return e
+
+
+def prop_dog(name, loc, facing_deg, col):
+    """Beagle Bello (braun/weiß/schwarz, Schulterhöhe ca. 38 cm). loc = Bodenpunkt Körpermitte."""
+    m_b = mat("MAT_Bello_Braun", (0.62, 0.38, 0.16, 1)); m_w = mat("MAT_Bello_Weiss", (0.95, 0.93, 0.90, 1))
+    m_k = mat("MAT_Bello_Schwarz", (0.08, 0.07, 0.07, 1))
+    e = empty(name, loc, facing_deg, col)
+    sphere(f"{name}_Rumpf", (0, 0, 0.30), 0.13, m_b, col, scale=(1.9, 1.0, 0.95), parent=e)
+    sphere(f"{name}_Sattel", (-0.04, 0, 0.38), 0.10, m_k, col, scale=(1.5, 1.0, 0.5), parent=e)
+    for x in (0.16, -0.16):
+        for y in (0.07, -0.07):
+            cyl(f"{name}_Bein_{x}_{y}", (x, y, 0.12), 0.03, 0.24, m_w, col, parent=e)
+    sphere(f"{name}_Kopf", (0.30, 0, 0.46), 0.09, m_b, col, scale=(1.2, 0.9, 0.95), parent=e)
+    sphere(f"{name}_Schnauze", (0.40, 0, 0.42), 0.05, m_w, col, scale=(1.3, 1, 0.8), parent=e)
+    for y in (0.08, -0.08):
+        sphere(f"{name}_Ohr_{y}", (0.28, y, 0.40), 0.04, m_b, col, scale=(0.6, 0.4, 1.8), parent=e)
+    cyl(f"{name}_Rute", (-0.28, 0, 0.42), 0.015, 0.16, m_w, col, rot=(0, math.radians(-35), 0), parent=e)
+    return e
+
+
+def prop_parrot(name, loc, col, facing_deg=0.0, wet=False, wings_open=False):
+    """Papagei Lorchen (Amazone: grün, gelbe Stirn, roter Flügelfleck, ca. 35 cm). loc = Fußpunkt."""
+    m_g = mat("MAT_Lorchen_Gruen", (0.20, 0.62, 0.15, 1)); m_y = mat("MAT_Lorchen_Gelb", (0.98, 0.85, 0.10, 1))
+    m_r = mat("MAT_Lorchen_Rot", (0.85, 0.12, 0.10, 1)); m_s = mat("MAT_Lorchen_Schnabel", (0.85, 0.80, 0.70, 1))
+    e = empty(name, loc, facing_deg, col)
+    sx = 1.25 if wet else 1.0
+    sphere(f"{name}_Rumpf", (0, 0, 0.11), 0.065, m_g, col, scale=(0.9 * sx, 0.85 * sx, 1.35), parent=e)
+    sphere(f"{name}_Kopf", (0.01, 0, 0.22), 0.05, m_g, col, parent=e)
+    sphere(f"{name}_Stirn", (0.03, 0, 0.25), 0.035, m_y, col, scale=(1, 1, 0.6), parent=e)
+    cone(f"{name}_Schnabel", (0.06, 0, 0.21), 0.02, 0.0, 0.04, m_s, col, parent=e)
+    for y in (0.06, -0.06):
+        if wings_open:
+            sphere(f"{name}_Fluegel_{y}", (0, y * 2.2, 0.15), 0.05, m_g, col, scale=(0.8, 1.9, 0.4), parent=e)
+            sphere(f"{name}_Spiegel_{y}", (0, y * 2.6, 0.16), 0.02, m_r, col, parent=e)
+        else:
+            sphere(f"{name}_Spiegel_{y}", (0, y, 0.13), 0.022, m_r, col, parent=e)
+    cyl(f"{name}_Schwanz", (-0.05, 0, 0.0), 0.02, 0.12, m_g, col, rot=(0, math.radians(20), 0), parent=e)
+    return e
+
+
+def prop_cage(name, loc, col, facing_deg=0.0, bird=True, wet=False, wings_open=False):
+    """Lorchens Messingkäfig (rund, Kuppeldach, ca. 55 cm hoch, Ø 35 cm). loc = Bodenmitte. Rückgabe: Empty."""
+    m = mat("MAT_Kaefig_Messing", (0.85, 0.66, 0.22, 1), rough=0.35); m_w = mat("MAT_Kaefig_Stange", (0.55, 0.38, 0.22, 1))
+    e = empty(name, loc, facing_deg, col)
+    cyl(f"{name}_Sockel", (0, 0, 0.04), 0.18, 0.08, m, col, parent=e)
+    for i in range(16):
+        a = 2 * math.pi * i / 16
+        cyl(f"{name}_Stab_{i}", (0.17 * math.cos(a), 0.17 * math.sin(a), 0.25), 0.004, 0.34, m, col, verts=6, parent=e)
+    torus(f"{name}_Ring", (0, 0, 0.42), 0.17, 0.006, m, col, parent=e)
+    sphere(f"{name}_Kuppel", (0, 0, 0.42), 0.17, m, col, scale=(1, 1, 0.55), parent=e)
+    torus(f"{name}_Griff", (0, 0, 0.55), 0.04, 0.008, m, col, rot=(math.radians(90), 0, 0), parent=e)
+    cyl(f"{name}_Sitzstange", (0, 0, 0.20), 0.008, 0.30, m_w, col, rot=(math.radians(90), 0, 0), parent=e)
+    if bird:
+        p = prop_parrot(f"{name}_Lorchen", (0, 0, 0.20), col, wet=wet, wings_open=wings_open)
+        p.parent = e
+    for ob in [o for o in col.objects if o.name.startswith(name + "_") and o.type == 'MESH' and "Stab" in o.name]:
+        ob.display_type = 'WIRE' if False else ob.display_type
+    return e
+
+
+def prop_suitcase(name, loc, facing_deg, col, open_lid=False):
+    """Friedas pflaumenfarbener Riesen-Rollkoffer (85 × 55 × 32 cm). loc = Bodenmitte."""
+    m = mat("MAT_Koffer_Pflaume", (0.45, 0.10, 0.25, 1)); m_d = mat("MAT_Koffer_Dunkel", (0.1, 0.1, 0.1, 1))
+    e = empty(name, loc, facing_deg, col)
+    if open_lid:
+        box(f"{name}_Schale", (0, 0, 0.09), (0.85, 0.55, 0.16), m, col, parent=e)
+        box(f"{name}_Deckel", (0, 0.32, 0.30), (0.85, 0.06, 0.55), m, col, parent=e)
+    else:
+        box(f"{name}_Koerper", (0, 0, 0.47), (0.55, 0.32, 0.85), m, col, parent=e)
+        cyl(f"{name}_Griff", (0, -0.12, 0.98), 0.01, 0.22, m_d, col, parent=e)
+        for x in (0.22, -0.22):
+            for y in (0.12, -0.12):
+                sphere(f"{name}_Rolle_{x}_{y}", (x, y, 0.03), 0.03, m_d, col, parent=e)
+    return e
+
+
+def prop_sprayer(name, loc, col):
+    """Mamas grüner Blumensprüher (25 cm)."""
+    m = mat("MAT_Sprueher_Gruen", (0.25, 0.70, 0.30, 1)); m_w = mat("MAT_Sprueher_Kopf", (0.95, 0.95, 0.95, 1))
+    e = empty(name, loc, 0, col)
+    cyl(f"{name}_Flasche", (0, 0, 0.08), 0.04, 0.16, m, col, parent=e)
+    box(f"{name}_Kopf", (0.01, 0, 0.19), (0.06, 0.03, 0.06), m_w, col, parent=e)
+    return e
+
+
+def prop_cake(name, loc, col, cut=True):
+    """Apfelkuchen auf weißer Tortenplatte. loc = Tischoberfläche."""
+    m_p = mat("MAT_Tortenplatte", (0.96, 0.96, 0.96, 1)); m_k = mat("MAT_Apfelkuchen", (0.85, 0.60, 0.25, 1))
+    e = empty(name, loc, 0, col)
+    cyl(f"{name}_Platte", (0, 0, 0.01), 0.18, 0.02, m_p, col, parent=e)
+    cyl(f"{name}_Kuchen", (0, 0, 0.055), 0.14, 0.07, m_k, col, parent=e)
+    return e
+
+
+def prop_cakebox(name, loc, col):
+    """Himmelblaue Kuchendose (Ø 24 cm)."""
+    return cyl(name, (loc[0], loc[1], loc[2] + 0.05), 0.12, 0.10, mat("MAT_Kuchendose", (0.50, 0.75, 0.95, 1)), col)
+
+
+def prop_cup(name, loc, col):
+    return cyl(name, (loc[0], loc[1], loc[2] + 0.045), 0.04, 0.09, mat("MAT_Tasse", (0.97, 0.97, 0.95, 1)), col)
+
+
+def prop_glitterstone(name, loc, col):
+    return sphere(name, loc, 0.03, mat("MAT_Glitzerstein", (0.55, 0.25, 0.85, 1), rough=0.2), col, scale=(1, 1, 1.3))
+
+
+def prop_cap(name, loc, col):
+    """Opas graue Schiebermütze."""
+    return sphere(name, loc, 0.12, mat("MAT_Muetze_Grau", (0.45, 0.45, 0.45, 1)), col, scale=(1.1, 1, 0.35))
+
+
+def prop_tin(name, loc, col):
+    """Opas rote Mut-Dose (Ø 15 cm)."""
+    return cyl(name, (loc[0], loc[1], loc[2] + 0.04), 0.08, 0.08, mat("MAT_Mut_Dose", (0.65, 0.12, 0.10, 1)), col)
+
+
+def prop_book(name, loc, col, facing_deg=0.0):
+    e = empty(name, loc, facing_deg, col)
+    box(f"{name}_Buch", (0, 0, 0.12), (0.03, 0.28, 0.24), mat("MAT_Bilderbuch", (0.95, 0.45, 0.15, 1)), col, parent=e)
+    return e
+
+
+def prop_chair(name, loc, facing_deg, col):
+    """Einfacher Holzstuhl (Sitz 46 cm) für Tischenden."""
+    m = mat("MAT_Stuhl_Holz", (0.62, 0.45, 0.28, 1))
+    e = empty(name, loc, facing_deg, col)
+    box(f"{name}_Sitz", (0, 0, 0.44), (0.46, 0.46, 0.04), m, col, parent=e)
+    box(f"{name}_Lehne", (-0.21, 0, 0.70), (0.04, 0.46, 0.48), m, col, parent=e)
+    for x in (0.2, -0.2):
+        for y in (0.2, -0.2):
+            box(f"{name}_Bein_{x}_{y}", (x, y, 0.21), (0.04, 0.04, 0.42), m, col, parent=e)
+    return e

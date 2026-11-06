@@ -13,7 +13,7 @@ Der Arbeitsablauf steht im Skill `maxi-folge-erstellen` (`~/.claude/skills/maxi-
 
 ## Grundlagen
 - Charakterbibel v2.1 (Standard für jede Geschichte): `../10_Charakterbibel_v2_Mehr_Wuerze/Charakterbibel_v2.1_Maxis_Welt.md`
-- Werkzeuge im Root: `agy_generate_image.py` (Flow-Bilder), `maxi_blender_lib.py`, `build_episode_video.py` (Storyboard-Video), `sprache_abschreiben.py` und `flow_clips_schneiden.py` (Sprachprüfung und Schnitt, venv `.venv_sprache`), `stimmen_tts.py` (Figurenstimmen mit Gemini-TTS; die Keys liegen außerhalb des Repos in `~/.config/maxi/google_api_keys.txt`), `hoerstoryboard_bauen.py` (Hör-Storyboard aus Szenenplan und Stimmen), `intro_bauen_v2.py`, `musik_unterlegen.py`, `build_flow_raumszenen_pdf.py`
+- Werkzeuge im Root: `agy_generate_image.py` (Flow-Bilder), `maxi_blender_lib.py`, `build_episode_video.py` (Storyboard-Video), `sprache_abschreiben.py` und `flow_clips_schneiden.py` (Sprachprüfung und Schnitt, venv `.venv_sprache`), `stimmen_tts.py` (Figurenstimmen mit Gemini-TTS; die Keys liegen außerhalb des Repos in `~/.config/maxi/google_api_keys.txt`), `hoerstoryboard_bauen.py` (Vorschau-Video aus Szenenplan, Stimmen und Mockup- oder Flow-Bildern), `intro_bauen_v2.py`, `musik_unterlegen.py`, `build_flow_raumszenen_pdf.py`
 - Ordner der Folgen: `05_…` (F01K), `06_…` (F01P), `09_…` (F02), `12_Folge_Tante_Frieda` (FTF)
 
 ## Offene Punkte der Serie

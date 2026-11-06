@@ -56,7 +56,7 @@ Wiederkehrende Objekte wie Hasi, Zollstock, Bollerwagen, Kaffeetasse, Auto oder 
 | OBJ_07 | Pfanne mit Pilz-Sahnesauce |
 | OBJ_08 | Teller mit Bandnudeln und Pilzsauce |
 
-## FTF – Tante Frieda und Lorchen (`../12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/`, noch kein Sheet)
+## FTF – Tante Frieda und Lorchen (`../12_Folge_Tante_Frieda/00_Objekt_Referenzbilder_Props/`, Sheets gemalt, nicht freigegeben)
 | OBJ | Gegenstand | Zustände |
 |---|---|---|
 | OBJ_TF01 | Lorchens Messing-Käfig mit Kuppeldach | trocken / Lorchen nass und gesträubt |
@@ -65,6 +65,7 @@ Wiederkehrende Objekte wie Hasi, Zollstock, Bollerwagen, Kaffeetasse, Auto oder 
 | OBJ_TF04 | Apfelkuchen auf Tortenplatte / Kuchendose | ganz / angeschnitten / in der Dose |
 | OBJ_TF05 | Annas Glitzerstein (violetter Kristall) | – |
 | OBJ_TF06 | Opas graue Schiebermütze | – |
+| OBJ_TF07 | Opas rote Mut-Dose und Maxis Hasen-Stein | – |
 
 ## Noch kein Sheet, aber laut Staffelbogen nötig
 - **Mut-Dose**: Opas alte Blechdose aus der Schatztruhe. Sie ist das Staffelmotiv ab dem Umbau von F02 (SH225).

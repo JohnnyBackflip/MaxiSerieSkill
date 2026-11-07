@@ -24,7 +24,7 @@ EXTRA_O = {"Kuchen": r"kuchen", "Muetze": r"mütze", "Sprueher": r"sprüh", "Ste
 OVERRIDE = {"SH075": ["Maxi", "Anna"], "SH071": ["Anna", "Maxi"], "SH073": ["Maxi", "Anna"]}   # Regex-Treffer falsch (\"Tante\" im Text, Frieda nicht im Bild)
 
 
-def build(mode, sid):
+def build(mode, sid, hoch=False):
     plan = {x["id"]: x for x in json.load(open(f"{M.E}/szenenplan_r5.json"))}
     x = plan[sid]
     f, o = M.figuren(x)
@@ -55,9 +55,12 @@ def build(mode, sid):
     if re.search(r"garten|einfahrt|außen", x["ort"].lower()):
         licht = " LICHT: draußen, warmes tiefes goldenes Nachmittagssonnenlicht (Novembersonne), lange weiche Schatten, blauer Himmel mit leichtem Dunst in der Ferne."
     p += licht + sp + M.GESICHT + M.NOTE.replace("keine Gliederpuppen-Optik;", "keine Gliederpuppen-Optik, kein schwarzer Rand;")
+    if hoch:   # TikTok-Hochkant: Mockups aus 02_Szenen_Blender_Mockups/hochkant, in Flow als SHxxx_hoch.jpg
+        refs = [(r.replace("_mockup", "_hoch"), d.replace("Blender-Mockup", "Blender-Mockup hochkant")) for r, d in refs]
+        p = p.replace("Querformat 16:9", "HOCHFORMAT 9:16 (vertikal, für TikTok)").replace("Blender-Mockup SH", "Blender-Mockup hochkant SH")
     return [r for r, _ in refs], p
 
 
 if __name__ == "__main__":
-    refs, p = build(sys.argv[1], sys.argv[2])
+    refs, p = build(sys.argv[1], sys.argv[2], hoch="--hoch" in sys.argv)
     print("REFS:", " | ".join(refs)); print(p)

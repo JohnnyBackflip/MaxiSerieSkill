@@ -2,3 +2,5 @@ SH087A: Schrank/Zimmer weicht ab (alter Holzschrank, Tapete) -> neu mit SH081A a
 SH109A, SH110A: von Flow abgelehnt (Richtlinie), auch neutral ohne Opa-Sheet -> Opa-Szenen SH109-112, SH143 zurueckgestellt
 2026-11-06 ~22:58: Flow meldet 'ungewoehnliche Aktivitaeten' bei SH124A -> Flow gestoppt (Regel). Offen A: SH109-112 (abgelehnt), SH120, SH124, SH130, SH140, SH143-145, SH150, SH151, SH160-SH186; alle B-Bilder.
 SH094A: Kaefigkuppel verdeckt Friedas Mund (Sprecherin) -> Kaefig tiefer halten
+2026-11-07: SH109 frontal neu gerendert (Mockup) – Flow lehnt weiter ab (5 Versuche: mit/ohne Mockup, mit/ohne Opa-Sheet, neutral) -> SH109-112 bleiben Blender bis auf Weiteres
+2026-11-07: Flow erneut 'ungewoehnliche Aktivitaeten' bei SH165A (nach 8 Bildern) -> gestoppt. Neu: SH124A SH130A SH140A SH144A SH145A SH150A SH151A SH160A

@@ -644,13 +644,13 @@ def _(col):
     L.build_figure("Maxi", (-17.0, 1.4), 180, "stand", col)
 
 
-@scene("SH109", ((2.2, -9.6, 1.40), (0.8, -6.6, 1.40), 28.0))
+@scene("SH109", ((-1.6, -9.6, 1.50), (0.45, -6.7, 1.35), 30.0))   # frontal (2026-11-07, User): Kamera neben der Haustür
 def _(col):
     for o in bpy.data.objects:                                                              # offenes Türblatt weg, geschlossene Haustür davor
         if o.name.startswith("EG_Aussenwand_Sued_front_door_3_leaf"):
             o.hide_render = True
     L.box("Haustuer_zu", (0.62, -6.28, 1.10), (1.12, 0.07, 2.12), L.mat("MAT_Haustuer_Teal", (0.05, 0.30, 0.33, 1)), col)
-    L.build_figure("Opa_Heinrich", (0.7, -7.3), 90, "point", col)                           # klingelt an der geschlossenen Haustür
+    L.build_figure("Opa_Heinrich", (1.55, -6.85), 222, "stand", col)       # frontal neben der Tür, Klingel rechts am Rahmen                         # frontal zur Kamera, klingelt am Türrahmen
 
 
 @scene("SH165", ((0.0, -5.2, 1.30), (0.5, -2.2, 1.30), 30.0))
